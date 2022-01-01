@@ -43,6 +43,7 @@ Carreguem el dataset des del fitxer:
 > dades <- read.csv(file - fitxer_ruta)
 ```
 
+Comprovem les primeres files:
 ```
 > head(dades)
   position_id position_ranking                 player                                         url   position
@@ -68,6 +69,7 @@ Carreguem el dataset des del fitxer:
 6       0        0
 ```
 
+Comprovem el tipus de dades les columnes:
 
 ```
 > sapply(dades, function(x) class(x))
@@ -79,12 +81,14 @@ Carreguem el dataset des del fitxer:
        "integer"        "integer"        "integer"        "integer"        "integer"        "integer" 
 ```
 
+
+Generem un nou dataset (`players`) com a resultat del filtre d'eliminar la quarta columan (url):
 ```
 > players <- dades[, -(4)]
 ```
 
+Comprovem les primeres files:
 ```
-> # comprovar primeres files
 > head(players)
   position_id position_ranking                 player   position age  country                club    value
 1           1                1   Gianluigi Donnarumma Goalkeeper  22    Italy Paris Saint-Germain 65000000
@@ -102,32 +106,8 @@ Carreguem el dataset des del fitxer:
 6      22     0        0       0           3            0        0       0        0
 
 ```
-Comprovem el tipus de de les columnes
 
-```
-> sapply(players, function(x) class(x))
-     position_id position_ranking           player         position              age          country 
-       "integer"        "integer"      "character"      "character"      "character"      "character" 
-            club            value          matches            goals         owngoals          assists 
-     "character"        "integer"        "integer"        "integer"        "integer"        "integer" 
-     yellowcards     yellow2cards         redcards          subston         substoff 
-       "integer"        "integer"        "integer"        "integer"        "integer" 
-```
-
-Valors desconeguts per cada columna
-
-```
-> sapply(players, function(x) sum(is.na(x)))
-     position_id position_ranking           player         position              age          country 
-               0                0                0                0                0                0 
-            club            value          matches            goals         owngoals          assists 
-               0                0                0                0                0                0 
-     yellowcards     yellow2cards         redcards          subston         substoff 
-               0                0                0                0                0  
-```
-
-Nombre de files amb valor 0 per cada columna (per exemple, jugadors sense partits):
-
+Nombre de files amb valor 0 per cada columna:
 ```
 > sapply(players, function(x) sum(x == 0))
      position_id position_ranking           player         position              age          country 
@@ -137,3 +117,62 @@ Nombre de files amb valor 0 per cada columna (per exemple, jugadors sense partit
      yellowcards     yellow2cards         redcards          subston         substoff 
             2503             6245             6222             2496             2096 
 ```
+
+Comprovem jugadors sense partits (`matches` és igual a 0):
+```
+> nrow(players[players$matches == 0,])
+[1] 1321
+```
+
+Comprovem jugadors amb partits:
+```
+> nrow(players[!players$matches == 0,])
+[1] 5179
+```
+
+Eliminem els jugadors sense partits, deixant sols els que tenen partits disputats:
+```
+> players <- players[!players$matches == 0,]
+> nrow(players)
+[1] 5179
+```
+
+Convertim el camp 'age' en numèric (integer)
+```
+> players$age <- as.integer(players$age)
+Warning message:
+NAs introduced by coercion
+```
+
+Valors desconeguts per cada columna:
+```
+> sapply(players, function(x) sum(is.na(x)))
+     position_id position_ranking           player         position              age          country 
+               0                0                0                0                2                0 
+            club            value          matches            goals         owngoals          assists 
+               0                0                0                0                0                0 
+     yellowcards     yellow2cards         redcards          subston         substoff 
+               0                0                0                0                0 
+```
+
+Jugadors amb valor desconegut per al camp 'age':
+```
+> nrow(players[is.na(players$age),])
+[1] 2
+> players[is.na(players$age), ]
+     position_id position_ranking           player       position age country             club  value matches
+3406           8              406 Khaled Al Fadhli Right Midfield  NA  Kuwait        Qadsia SC 200000       2
+5970          13              470    Milos Rosevic Second Striker  NA  Serbia FK Timok Zajecar  75000      17
+     goals owngoals assists yellowcards yellow2cards redcards subston substoff
+3406     0        0       0           0            0        0       0        1
+5970     0        0       1           3            0        0       2        6
+```
+
+Filtrem el dataset llevant les files amb valor desconegut per al camp 'age'
+```
+[1] 5177
+> players <- players[!is.na(players$age), ]
+> nrow(players)
+[1] 5177
+```
+
