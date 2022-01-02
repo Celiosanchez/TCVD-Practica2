@@ -36,6 +36,11 @@ nrow(players[!players$matches == 0,])
 players <- players[!players$matches == 0,]
 nrow(players)
 
+# Modifiquem la columna 'value' passant-la a milions d'euros
+summary(players$value)
+players$value <- players$value / 1000000
+summary(players$value)
+
 # Convertim el camp 'age' en numèric (integer)
 players$age <- as.integer(players$age)
 
@@ -43,7 +48,6 @@ players$age <- as.integer(players$age)
 sapply(players, function(x) sum(is.na(x)))
 
 # Files amb valor NA  per al camp 'age':
-nrow(players[is.na(players$age),])
 nrow(players[is.na(players$age),])
 players[is.na(players$age), ]
 
@@ -57,17 +61,32 @@ nrow(players[players$age == 0,])
 players[players$age == 0,]
 
 # Nombre de files amb valor 0 per cada columna 
-# per exemple, jugadors sense partits
 sapply(players, function(x) sum(x == 0))
 
-boxplot.stats(players$value)$out
-boxplot.stats(players$matches)$out
-boxplot.stats(players$goals)$out
-boxplot.stats(players$owngoals)$out
-boxplot.stats(players$assists)$out
-boxplot.stats(players$yellowcards)$out
-boxplot.stats(players$yellow2cards)$out
-boxplot.stats(players$redcards)$out
-boxplot.stats(players$subston)$out
-boxplot.stats(players$substoff)$out
+# variables numèriques
+columns <- c("age", "value", "matches", "goals", "owngoals", "assists", "yellowcards", "yellow2cards", "redcards", "subston", "substoff")
+
+# Estadístiques
+for (column in columns) {
+  print(paste("summary(players$", column, ")", sep =""))
+  print(summary(players[[column]]))
+}
+
+# Boxplots in PDF file
+pdf("figures/boxplot.pdf")
+for (column in columns) {
+  title <- paste("Boxplot of players ", column, sep="")
+  boxplot(players[[column]], ylab=column, main=title)
+}
+dev.off()
+
+# Boxplots in PNG files
+for (column in columns) {
+  title <- paste("Boxplot of players ", column, sep="")
+  pngfile <- paste("figures/boxplot-", column, ".png", sep="")
+  png(pngfile)
+  boxplot(players[[column]], ylab=column, main=title)
+  dev.off()
+}
+
 
