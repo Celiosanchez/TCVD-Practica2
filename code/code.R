@@ -70,6 +70,7 @@ for (column in columns) {
   print(summary(players[[column]]))
 }
 
+
 # Boxplots in PDF file
 pdf("figures/boxplot.pdf")
 for (column in columns) {
@@ -82,10 +83,15 @@ dev.off()
 for (column in columns) {
   title <- paste("Boxplot of players ", column, sep="")
   pngfile <- paste("figures/boxplot-", column, ".png", sep="")
+  
   png(pngfile)
   boxplot(players[[column]], ylab=column, main=title)
   dev.off()
+  
+  imglink <- paste("![", title, "](/", pngfile, ")", sep="")
+  print(imglink)
 }
+
 
 # Outliers
 for (column in columns) {

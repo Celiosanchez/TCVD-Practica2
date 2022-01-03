@@ -193,8 +193,7 @@ Gràfics *boxplots* per a les variables numèriques:
 ![Boxplot of players subston](code/figures/boxplot-subston.png)
 ![Boxplot of players substoff](code/figures/boxplot-substoff.png)
 
-
-
+Tant en el gràfics *boxplots*, com en el resum d'estadístiques s'observa un gran nombre de valors *outliers*. No anem a prescindir d'aquests valors, ja que justament el nostre anàlisi ha de tenir-los en compte, per validar si són determinants o no (per exemple si els jugadors més valorats tenen millors estadístiques).
 
 ## 4. Anàlisi de les dades.
 
@@ -209,6 +208,8 @@ Gràfics *boxplots* per a les variables numèriques:
 En funció de les dades i de l’objectiu de l’estudi, aplicar proves de contrast d’hipòtesis, correlacions, regressions, etc. Aplicar almenys tres mètodes d’anàlisi diferents. 
 
 ## 5. Representació dels resultats a partir de taules i gràfiques.
+
+
 
 ## 6. Resolució del problema.
 
