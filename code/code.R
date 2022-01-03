@@ -1,13 +1,13 @@
 # code.R
 # 
-# Codi de la pr�ctica #2 de Tipologia i Cicle de Vida de les Dades
+# Codi de la pràctica #2 de Tipologia i Cicle de Vida de les Dades
 # UOC. 2021-2022.
 
 # requirements:
 # - library tidyverse
 library(tidyverse)
 
-# setwd('D:/prg/TCVD-Practica2/code')
+setwd('D:/prg/TCVD-Practica2/code')
 fitxer_ruta <- '../data/transfermarkt.csv'
 
 # llegir el fitxer de dades
@@ -16,19 +16,27 @@ dades <- read.csv(file = fitxer_ruta)
 # comprovar primeres files
 head(dades)
 
+# filtrar: llevar columnes innecessàries
+players <- dades %>% select(-url, -owngoals, -yellowcards, -yellow2cards, -redcards)
+players$age <- as.integer(players$age)
+
 # comprovar tipus de de les columnes
-sapply(dades, function(x) class(x))
+sapply(players, function(x) class(x))
 
-# filtrar: llevar columnes 4 (url)
-players <- dades[, -(4)]
+# Convertim el camp 'age' en numèric (integer)
+class(players$age)
+players$age <- as.integer(players$age)
+class(players$age)
 
-head(players)
+# Transformació columna `value`: dividim per 1.000.000 (milions d'euros)
+summary(players$value)
+players$value <- players$value / 1e6
+summary(players$value)
 
 # Nombre de files amb valor 0 per cada columna 
-
 sapply(players, function(x) sum(x == 0))
 
-# per exemple, jugadors sense partits
+# jugadors sense partits
 nrow(players[players$matches == 0,])
 
 # eliminem els jugadors sense partits del dataset
@@ -36,18 +44,13 @@ nrow(players[!players$matches == 0,])
 players <- players[!players$matches == 0,]
 nrow(players)
 
-# Modifiquem la columna 'value' passant-la a milions d'euros
-summary(players$value)
-players$value <- players$value / 1000000
-summary(players$value)
+# Nombre de files amb columnes amb valor 0
+sapply(players, function(x) sum(x == 0))
 
-# Convertim el camp 'age' en num�ric (integer)
-players$age <- as.integer(players$age)
-
-# Valors desconeguts per cada columna
+# Nombre de files amb columnes amb valors buits (NA)
 sapply(players, function(x) sum(is.na(x)))
 
-# Files amb valor NA  per al camp 'age':
+# Files amb valor NA per al camp 'age':
 nrow(players[is.na(players$age),])
 players[is.na(players$age), ]
 
@@ -56,17 +59,12 @@ nrow(players[!is.na(players$age), ])
 players <- players[!is.na(players$age), ]
 nrow(players)
 
-# Valor 'age' a 0
-nrow(players[players$age == 0,])
-players[players$age == 0,]
+########## 
 
-# Nombre de files amb valor 0 per cada columna 
-sapply(players, function(x) sum(x == 0))
+# variables numèriques
+columns <- c("age", "value", "matches", "goals", "assists", "subston", "substoff")
 
-# variables num�riques
-columns <- c("age", "value", "matches", "goals", "owngoals", "assists", "yellowcards", "yellow2cards", "redcards", "subston", "substoff")
-
-# Estad�stiques
+# Estadístiques
 for (column in columns) {
   print(paste("summary(players$", column, ")", sep =""))
   print(summary(players[[column]]))
@@ -75,7 +73,7 @@ for (column in columns) {
 # Boxplots in PDF file
 pdf("figures/boxplot.pdf")
 for (column in columns) {
-  title <- paste("Boxplot of players ", column, sep="")
+  title <- paste("Boxplotbo of players ", column, sep="")
   boxplot(players[[column]], ylab=column, main=title)
 }
 dev.off()
@@ -89,4 +87,9 @@ for (column in columns) {
   dev.off()
 }
 
+# Outliers
+for (column in columns) {
+  print(paste("Outliers for players ", column, ":", sep=""))
+  print(boxplot.stats(players[[column]])$out)
+}
 
