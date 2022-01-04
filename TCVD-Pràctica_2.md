@@ -72,7 +72,7 @@ Tipus de dades de les columnes.
 
 Volem esbrinar si el valor (`value`) de traspàs que assigna aquesta web té alguna correlació o valor predictiu sobre l'efectivitat ofensiva dels jugadors. Atès que no tenim accés a totes les variables que utilitza el proveïdor de les dades per determinar el valor de traspàs d'un jugador, volem fer l'anàlisi inversa: el valor assignat és un bon predictor de les característiques ofensives (`goals` i `assists`) d'un jugador? 
 
-Posició ..........................................................................................
+També volem fer una comparació entre dos grups de dades: jugadors defensius i jugadors ofensius. Analitzarem les diferències entre les mostres i com afecta a les variables principals (`value`, `goals`).
 
 ## 2. Integració i selecció de les dades d’interès a analitzar
 
