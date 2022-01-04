@@ -129,4 +129,52 @@ fligner.test(value ~ type, data = players)
 fligner.test(goals ~ type, data = players)
 fligner.test(age ~ type, data = players)
 
-# 
+# 4.3. Aplicació de proves estadístiques per comparar els grups de dades
+
+
+# anàlisi correlació entre les diferents variables numèriques:
+  
+cor(players %>% select(value, age, type, goals, matches))
+
+# analisi de correlació amb els 2 grups de jugadors (defensius/ofensius)
+
+cor(players.defens %>% select(value, age, goals, matches))
+cor(players.attack %>% select(value, age, goals, matches))
+
+# test de correlació de Spearman (per a variables sense  una distribució normal)
+
+
+for (column in c("age", "type", "goals", "matches")) {
+   print(paste("Test Spearman value-", column, sep=""))
+   print(cor.test(players$value, players[[column]], method = "spearman"))
+}
+
+# correlació de Spearman de les variables `value` i `goals` en les 2 grups que hem definit:
+  
+cor.test(players.defens$value, players.defens$goals, method = "spearman")
+cor.test(players.attack$value, players.attack$goals, method = "spearman")
+
+# Visualització
+
+# Boxplot `goals` i `assists` segon type:
+title <- "Gols i assistencies per tipus de jugador"
+pngfile <- "figures/boxplot-goals-assists-type.png"
+png(pngfile)
+boxplot(players.defens$goals, players.attack$goals, players.defens$assists, players.attack$assists, 
+        horizontal = TRUE, 
+        names=c("Gols-Def.", "Gols-Atac.", "Assist.-Def.", "Assist-Atac."), 
+        col=c("orange", "green", "orange", "green"), 
+        main=title
+)
+dev.off()
+
+# Gràfic boxpolot `value` - `type`
+
+title <- "Valor per tipus de jugador"
+pngfile <- "figures/boxplot-value-type.png"
+png(pngfile)
+boxplot(players.defens$value, players.attack$value, col=c("red", "yellow"), main=title)
+dev.off()
+
+
+

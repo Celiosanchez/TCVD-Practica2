@@ -27,7 +27,8 @@
       - [Comprovació de l'homoscedasticitat](#comprovació-de-lhomoscedasticitat)
     - [4.3. Aplicació de proves estadístiques per comparar els grups de dades.](#43-aplicació-de-proves-estadístiques-per-comparar-els-grups-de-dades)
   - [5. Representació dels resultats a partir de taules i gràfiques.](#5-representació-dels-resultats-a-partir-de-taules-i-gràfiques)
-  - [6. Resolució del problema.](#6-resolució-del-problema)
+    - [Boxplot `goals` i `assists` segon type:](#boxplot-goals-i-assists-segon-type)
+    - [Gràfic boxpolot `value` - `type`](#gràfic-boxpolot-value---type)
 
 ## 0. Requeriments
 
@@ -463,5 +464,31 @@ En funció de les dades i de l’objectiu de l’estudi, aplicar proves de contr
 
 ## 5. Representació dels resultats a partir de taules i gràfiques.
 
-## 6. Resolució del problema.
+### Boxplot `goals` i `assists` segon type:
 
+```
+title <- "Gols i assistencies per tipus de jugador"
+pngfile <- "figures/boxplot-goals-assists-type.png"
+png(pngfile)
+boxplot(players.defens$goals, players.attack$goals, players.defens$assists, players.attack$assists, 
+        horizontal = TRUE, 
+        names=c("Gols-Def.", "Gols-Atac.", "Assist.-Def.", "Assist-Atac."), 
+        col=c("orange", "green", "orange", "green"), 
+        main=title
+)
+dev.off()
+```
+
+![Boxplot goals/assists - type](code/figures/boxplot-goals-assists-type.png)
+
+### Gràfic boxpolot `value` - `type`
+
+```
+title <- "Valor per tipus de jugador"
+pngfile <- "figures/boxplot-value-type.png"
+png(pngfile)
+boxplot(players.defens$value, players.attack$value, col=c("red", "yellow"), main=title)
+dev.off()
+```
+
+![Boxplot goals/assists - type](code/figures/boxplot-goals-assists-type.png)

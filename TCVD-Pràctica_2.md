@@ -15,9 +15,9 @@
     - [4.2. Comprovació de la normalitat i homogeneïtat de la variància.](#42-comprovació-de-la-normalitat-i-homogeneïtat-de-la-variància)
       - [Comprovació de la normalitat](#comprovació-de-la-normalitat)
       - [Comprovació de l'homoscedasticitat](#comprovació-de-lhomoscedasticitat)
-    - [4.3. Aplicació de proves estadístiques per comparar els grups de dades.](#43-aplicació-de-proves-estadístiques-per-comparar-els-grups-de-dades)
-  - [5. Representació dels resultats a partir de taules i gràfiques.](#5-representació-dels-resultats-a-partir-de-taules-i-gràfiques)
-  - [6. Resolució del problema.](#6-resolució-del-problema)
+    - [4.3. Aplicació de proves estadístiques per comparar els grups de dades](#43-aplicació-de-proves-estadístiques-per-comparar-els-grups-de-dades)
+  - [5. Representació dels resultats a partir de taules i gràfiques](#5-representació-dels-resultats-a-partir-de-taules-i-gràfiques)
+  - [6. Resolució del problema](#6-resolució-del-problema)
   - [7. Codi](#7-codi)
 
 | | |
@@ -307,25 +307,165 @@ data:  age by type
 Fligner-Killeen:med chi-squared = 0.064794, df = 1, p-value = 0.7991
 ```
 
-Comprovem amb aquest test, que sols per a la variable edat (`age`) podem acceptar la hipotesi de homegeneitat de la varianza per als dos grups (jugadors defensius i ofensius). La variança de les variables `goals` i `value` no són homegènies. 
+Comprovem amb aquest test, que sols per a la variable edat (`age`) podem acceptar la hipotesi de homegeneitat de la varianza per als dos grups (jugadors defensius i ofensius). Les variances de les variables `goals` i `value` no són homegènies entre les dues mostres. 
 
-### 4.3. Aplicació de proves estadístiques per comparar els grups de dades. 
+### 4.3. Aplicació de proves estadístiques per comparar els grups de dades
 
-En funció de les dades i de l’objectiu de l’estudi, aplicar proves de contrast d’hipòtesis, correlacions, regressions, etc. Aplicar almenys tres mètodes d’anàlisi diferents. 
+En primer lloc fer un anàlisi correlació entre les diferents variables numèriques:
+
+```
+> cor(players %>% select(value, age, type, goals, matches))
+               value         age         type       goals     matches
+value    1.000000000 -0.06019788  0.001938846  0.21044610  0.16696505
+age     -0.060197878  1.00000000 -0.072812281 -0.02424064 -0.05098850
+type     0.001938846 -0.07281228  1.000000000  0.41011476  0.04265282
+goals    0.210446104 -0.02424064  0.410114761  1.00000000  0.38249089
+matches  0.166965048 -0.05098850  0.042652820  0.38249089  1.00000000
+```
+
+Repetim l'analisi de correlació amb els 2 grups de jugadors (defensius/ofensius):
+
+```
+> cor(players.defens %>% select(value, age, goals, matches))
+              value         age       goals     matches
+value    1.00000000 -0.07402173  0.15594117  0.18559489
+age     -0.07402173  1.00000000 -0.06211402 -0.03581982
+goals    0.15594117 -0.06211402  1.00000000  0.32377287
+matches  0.18559489 -0.03581982  0.32377287  1.00000000
+
+> cor(players.attack %>% select(value, age, goals, matches))
+              value         age      goals     matches
+value    1.00000000 -0.05247717 0.26109786  0.15731591
+age     -0.05247717  1.00000000 0.02239779 -0.05711522
+goals    0.26109786  0.02239779 1.00000000  0.47511458
+matches  0.15731591 -0.05711522 0.47511458  1.00000000
+```
+
+A continuació fem l'anàlisi de test de correlació de Spearman ja que, com hem vist anteriorment, les variables no segueixen una distribució normal:
+
+```
+> for (column in c("age", "type", "goals", "matches")) {
++     print(paste("Test Spearman value-", column, sep=""))
++     print(cor.test(players$value, players[[column]], method = "spearman"))
++ }
+[1] "Test Spearman value-age"
+
+	Spearman's rank correlation rho
+
+data:  players$value and players[[column]]
+S = 2.1948e+10, p-value = 6.095e-05
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.05669395 
+
+[1] "Test Spearman value-type"
+
+	Spearman's rank correlation rho
+
+data:  players$value and players[[column]]
+S = 2.2952e+10, p-value = 1.006e-13
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1050072 
+
+[1] "Test Spearman value-goals"
+
+	Spearman's rank correlation rho
+
+data:  players$value and players[[column]]
+S = 1.8156e+10, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1258885 
+
+[1] "Test Spearman value-matches"
+
+	Spearman's rank correlation rho
+
+data:  players$value and players[[column]]
+S = 1.6902e+10, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1862691 
+```
+
+Amb el valors obtestos el valor de p és inferior en tots els casos inferior a 0.05, per tant la correlació no pot ser significativa. De tota manera el valor del índex de correlació més alt és amb la vairable `value` es dona per a les variables `goals` (0.126) i `matches` (0.186).
+
+Comparem la correlació de Spearman per les variables `value` i `goals` en les 2 grups definits
+
+```
+> cor.test(players.defens$value, players.defens$goals, method = "spearman")
+
+	Spearman's rank correlation rho
+
+data:  players.defens$value and players.defens$goals
+S = 1278211214, p-value = 1.372e-15
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1730565 
+
+> cor.test(players.attack$value, players.attack$goals, method = "spearman")
+
+	Spearman's rank correlation rho
+
+data:  players.attack$value and players.attack$goals
+S = 3089096014, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+     rho 
+0.235307 
+```
+
+Seguim amb valors de p molt infeiors a 0.05. Sols podem aportar a l'anàlisi que el coeficient de correlació de Spearman entre `value` i `goals` és major per al grup de jugadors ofensius (0.235) que per als defensius (0.173).
 
 
+## 5. Representació dels resultats a partir de taules i gràfiques
 
-## 5. Representació dels resultats a partir de taules i gràfiques.
+En aquest gràfic es pot pot visualitzar la difèrencia entre les estadístiques de `goals` i `assists` per als dos grups de jugadors que hem separat. Evidentment els jugadors ofensius tenen un mitja i valors més alts que el jugdors defensius.
 
+```
+> title <- "Gols i assistencies per tipus de jugador"
+> pngfile <- "figures/boxplot-goals-assists-type.png"
+> png(pngfile)
+> boxplot(players.defens$goals, players.attack$goals, players.defens$assists, players.attack$assists, 
++         horizontal = TRUE, 
++         names=c("Gols-Def.", "Gols-Atac.", "Assist.-Def.", "Assist-Atac."), 
++         col=c("orange", "green", "orange", "green"), 
++         main=title
++ )
+> dev.off()
+```
 
+![Boxplot goals/assists - type](code/figures/boxplot-goals-assists-type.png)
 
-## 6. Resolució del problema.
+En canvi, no hem pogut observar en les anàlisis realitzades un diferència siginificativa entre els valors (`value`) dels dos grups de jugadors. Així ho podem veure reflectit en aquest gràfic:
 
-A partir dels resultats obtinguts, quines són les conclusions?
-Els resultats permeten respondre al problema?
+```
+title <- "Valor per tipus de jugador"
+pngfile <- "figures/boxplot-value-type.png"
+png(pngfile)
+boxplot(players.defens$value, players.attack$value, col=c("red", "yellow"), main=title)
+dev.off()
+```
+
+![Boxplot value - type](code/figures/boxplot-value-type.png)
+
+## 6. Resolució del problema
+
+Conclusions:
+
+* Les variables analitzades no mostren una distribució normal.
+* Tampoc es compleix el criteri de homoscedasticitat (variances homogènies) entre les variables escollides.
+* No hem trobat variables amb coeficients de correlació alts ni significatius.
+
+En realitat no hem pogut treure les conclusions que cercavem. Sí que hem vist una diferència en les distribuicions i valors estadístics entre les dues mostres que hem definit. Però no hem pogut (o no hem sabut) extreure conclusions amb un nivell significatiu rellevant. 
 
 ## 7. Codi
 
 Tot el codi està en la carpeta code del repositori.
-
 
