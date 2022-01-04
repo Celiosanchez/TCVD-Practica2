@@ -21,5 +21,5 @@ Els dos membres del grup som del mateix poble i ens conexíem d'abans. Els dos t
 | [code](code) | Carpeta amb el codi R de la pràctica |
 | [data](data) | Carpeta amb el dataset generat i el dataset amb la neteja realitzada |
 | [Practica2.pdf](Practica1.pdf) | Document PDF lliurat |
-| [Pràctica2.md](Pràctica.md) | Esborrany del document a lliurar |
+| [TCVD-Practica2.md](TCVD-Practica2.md) | Esborrany del document a lliurar |
 
