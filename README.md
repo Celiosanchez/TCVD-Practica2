@@ -10,10 +10,7 @@ Els dos membres del grup som del mateix poble i ens conexíem d'abans. Els dos t
 
 - Totes les nostres reunions han sigut per videoconferència.
 - La tasca d'investigació prèvia i la primera fase de redacció de les respostes ha sigut conjunta. 
-- El desenvolupament del codi també el van començar en equip (tests inicials).
-- Posteriorment, donada la dificultat de coincidir el temps requerit, hem optat per dividir-nos el treball:
-  - CSB s'ha encarregat de la redacció de les respostes
-  - JGA s'ha encarregat del desenvolupament del codi
+- El desenvolupament del codi,redacció de les respostes també ha segut tot en equip.
 - En la etapa final hem posat en comú el treball i l'hem revisat conjuntament.
 
 ## Descripció dels fitxers
