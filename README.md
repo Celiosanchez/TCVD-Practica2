@@ -21,11 +21,10 @@ Els dos membres del grup som del mateix poble i ens conexíem d'abans. Els dos t
 | Fitxer/Carpeta | Descripció |
 |----------------|------------|
 | [README.md](README.md) | Aquest fitxer |
-| [code](code) | Carpeta amb el codi Python de la pràctica |
+| [code](code) | Carpeta amb el codi R de la pràctica |
 | [test](test) | Carpeta amb el codi Python de les proves realitzades |
 | [Practica2.pdf](Practica1.pdf) | Document PDF lliurat |
 | [Pràctica2.md](Pràctica.md) | Esborrany del document a lliurar |
-| [Practica2.odt](Practica1.odt) | Document per generar el PDF |
 | [transfermarkt-com-most-valuable-players-20211108.csv](transfermarkt-com-most-valuable-players-20211108.csv.zip) | Dataset generat |
 
 
