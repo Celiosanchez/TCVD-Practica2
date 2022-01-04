@@ -19,19 +19,7 @@ Els dos membres del grup som del mateix poble i ens conexíem d'abans. Els dos t
 |----------------|------------|
 | [README.md](README.md) | Aquest fitxer |
 | [code](code) | Carpeta amb el codi R de la pràctica |
-| [test](test) | Carpeta amb el codi Python de les proves realitzades |
+| [data](data) | Carpeta amb el dataset generat i el dataset amb la neteja realitzada |
 | [Practica2.pdf](Practica1.pdf) | Document PDF lliurat |
 | [Pràctica2.md](Pràctica.md) | Esborrany del document a lliurar |
-| [transfermarkt-com-most-valuable-players-20211108.csv](transfermarkt-com-most-valuable-players-20211108.csv.zip) | Dataset generat |
 
-
-## Dades de dataset generat
-Donat que no podem publicar el *dataset* generat, hem generat un *dataset* de proves amb aquest DOI:
-* URL de Zenodo del *dataset* de proves: https://zenodo.org/record/5652200
-* Digital Object Identifier: [![DOI](https://github.com/Celiosanchez/TCVD-Practica1/blob/aportacions-celio/zenodo.5652200.svg)](https://doi.org/10.5281/zenodo.5652200)
-
-El *dataset* complet es troba en aquest mateix repositori:
-* Enllaç al *dataset* generat:
-[transfermarkt-com-most-valuable-players-20211108.csv.zip](transfermarkt-com-most-valuable-players-20211108.csv.zip)
-
-Nota: hem protegit el fitxer comprimit amb una contrasenya que facilitarem al professor de l’aula.
