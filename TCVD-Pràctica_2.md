@@ -12,7 +12,7 @@
     - [3.2. Identificació i tractament de valors extrems](#32-identificació-i-tractament-de-valors-extrems)
   - [4. Anàlisi de les dades.](#4-anàlisi-de-les-dades)
     - [4.1. Selecció dels grups de dades que es volen analitzar/comparar](#41-selecció-dels-grups-de-dades-que-es-volen-analitzarcomparar)
-    - [4.2. Comprovació de la normalitat i homogeneïtat de la variància.](#42-comprovació-de-la-normalitat-i-homogeneïtat-de-la-variància)
+    - [4.2. Comprovació de la normalitat i homogeneïtat de la variança.](#42-comprovació-de-la-normalitat-i-homogeneïtat-de-la-variança)
       - [Comprovació de la normalitat](#comprovació-de-la-normalitat)
       - [Comprovació de l'homoscedasticitat](#comprovació-de-lhomoscedasticitat)
     - [4.3. Aplicació de proves estadístiques per comparar els grups de dades](#43-aplicació-de-proves-estadístiques-per-comparar-els-grups-de-dades)
@@ -70,19 +70,19 @@ Tipus de dades de les columnes.
 
 ### Objectiu de l'anàlisi del dataset
 
-Volem esbrinar si el valor (`value`) de traspàs que assigna aquesta web té alguna correlació o valor predictiu sobre la efectivitat ofensiva dels jugadors. Atès que no tenim accés a totes les variables que utilitza el proveïdor de les dades per determinear el valor de traspàs d'un jugador, volem fer l'anàlisi inversa: el valor assignat és un bon predictor de les característiques ofensives (`goals` i `assists`) d'un jugador? També volem determinar el pes d'altres variables (país, club, edat) en aquest anàlisi.
+Volem esbrinar si el valor (`value`) de traspàs que assigna aquesta web té alguna correlació o valor predictiu sobre l'efectivitat ofensiva dels jugadors. Atès que no tenim accés a totes les variables que utilitza el proveïdor de les dades per determinar el valor de traspàs d'un jugador, volem fer l'anàlisi inversa: el valor assignat és un bon predictor de les característiques ofensives (`goals` i `assists`) d'un jugador? 
 
-També pot ser interessant si l'edat és una variable que pot influir en el nombre de subsititucions. Els jugadors més joves o de major d'edata tenen tendència a ser substituïts o no surtir com a titular amb major freqüència que la resta?
+Posició ..........................................................................................
 
 ## 2. Integració i selecció de les dades d’interès a analitzar
 
 ### Selecció de variables (columnnes) i conversions
 
-Prescindim d'aquestes variables ja que no són rellevant per l'anàlisi a realitzar:
+Prescindim d'aquestes variables ja que no són rellevanta per l'anàlisi a realitzar:
 
 - `url`: URL del jugador en la web de Transfermarkt.com
 - `owngoals` (els gols en pròpia porta): creiem que no tenen relació amb el valor d'un jugador, ja que es tracta d'una circumnstància de joc prou aleatòria.
-- També deixem fora les targetes (grogues i vermelles) i explulsions, ja que no creiem que siguen significatives tenint sols les dades de mitja temporada, i atès que el que ens interessa són les dades ofensives:
+- També deixem fora les targetes (grogues i vermelles) i expulsions, ja que no creiem que siguen significatives tenint sols les dades de mitja temporada, i atès que el que ens interessa són les dades ofensives:
   - `yellowcards` 
   - `yellow2cards`
   - `redcards`
@@ -91,20 +91,20 @@ Prescindim d'aquestes variables ja que no són rellevant per l'anàlisi a realit
 > players <- dades %>% select(-url, -owngoals, -yellowcards, -yellow2cards, -redcards)
 ```
 
-Aquest són les variables que tindrem en compte: 
-- position_id
-- position_ranking
-- player
-- position
-- age
-- country
-- club
-- value
-- matches
-- goals
-- assists
-- subston
-- substoff
+Aquestes són les variables que tindrem en compte: 
+- `position_id`
+- `position_ranking`
+- `player`
+- `position`
+- `age`
+- `country`
+- `club`
+- `value`
+- `matches`
+- `goals`
+- `assists`
+- `subston`
+- `substoff`
 
 Com que el tipus de les dades de la columna `age` està com caràcter, cal fer una conversió a tipus numèric (`integer`). 
 
@@ -114,7 +114,7 @@ Com que el tipus de les dades de la columna `age` està com caràcter, cal fer u
     Warning message:
     NAs introduced by coercion
 
-Aquesta conversió genera un valors desconeguts (NA) per a la variable edat, que taractarem al següent apartat.
+Aquesta conversió genera uns valors desconeguts (NA) per a la variable edat, que tractarem al següent apartat.
 
 També fem una tranformació del camp `value` que indica el valor de traspàs en euros (€). Anem a transformar-lo en milions d'euros (dividint entre 1.000.000).
 
@@ -123,7 +123,7 @@ També fem una tranformació del camp `value` que indica el valor de traspàs en
 
 ### Selecció de jugadors (files)
 
-Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els que tenen pocs parits, o cap, no aporta gaire dades estadístiques (gols, assitències...). 
+Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els que tenen pocs parits, o cap, no aporten gaire dades estadístiques (gols, assistències...). 
 
     > players <- players[players$matches > 2, ]
 
@@ -131,13 +131,13 @@ Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els 
 
 ### 3.1. Dades amb zeros i elements buits
 
-En el l'apartat aterior ja hem fet una selecció per excloure del dataset les files sense dades, es a dir, les que corresponen a jugadors no havien disputat partits (`matches` == 0), ja que no són aporten dades per l'anàlisi a realitzar.
+En l'apartat anterior ja hem fet una selecció per excloure del dataset les files sense dades, es a dir, les que corresponen a jugadors que no havien disputat partits (`matches` == 0), ja que no aporten dades per l'anàlisi a realitzar.
 
-Deprés de fer la conversió del camp d'etat (`age`) a numèric (`integer`) hem revisat les dades amb elements que no s'han pogut convertir (NA) i, com tan sols es tracta de 2 files, les hem descartades.
+Després de fer la conversió del camp d'edat (`age`) a numèric (`integer`) hem revisat les dades amb elements que no s'han pogut convertir (NA) i, com tan sols es tracta de 2 files, les hem descartades.
 
     > players <- players[!is.na(players$age), ]
 
-La resta d'elements amb valor 0 corresponen a les estadístiques normals de jugadors que no han marcat gols, ni han assitències, ni han sigut substituïts. 
+La resta d'elements amb valor 0 corresponen a les estadístiques normals de jugadors que no han marcat gols, ni assistències, ni han sigut substituïts. 
 
 ### 3.2. Identificació i tractament de valors extrems
 
@@ -146,7 +146,7 @@ Aquestes són les variables numèriques:
     > columns <- c("age", "value", "matches", "goals", "assists", "subston", "substoff")
 
 
-Per a revisar les valors extrem comprovem les estadístiques de cada variable numèrica:
+Per a revisar les valors extrems comprovem les estadístiques de cada variable numèrica:
 
     > for (column in columns) {
     +     print(paste("summary(players$", column, ")", sep =""))
@@ -197,7 +197,7 @@ Gràfics *boxplots* per a les variables numèriques:
 ![Boxplot of players subston](code/figures/boxplot-subston.png)
 ![Boxplot of players substoff](code/figures/boxplot-substoff.png)
 
-Tant en el gràfics *boxplots*, com en el resum d'estadístiques s'observa un gran nombre de valors *outliers*. No anem a prescindir d'aquests valors, ja que justament el nostre anàlisi ha de tenir-los en compte, per validar si són determinants o no (per exemple si els jugadors més valorats tenen millors estadístiques).
+Tant en els gràfics *boxplots*, com en el resum d'estadístiques, s'observa un gran nombre de valors *outliers*. No anem a prescindir d'aquests valors, ja que justament el nostre anàlisi ha de tenir-los en compte, per validar si són determinants o no (per exemple si els jugadors més valorats tenen millors estadístiques).
 
 
 ## 4. Anàlisi de les dades.
@@ -217,11 +217,11 @@ Anem a comparar dos grups de jugadors: els defensius i ofensius. Basant-nos en l
 
 Volem analitzar les principals variables (value, goals, age) en aquests 2 grups de jugadors.
 
-### 4.2. Comprovació de la normalitat i homogeneïtat de la variància.
+### 4.2. Comprovació de la normalitat i homogeneïtat de la variança.
 
 #### Comprovació de la normalitat
 
-Apliuqme el test de Shapiro-Wilk sobre les variables numèriques:
+Apliquem el test de Shapiro-Wilk sobre les variables numèriques:
 
 ```
 for (column in columns) {
@@ -278,11 +278,11 @@ data:  players[[column]]
 W = 0.92358, p-value < 2.2e-16
 ```
 
-Cap de les variables estan normalitzades, ja que el p-valor és menor que 0.05. Per tant haurem de tenir en compte que hem d'aplicar analisis per a models no normalitzats, o bé normalitzar les dades.
+Cap de les variables estan normalitzades, ja que el p-valor és menor que 0.05. Per tant haurem de tenir en compte que hem d'aplicar anàlisis per a models no normalitzats, o bé normalitzar les dades.
 
 #### Comprovació de l'homoscedasticitat
 
-Apliquem el test de Fligner-Killeen sobre els 2 grups de jugadors (ofensius/defensius) per a les variables que volem comaprar: valor, edat i gols.
+Apliquem el test de Fligner-Killeen sobre els 2 grups de jugadors (ofensius/defensius) per a les variables que volem comparar: valor, edat i gols.
 
 ```
 > fligner.test(value ~ type, data = players)
@@ -311,7 +311,7 @@ Comprovem amb aquest test, que sols per a la variable edat (`age`) podem accepta
 
 ### 4.3. Aplicació de proves estadístiques per comparar els grups de dades
 
-En primer lloc fer un anàlisi correlació entre les diferents variables numèriques:
+En primer lloc fer un anàlisi de correlació entre les diferents variables numèriques:
 
 ```
 > cor(players %>% select(value, age, type, goals, matches))
@@ -393,9 +393,9 @@ sample estimates:
 0.1862691 
 ```
 
-Amb el valors obtestos el valor de p és inferior en tots els casos inferior a 0.05, per tant la correlació no pot ser significativa. De tota manera el valor del índex de correlació més alt és amb la vairable `value` es dona per a les variables `goals` (0.126) i `matches` (0.186).
+Amb els valors obtinguts, el valor de p és inferior en tots els casos a 0.05, per tant la correlació no pot ser significativa. De tota manera, per a la variable `value` el valor de l'índex de correlació més alt és amb les variables `goals` (0.126) i `matches` (0.186).
 
-Comparem la correlació de Spearman per les variables `value` i `goals` en les 2 grups definits
+Comparem a continuació la correlació de Spearman per les variables `value` i `goals` en els 2 grups definits:
 
 ```
 > cor.test(players.defens$value, players.defens$goals, method = "spearman")
@@ -426,7 +426,7 @@ Seguim amb valors de p molt infeiors a 0.05. Sols podem aportar a l'anàlisi que
 
 ## 5. Representació dels resultats a partir de taules i gràfiques
 
-En aquest gràfic es pot pot visualitzar la difèrencia entre les estadístiques de `goals` i `assists` per als dos grups de jugadors que hem separat. Evidentment els jugadors ofensius tenen un mitja i valors més alts que el jugdors defensius.
+En aquest gràfic es pot pot visualitzar la difèrencia entre les estadístiques de `goals` i `assists` per als dos grups de jugadors que hem separat. Evidentment els jugadors ofensius tenen un mitjana i valors més alts que els jugdors defensius.
 
 ```
 > title <- "Gols i assistencies per tipus de jugador"
@@ -443,7 +443,7 @@ En aquest gràfic es pot pot visualitzar la difèrencia entre les estadístiques
 
 ![Boxplot goals/assists - type](code/figures/boxplot-goals-assists-type.png)
 
-En canvi, no hem pogut observar en les anàlisis realitzades un diferència siginificativa entre els valors (`value`) dels dos grups de jugadors. Així ho podem veure reflectit en aquest gràfic:
+En canvi, no hem pogut observar en les anàlisis realitzades una diferència significativa entre els valors (`value`) dels dos grups de jugadors. Així ho podem veure reflectit en aquest gràfic:
 
 ```
 title <- "Valor per tipus de jugador"

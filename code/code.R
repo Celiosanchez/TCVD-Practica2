@@ -59,8 +59,6 @@ nrow(players[!is.na(players$age), ])
 players <- players[!is.na(players$age), ]
 nrow(players)
 
-########## 
-
 # variables numèriques
 columns <- c("age", "value", "matches", "goals", "assists", "subston", "substoff")
 
