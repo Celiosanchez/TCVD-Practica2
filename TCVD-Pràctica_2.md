@@ -19,6 +19,7 @@
   - [5. Representació dels resultats a partir de taules i gràfiques](#5-representació-dels-resultats-a-partir-de-taules-i-gràfiques)
   - [6. Resolució del problema](#6-resolució-del-problema)
   - [7. Codi](#7-codi)
+  - [Contribucions](#contribucions)
 
 | | |
 |-|-|
@@ -49,24 +50,24 @@ Tipus de dades de les columnes.
 
 | column           | type      | Nota |
 |------------------|-----------|------|
-| position_id      | integer   | 
-| position_ranking | integer   | 
-| player           | character | 
-| url              | character | 
-| position         | character | 
-| age              | character | 
-| country          | character | 
-| club             | character | 
-| value            | integer   | 
-| matches          | integer   | 
-| goals            | integer   | 
-| owngoals         | integer   | 
-| assists          | integer   | 
-| yellowcards      | integer   | 
-| yellow2cards     | integer   | 
-| redcards         | integer   | 
-| subston          | integer   | 
-| substoff         | integer   | 
+| position_id      | integer   | ID de la posició del jugador |
+| position_ranking | integer   | Posicio en el ranking de dades |
+| player           | character | Nom del jugador |
+| url              | character | URL del jugador |
+| position         | character | Posició de dades |
+| age              | character | Edat |
+| country          | character | País |
+| club             | character | Equip/Club |
+| value            | integer   | Valor de traspàs estimat |
+| matches          | integer   | Nombre de partits jugats |
+| goals            | integer   | Gols |
+| owngoals         | integer   | Gols en propia porta |
+| assists          | integer   | Assitències |
+| yellowcards      | integer   | Targetes grogues |
+| yellow2cards     | integer   | Expulsió per doble targeta groga |
+| redcards         | integer   | Expulsió per targeta vermella |
+| subston          | integer   | Partit jugat com a suplent |
+| substoff         | integer   | Subsituït |
 
 ### Objectiu de l'anàlisi del dataset
 
@@ -469,3 +470,10 @@ En realitat no hem pogut treure les conclusions que cercavem. Sí que hem vist u
 
 Tot el codi està en la carpeta code del repositori.
 
+## Contribucions
+
+| Contribucions | Signatura |
+|---------------|-----------|
+| Investigació prèvia | CSB, JGA |
+| Redacció de les respostes | CSB, JGA |
+| Desenvolupament codi | CSB, JGA |
