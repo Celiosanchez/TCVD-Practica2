@@ -12,7 +12,7 @@
     - [3.2. Identificació i tractament de valors extrems](#32-identificació-i-tractament-de-valors-extrems)
   - [4. Anàlisi de les dades.](#4-anàlisi-de-les-dades)
     - [4.1. Selecció dels grups de dades que es volen analitzar/comparar](#41-selecció-dels-grups-de-dades-que-es-volen-analitzarcomparar)
-    - [4.2. Comprovació de la normalitat i homogeneïtat de la variança.](#42-comprovació-de-la-normalitat-i-homogeneïtat-de-la-variança)
+    - [4.2. Comprovació de la normalitat i homogeneïtat de la variancia.](#42-comprovació-de-la-normalitat-i-homogeneïtat-de-la-variancia)
       - [Comprovació de la normalitat](#comprovació-de-la-normalitat)
       - [Comprovació de l'homoscedasticitat](#comprovació-de-lhomoscedasticitat)
     - [4.3. Aplicació de proves estadístiques per comparar els grups de dades](#43-aplicació-de-proves-estadístiques-per-comparar-els-grups-de-dades)
@@ -217,7 +217,7 @@ Anem a comparar dos grups de jugadors: els defensius i ofensius. Basant-nos en l
 
 Volem analitzar les principals variables (value, goals, age) en aquests 2 grups de jugadors.
 
-### 4.2. Comprovació de la normalitat i homogeneïtat de la variança.
+### 4.2. Comprovació de la normalitat i homogeneïtat de la variancia.
 
 #### Comprovació de la normalitat
 
@@ -307,7 +307,7 @@ data:  age by type
 Fligner-Killeen:med chi-squared = 0.064794, df = 1, p-value = 0.7991
 ```
 
-Comprovem amb aquest test, que sols per a la variable edat (`age`) podem acceptar la hipotesi de homegeneitat de la varianza per als dos grups (jugadors defensius i ofensius). Les variances de les variables `goals` i `value` no són homegènies entre les dues mostres. 
+Comprovem amb aquest test, que sols per a la variable edat (`age`) podem acceptar la hipotesi de homegeneitat de la variancia per als dos grups (jugadors defensius i ofensius). Les variances de les variables `goals` i `value` no són homegènies entre les dues mostres. 
 
 ### 4.3. Aplicació de proves estadístiques per comparar els grups de dades
 

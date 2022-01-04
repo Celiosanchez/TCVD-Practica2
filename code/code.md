@@ -115,16 +115,13 @@ Comprovem el resultat del filtre i conversions de columnes:
 
 #### Eliminem files amb `matches < 3`
 
-
-
-Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els que tenen pocs parits, o cap, no aporta gaire dades estadístiques (gols, assitències...). 
+Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els que tenen pocs partits, o cap, no aporta gaire dades estadístiques (gols, assistències...). 
 
 ```
 > players <- players[players$matches > 2,]
 > nrow(players)
 [1] 4996
 ```
-
 
 ## 3. Neteja de les dades
 
@@ -145,7 +142,7 @@ Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els 
 Obtenim els següents resultats:
 
 * Les files amb `matches == 0` ja han sigut eliminades en l'apartat 2.
-* Les columnes amb valors 0 són: `goals`, `assists`, `subston` i `substoff`. Són valors normals, ja que representen als jugadors que no han puntuat en aquestes estadísiques. No requereixen tractament.
+* Les columnes amb valors 0 són: `goals`, `assists`, `subston` i `substoff`. Són valors normals, ja que representen als jugadors que no han puntuat en aquestes estadístiques. No requereixen tractament.
 * La columna `age` conté el valor NA, que tractarem al següent apartat.
 
 ### Nombre de files amb columnes amb valors buits (NA)
@@ -355,6 +352,9 @@ Resultat:
  [1] 17 17 20 17 17 20 18 17 18 17 20 17 18 18 17 17 21 19 19 17 20 20 19 18 17 20 21 17 19 19 18 17
 [33] 17 24 18 21 18 22 17 23 17 17 20 18 18 18 19 22 17
 ```
+
+
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 
 ## 4. Anàlisi de les dades.
 
