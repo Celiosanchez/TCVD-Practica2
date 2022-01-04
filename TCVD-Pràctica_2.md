@@ -70,6 +70,8 @@ Tipus de dades de les columnes.
 
 Volem esbrinar si el valor (`value`) de traspàs que assigna aquesta web té alguna correlació o valor predictiu sobre la efectivitat ofensiva dels jugadors. Atès que no tenim accés a totes les variables que utilitza el proveïdor de les dades per determinear el valor de traspàs d'un jugador, volem fer l'anàlisi inversa: el valor assignat és un bon predictor de les característiques ofensives (`goals` i `assists`) d'un jugador? També volem determinar el pes d'altres variables (país, club, edat) en aquest anàlisi.
 
+També pot ser interessant si l'edat és una variable que pot influir en el nombre de subsititucions. Els jugadors més joves o de major d'edata tenen tendència a ser substituïts o no surtir com a titular amb major freqüència que la resta?
+
 ## 2. Integració i selecció de les dades d’interès a analitzar
 
 ### Selecció de variables (columnnes) i conversions
@@ -195,9 +197,16 @@ Gràfics *boxplots* per a les variables numèriques:
 
 Tant en el gràfics *boxplots*, com en el resum d'estadístiques s'observa un gran nombre de valors *outliers*. No anem a prescindir d'aquests valors, ja que justament el nostre anàlisi ha de tenir-los en compte, per validar si són determinants o no (per exemple si els jugadors més valorats tenen millors estadístiques).
 
+
 ## 4. Anàlisi de les dades.
 
 ### 4.1. Selecció dels grups de dades que es volen analitzar/comparar 
+
+
+```
+> players.attack <- players[players$position_id > 6, ]
+> players.defens <- players[players$position_id < 7, ]
+```
 
 (planificació dels anàlisis a aplicar).
 

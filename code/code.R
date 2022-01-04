@@ -92,10 +92,18 @@ for (column in columns) {
   print(imglink)
 }
 
-
 # Outliers
 for (column in columns) {
   print(paste("Outliers for players ", column, ":", sep=""))
   print(boxplot.stats(players[[column]])$out)
 }
+
+# grups
+
+players.attack <- players[players$position_id > 6, ]
+players.defens <- players[players$position_id < 7, ]
+
+players$type <- with(players, ifelse(position_id < 7, 1, 2))
+
+write.csv(players, "players.csv")
 
