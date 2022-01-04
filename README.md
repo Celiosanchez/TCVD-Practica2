@@ -10,10 +10,7 @@ Els dos membres del grup som del mateix poble i ens conexíem d'abans. Els dos t
 
 - Totes les nostres reunions han sigut per videoconferència.
 - La tasca d'investigació prèvia i la primera fase de redacció de les respostes ha sigut conjunta. 
-- El desenvolupament del codi també el van començar en equip (tests inicials).
-- Posteriorment, donada la dificultat de coincidir el temps requerit, hem optat per dividir-nos el treball:
-  - CSB s'ha encarregat de la redacció de les respostes
-  - JGA s'ha encarregat del desenvolupament del codi
+- El desenvolupament del codi,redacció de les respostes també ha segut tot en equip.
 - En la etapa final hem posat en comú el treball i l'hem revisat conjuntament.
 
 ## Descripció dels fitxers
@@ -21,21 +18,8 @@ Els dos membres del grup som del mateix poble i ens conexíem d'abans. Els dos t
 | Fitxer/Carpeta | Descripció |
 |----------------|------------|
 | [README.md](README.md) | Aquest fitxer |
-| [code](code) | Carpeta amb el codi Python de la pràctica |
-| [test](test) | Carpeta amb el codi Python de les proves realitzades |
-| [Practica2.pdf](Practica1.pdf) | Document PDF lliurat |
-| [Pràctica2.md](Pràctica.md) | Esborrany del document a lliurar |
-| [Practica2.odt](Practica1.odt) | Document per generar el PDF |
-| [transfermarkt-com-most-valuable-players-20211108.csv](transfermarkt-com-most-valuable-players-20211108.csv.zip) | Dataset generat |
+| [code](code) | Carpeta amb el codi R de la pràctica |
+| [data](data) | Carpeta amb el dataset generat i el dataset amb la neteja realitzada |
+| [TCVD-Practica2.pdf](TCVD-Practica2.pdf) | Document PDF lliurat |
+| [TCVD-Practica2.md](TCVD-Practica2.md) | Esborrany del document a lliurar |
 
-
-## Dades de dataset generat
-Donat que no podem publicar el *dataset* generat, hem generat un *dataset* de proves amb aquest DOI:
-* URL de Zenodo del *dataset* de proves: https://zenodo.org/record/5652200
-* Digital Object Identifier: [![DOI](https://github.com/Celiosanchez/TCVD-Practica1/blob/aportacions-celio/zenodo.5652200.svg)](https://doi.org/10.5281/zenodo.5652200)
-
-El *dataset* complet es troba en aquest mateix repositori:
-* Enllaç al *dataset* generat:
-[transfermarkt-com-most-valuable-players-20211108.csv.zip](transfermarkt-com-most-valuable-players-20211108.csv.zip)
-
-Nota: hem protegit el fitxer comprimit amb una contrasenya que facilitarem al professor de l’aula.
