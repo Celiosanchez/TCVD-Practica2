@@ -9,7 +9,7 @@
       - [Conversió del tipus del camp `age`](#conversió-del-tipus-del-camp-age)
       - [Transformació sobre la columna `value`](#transformació-sobre-la-columna-value)
     - [2.2. Filtre de jugadors (files)](#22-filtre-de-jugadors-files)
-      - [Eliminem files amb `matches == 0`](#eliminem-files-amb-matches--0)
+      - [Eliminem files amb `matches < 3`](#eliminem-files-amb-matches--3)
   - [3. Neteja de les dades](#3-neteja-de-les-dades)
     - [3.1. Dades amb zeros i elements buits](#31-dades-amb-zeros-i-elements-buits)
       - [Nombre de files amb columnes amb valor 0](#nombre-de-files-amb-columnes-amb-valor-0)
@@ -21,7 +21,10 @@
       - [Outliers per a cada columna](#outliers-per-a-cada-columna)
   - [4. Anàlisi de les dades.](#4-anàlisi-de-les-dades)
     - [4.1. Selecció dels grups de dades que es volen analitzar/comparar](#41-selecció-dels-grups-de-dades-que-es-volen-analitzarcomparar)
+      - [Dos grups de jugadors: els defensius i ofensius](#dos-grups-de-jugadors-els-defensius-i-ofensius)
     - [4.2. Comprovació de la normalitat i homogeneïtat de la variància.](#42-comprovació-de-la-normalitat-i-homogeneïtat-de-la-variància)
+      - [Comprovació de la normalitat - test de Shapiro-Wilk](#comprovació-de-la-normalitat---test-de-shapiro-wilk)
+      - [Comprovació de l'homoscedasticitat](#comprovació-de-lhomoscedasticitat)
     - [4.3. Aplicació de proves estadístiques per comparar els grups de dades.](#43-aplicació-de-proves-estadístiques-per-comparar-els-grups-de-dades)
   - [5. Representació dels resultats a partir de taules i gràfiques.](#5-representació-dels-resultats-a-partir-de-taules-i-gràfiques)
   - [6. Resolució del problema.](#6-resolució-del-problema)
@@ -109,27 +112,18 @@ Comprovem el resultat del filtre i conversions de columnes:
 
 ### 2.2. Filtre de jugadors (files)
 
-Comprovem jugadors sense partits (`matches`) és igual a 0):
-```
-> nrow(players[players$matches == 0,])
-[1] 1321
-```
+#### Eliminem files amb `matches < 3`
 
-Comprovem jugadors amb partits:
-```
-> nrow(players[!players$matches == 0,])
-[1] 5179
-```
 
-#### Eliminem files amb `matches == 0`
 
-Eliminem els jugadors sense partits, deixant sols els que tenen partits disputats:
+Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els que tenen pocs parits, o cap, no aporta gaire dades estadístiques (gols, assitències...). 
 
 ```
-> players <- players[!players$matches == 0,]
+> players <- players[players$matches > 2,]
 > nrow(players)
-[1] 5179
+[1] 4996
 ```
+
 
 ## 3. Neteja de les dades
 
@@ -365,17 +359,103 @@ Resultat:
 
 ### 4.1. Selecció dels grups de dades que es volen analitzar/comparar 
 
+#### Dos grups de jugadors: els defensius i ofensius
+
 ```
+# players$type = 1: defensiu (des del porter fins a mig defensiu)
+# players$type = 2: ofensiu (des del mig-centre ofensiu fins als davanters)
+
 > players.attack <- players[players$position_id > 6, ]
 > players.defens <- players[players$position_id < 7, ]
+> players$type <- with(players, ifelse(position_id < 7, 1, 2))
 ```
-
 
 
 ### 4.2. Comprovació de la normalitat i homogeneïtat de la variància.
 
-Comprovem la normalitat amb el test de Shapiro-Wink:
+#### Comprovació de la normalitat - test de Shapiro-Wilk
 
+```
+for (column in columns) {
+  print(paste("Shapiro Test: variable ", column, sep=""))
+  print(shapiro.test(players[[column]]))
+}
+[1] "Shapiro Test: variable age"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.98637, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable value"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.54078, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable matches"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.98975, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable goals"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.70627, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable assists"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.77387, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable subston"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.87333, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable substoff"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.92358, p-value < 2.2e-16
+```
+
+#### Comprovació de l'homoscedasticitat
+
+Test de Fligner-Killeen sobre els 2 grups de jugadors (ofensius/defensius) per a les variables: valor, edat i gols.
+
+```
+> fligner.test(value ~ type, data = players)
+
+	Fligner-Killeen test of homogeneity of variances
+
+data:  value by type
+Fligner-Killeen:med chi-squared = 19.225, df = 1, p-value = 1.162e-05
+
+> fligner.test(goals ~ type, data = players)
+
+	Fligner-Killeen test of homogeneity of variances
+
+data:  goals by type
+Fligner-Killeen:med chi-squared = 1014.5, df = 1, p-value < 2.2e-16
+
+> fligner.test(age ~ type, data = players)
+
+	Fligner-Killeen test of homogeneity of variances
+
+data:  age by type
+Fligner-Killeen:med chi-squared = 0.064794, df = 1, p-value = 0.7991
+```
 
 ### 4.3. Aplicació de proves estadístiques per comparar els grups de dades. 
 

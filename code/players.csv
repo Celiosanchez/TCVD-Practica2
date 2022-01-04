@@ -19,7 +19,6 @@
 "18",1,18,"Dean Henderson","Goalkeeper",24,"England","Manchester United",18,4,0,0,0,1,1
 "19",1,19,"David de Gea","Goalkeeper",31,"Spain","Manchester United",18,23,0,0,0,0,1
 "20",1,20,"Ugurcan Cakir","Goalkeeper",25,"Turkey","Trabzonspor",17,22,0,0,0,0,1
-"21",1,21,"André Onana","Goalkeeper",25,"Cameroon","Ajax Amsterdam",17,2,0,0,0,0,1
 "22",1,22,"Diogo Costa","Goalkeeper",22,"Portugal","FC Porto",16,23,0,0,0,0,1
 "23",1,23,"Altay Bayindir","Goalkeeper",23,"Turkey","Fenerbahce SK",16,15,0,0,0,1,1
 "24",1,24,"Matvey Safonov","Goalkeeper",22,"Russia","FK Krasnodar",16,17,0,0,0,0,1
@@ -87,7 +86,6 @@
 "91",1,91,"Julen Agirrezabala","Goalkeeper",21,"Spain","Bilbao Athletic",5,20,0,0,0,1,1
 "92",1,92,"Carlos Acevedo","Goalkeeper",25,"Mexico","Santos Laguna",5,11,0,0,0,0,1
 "93",1,93,"Guglielmo Vicario","Goalkeeper",25,"Italy","FC Empoli",5,20,0,0,0,0,1
-"94",1,94,"Sergio Rico","Goalkeeper",28,"Spain","Paris Saint-Germain",5,1,0,0,1,0,1
 "95",1,95,"Marek Rodak","Goalkeeper",25,"Slovakia","Fulham FC",5,13,0,0,0,0,1
 "96",1,96,"Fernando Pacheco","Goalkeeper",29,"Spain","Deportivo Alavés",5,16,0,0,0,1,1
 "97",1,97,"Robin Zentner","Goalkeeper",27,"Germany","1.FSV Mainz 05",5,19,0,0,0,0,1
@@ -111,8 +109,6 @@
 "117",1,117,"Helton Leite","Goalkeeper",31,"Brazil","SL Benfica",4,5,0,0,0,0,1
 "118",1,118,"Jasper Cillessen","Goalkeeper",32,"Netherlands","Valencia CF",4,13,0,1,0,0,1
 "119",1,119,"Aitor Fernández","Goalkeeper",30,"Spain","Levante UD",4,11,0,0,0,0,1
-"120",1,120,"Andrey Lunev","Goalkeeper",30,"Russia","Bayer 04 Leverkusen",4,1,0,0,0,0,1
-"121",1,121,"Neto","Goalkeeper",32,"Brazil","FC Barcelona",4,2,0,0,0,0,1
 "122",1,122,"Mattia Perin","Goalkeeper",29,"Italy","Juventus FC",4,4,0,0,0,0,1
 "123",1,123,"Timo Horn","Goalkeeper",28,"Germany","1. FC Köln",4,12,0,0,0,0,1
 "124",1,124,"Lukasz Skorupski","Goalkeeper",30,"Poland","Bologna FC 1909",4,20,0,0,0,0,1
@@ -121,13 +117,9 @@
 "127",1,127,"Ezequiel Unsain","Goalkeeper",26,"Argentina","Defensa y Justicia",3.7,25,0,0,0,0,1
 "128",1,128,"Dogan Alemdar","Goalkeeper",19,"Turkey","Stade Rennais FC",3.5,3,0,0,0,0,1
 "130",1,130,"Lucas Chaves","Goalkeeper",26,"Argentina","Asociación Atlética Argentinos Juniors",3.5,11,0,0,0,1,1
-"131",1,131,"Gautier Larsonneur","Goalkeeper",24,"France","Stade Brestois 29",3.5,1,0,0,0,0,1
 "132",1,132,"Michele Di Gregorio","Goalkeeper",24,"Italy","AC Monza",3.5,18,0,1,0,0,1
 "133",1,133,"Lorenzo Montipò","Goalkeeper",25,"Italy","Hellas Verona",3.5,19,0,0,0,0,1
-"134",1,134,"Rubén Blanco","Goalkeeper",26,"Spain","Celta de Vigo",3.5,2,0,0,0,0,1
 "135",1,135,"Ivica Ivusic","Goalkeeper",26,"Croatia","NK Osijek",3.5,14,0,0,0,0,1
-"136",1,136,"Yvon Mvogo","Goalkeeper",27,"Switzerland","PSV Eindhoven",3.5,1,0,0,0,0,1
-"137",1,137,"Santos","Goalkeeper",31,"Brazil","Club Athletico Paranaense",3.5,1,0,0,0,0,1
 "138",1,138,"Alex McCarthy","Goalkeeper",32,"England","Southampton FC",3.5,15,0,0,0,0,1
 "139",1,139,"Agustín Rossi","Goalkeeper",26,"Argentina","Club Atlético Boca Juniors",3.2,21,0,0,0,0,1
 "140",1,140,"Luiz Júnior","Goalkeeper",20,"Brazil","FC Famalicão",3,19,0,0,0,0,1
@@ -160,7 +152,6 @@
 "174",1,174,"Caoimhin Kelleher","Goalkeeper",23,"Ireland","Liverpool FC",2.5,4,0,0,0,0,1
 "175",1,175,"Léo Jardim","Goalkeeper",26,"Brazil","LOSC Lille",2.5,3,0,0,0,0,1
 "176",1,176,"Jiri Pavlenka","Goalkeeper",29,"Czech Republic","SV Werder Bremen",2.5,7,0,0,0,0,1
-"177",1,177,"Jaume Doménech","Goalkeeper",31,"Spain","Valencia CF",2.5,2,0,0,0,0,1
 "178",1,178,"Gökhan Akkan","Goalkeeper",27,"Turkey","Caykur Rizespor",2.5,16,0,0,0,1,1
 "179",1,179,"Gauthier Gallon","Goalkeeper",28,"France","ESTAC Troyes",2.5,19,0,0,0,0,1
 "180",1,180,"Brice Samba","Goalkeeper",27,"Congo","Nottingham Forest",2.5,24,0,0,0,0,1
@@ -173,7 +164,6 @@
 "188",1,188,"Hervé Koffi","Goalkeeper",25,"Burkina Faso","RSC Charleroi",2.4,22,0,0,0,0,1
 "189",1,189,"Benoît Costil","Goalkeeper",34,"France","FC Girondins Bordeaux",2.2,19,0,0,0,0,1
 "190",1,190,"Mert Günok","Goalkeeper",32,"Turkey","Besiktas JK",2.1,5,0,0,0,1,1
-"191",1,191,"Lukas Hornicek","Goalkeeper",19,"Czech Republic","SC Braga B",2,2,0,0,1,0,1
 "192",1,192,"Dmytro Riznyk","Goalkeeper",22,"Ukraine","Vorskla Poltava",2,21,0,0,1,0,1
 "193",1,193,"Matous Trmal","Goalkeeper",23,"Czech Republic","Vitória Guimarães SC",2,9,0,0,0,0,1
 "195",1,195,"Josef Bursik","Goalkeeper",21,"England","Stoke City",2,16,0,0,0,0,1
@@ -183,15 +173,12 @@
 "199",1,199,"Kristoffer Klaesson","Goalkeeper",21,"Norway","Leeds United",2,20,0,1,0,0,1
 "201",1,201,"Mile Svilar","Goalkeeper",22,"Serbia","SL Benfica",2,8,0,0,1,0,1
 "202",1,202,"Dani Martín","Goalkeeper",23,"Spain","Málaga CF",2,17,0,0,0,0,1
-"203",1,203,"Adrian Semper","Goalkeeper",23,"Croatia","Genoa CFC",2,1,0,0,0,0,1
-"204",1,204,"Dominik Greif","Goalkeeper",24,"Slovakia","RCD Mallorca",2,2,0,0,0,0,1
 "205",1,205,"Iván Villar","Goalkeeper",24,"Spain","CD Leganés",2,9,0,0,0,0,1
 "206",1,206,"Raúl Gudiño","Goalkeeper",25,"Mexico","Deportivo Guadalajara",2,13,0,0,0,0,1
 "208",1,208,"Aleksandr Selikhov","Goalkeeper",27,"Russia","Spartak Moscow",2,10,0,0,0,0,1
 "211",1,211,"Lawrence Ati Zigi","Goalkeeper",25,"Ghana","FC St. Gallen 1879",2,18,0,0,0,0,1
 "213",1,213,"Stefano Gori","Goalkeeper",25,"Italy","Como 1907",2,14,0,0,0,1,1
 "214",1,214,"Ales Mandous","Goalkeeper",29,"Czech Republic","SK Slavia Prague",2,19,0,0,0,0,1
-"215",1,215,"Wladimiro Falcone","Goalkeeper",26,"Italy","UC Sampdoria",2,2,0,0,0,0,1
 "216",1,216,"Ilya Lantratov","Goalkeeper",26,"Russia","FK Khimki",2,19,0,0,0,0,1
 "217",1,217,"Ivan Provedel","Goalkeeper",27,"Italy","Spezia Calcio",2,13,0,0,0,0,1
 "219",1,219,"Hugo González","Goalkeeper",31,"Mexico","FC Juárez",2,15,0,0,0,1,1
@@ -199,7 +186,6 @@
 "221",1,221,"Marius Müller","Goalkeeper",28,"Germany","FC Luzern",2,8,0,0,0,0,1
 "222",1,222,"Günay Güvenc","Goalkeeper",30,"Turkey","Gaziantep FK",2,19,0,0,0,0,1
 "223",1,223,"Frederik Rönnow","Goalkeeper",29,"Denmark","1.FC Union Berlin",2,4,0,0,0,0,1
-"224",1,224,"Joel Robles","Goalkeeper",31,"Spain","Real Betis Balompié",2,2,0,0,0,0,1
 "225",1,225,"Stanislav Kritsyuk","Goalkeeper",31,"Russia","Zenit St. Petersburg",2,17,0,0,0,0,1
 "226",1,226,"Robin Olsen","Goalkeeper",31,"Sweden","Sheffield United",2,11,0,0,0,0,1
 "227",1,227,"Camilo Vargas","Goalkeeper",32,"Colombia","Atlas Guadalajara",2,23,0,0,0,0,1
@@ -236,8 +222,6 @@
 "265",1,265,"Washington Aguerre","Goalkeeper",28,"Uruguay","Querétaro FC",1.5,16,0,0,0,1,1
 "266",1,266,"Daniel Iversen","Goalkeeper",24,"Denmark","Preston North End",1.5,23,0,0,1,0,1
 "269",1,269,"Philipp Köhn","Goalkeeper",23,"Switzerland","Red Bull Salzburg",1.5,25,0,0,0,0,1
-"270",1,270,"Vasilios Barkas","Goalkeeper",27,"Greece","Celtic FC",1.5,2,0,0,0,0,1
-"272",1,272,"Rubén Yáñez","Goalkeeper",28,"Spain","Getafe CF",1.5,2,0,0,0,0,1
 "273",1,273,"Jindrich Stanek","Goalkeeper",25,"Czech Republic","FC Viktoria Plzen",1.5,16,0,0,0,0,1
 "274",1,274,"Luis García","Goalkeeper",29,"Mexico","Deportivo Toluca",1.5,13,0,0,0,2,1
 "275",1,275,"Alireza Beiranvand","Goalkeeper",29,"Iran","Boavista FC",1.5,9,0,0,0,1,1
@@ -245,11 +229,9 @@
 "277",1,277,"Amir Abedzadeh","Goalkeeper",28,"Iran","SD Ponferradina",1.5,18,0,0,0,0,1
 "278",1,278,"Rúnar Alex Rúnarsson","Goalkeeper",26,"Iceland","Oud-Heverlee Leuven",1.5,9,0,0,0,1,1
 "279",1,279,"Florin Nita","Goalkeeper",34,"Romania","AC Sparta Prague",1.5,23,0,0,0,0,1
-"280",1,280,"Marco Sportiello","Goalkeeper",29,"Italy","Atalanta BC",1.5,2,0,0,0,0,1
 "281",1,281,"Sokratis Dioudis","Goalkeeper",28,"Greece","Panathinaikos Athens",1.5,6,0,0,0,0,1
 "282",1,282,"Alexander Schlager","Goalkeeper",25,"Austria","LASK",1.5,30,0,0,0,0,1
 "283",1,283,"Thomas Didillon","Goalkeeper",26,"France","Cercle Brugge ",1.5,21,0,0,0,0,1
-"284",1,284,"Cláudio Ramos","Goalkeeper",30,"Portugal","FC Porto",1.5,1,0,0,0,0,1
 "285",1,285,"Jesse Joronen","Goalkeeper",28,"Finland","Brescia Calcio",1.5,18,0,0,1,1,1
 "286",1,286,"Antonio Rodríguez","Goalkeeper",29,"Mexico","Deportivo Guadalajara",1.5,5,0,0,0,0,1
 "288",1,288,"Édgar Badía","Goalkeeper",29,"Spain","Elche CF",1.5,6,0,0,0,0,1
@@ -281,7 +263,6 @@
 "319",1,319,"Djordje Petrovic","Goalkeeper",22,"Serbia","FK Cukaricki",1.2,20,0,0,0,0,1
 "320",1,320,"Lucas Chevalier","Goalkeeper",20,"France","Valenciennes FC",1.2,13,0,0,0,0,1
 "321",1,321,"Dimitry Bertaud","Goalkeeper",23,"France","Montpellier HSC",1.2,7,0,0,0,0,1
-"322",1,322,"Zacarías López","Goalkeeper",23,"Chile","Deportes La Serena",1.2,1,0,0,0,0,1
 "323",1,323,"Pontus Dahlberg","Goalkeeper",22,"Sweden","Doncaster Rovers",1.2,19,0,0,0,0,1
 "326",1,326,"Marko Ilic","Goalkeeper",23,"Serbia","KV Kortrijk",1.2,20,0,0,0,0,1
 "327",1,327,"Nikola Vasilj","Goalkeeper",26,"Bosnia-Herzegovina","FC St. Pauli",1.2,19,0,0,0,0,1
@@ -311,7 +292,6 @@
 "359",1,359,"Ivor Pandur","Goalkeeper",21,"Croatia","Hellas Verona",1,7,0,0,0,0,1
 "360",1,360,"Dominik Kotarski","Goalkeeper",21,"Croatia","HNK Gorica",1,14,0,0,0,0,1
 "361",1,361,"Abdelali Mhamdi","Goalkeeper",30,"Morocco","Abha Club",1,11,0,0,0,1,1
-"363",1,363,"Gaëtan Poussin","Goalkeeper",22,"France","FC Girondins Bordeaux",1,1,0,0,0,0,1
 "364",1,364,"Maduka Okoye","Goalkeeper",22,"Nigeria","Sparta Rotterdam",1,17,0,0,0,1,1
 "366",1,366,"João Virgínia","Goalkeeper",22,"Portugal","Sporting CP",1,6,0,0,0,0,1
 "368",1,368,"Antonio Sivera","Goalkeeper",25,"Spain","Deportivo Alavés",1,5,0,0,1,0,1
@@ -337,7 +317,6 @@
 "390",1,390,"Sergio Padt","Goalkeeper",31,"Netherlands","Ludogorets Razgrad",1,11,0,0,0,0,1
 "391",1,391,"Gabriel","Goalkeeper",29,"Brazil","US Lecce",1,16,0,1,0,0,1
 "392",1,392,"Iago Herrerín","Goalkeeper",33,"Spain","Al-Raed",1,9,0,0,0,0,1
-"393",1,393,"Adrián","Goalkeeper",34,"Spain","Liverpool FC",1,1,0,0,0,0,1
 "394",1,394,"Aleksandr Belenov","Goalkeeper",35,"Russia","FK Ufa",1,18,0,0,0,0,1
 "395",1,395,"Marwin Hitz","Goalkeeper",34,"Switzerland","Borussia Dortmund",1,3,0,0,1,0,1
 "396",1,396,"Soslan Dzhanaev","Goalkeeper",34,"Russia","FC Sochi",1,10,0,0,0,1,1
@@ -346,7 +325,6 @@
 "400",1,400,"Ibrahim Sehic","Goalkeeper",33,"Bosnia-Herzegovina","Konyaspor",1,19,0,0,0,0,1
 "402",1,402,"Manuel Riemann","Goalkeeper",33,"Germany","VfL Bochum",1,18,0,0,1,0,1
 "403",1,403,"Mariano Andújar","Goalkeeper",38,"Argentina","Club Estudiantes de La Plata",1,25,0,0,0,0,1
-"404",1,404,"Tom Heaton","Goalkeeper",35,"England","Manchester United",1,2,0,0,1,0,1
 "405",1,405,"Asmir Begovic","Goalkeeper",34,"Bosnia-Herzegovina","Everton FC",1,3,0,0,0,0,1
 "406",1,406,"Alex Smithies","Goalkeeper",31,"England","Cardiff City",1,15,0,0,0,0,1
 "407",1,407,"Sergio Romero","Goalkeeper",34,"Argentina","Venezia FC",1,13,0,0,0,0,1
@@ -354,8 +332,6 @@
 "409",1,409,"Mikhail Kerzhakov","Goalkeeper",34,"Russia","Zenit St. Petersburg",1,14,0,0,0,0,1
 "410",1,410,"Gianluigi Buffon","Goalkeeper",43,"Italy","Parma Calcio 1913",1,18,0,0,1,0,1
 "411",1,411,"Óscar Ustari","Goalkeeper",35,"Argentina","CF Pachuca",1,14,0,0,0,0,1
-"412",1,412,"Bum-keun Song","Goalkeeper",24,"Korea, South","Jeonbuk Hyundai Motors",0.95,1,0,0,0,0,1
-"413",1,413,"Keisuke Osako","Goalkeeper",22,"Japan","Sanfrecce Hiroshima",0.95,1,0,0,1,0,1
 "415",1,415,"Rafal Straczek","Goalkeeper",22,"Poland","Stal Mielec",0.9,16,0,0,0,0,1
 "416",1,416,"Frantisek Plach","Goalkeeper",29,"Slovakia","Piast Gliwice",0.9,19,0,0,0,0,1
 "417",1,417,"Maarten Paes","Goalkeeper",23,"Netherlands","FC Utrecht",0.9,19,0,0,0,0,1
@@ -371,19 +347,13 @@
 "429",1,429,"Anthony Moris","Goalkeeper",31,"Luxembourg","Royale Union Saint Gilloise",0.9,21,0,0,0,0,1
 "430",1,430,"Yoel Rodríguez","Goalkeeper",33,"Spain","SD Eibar",0.9,13,0,0,0,0,1
 "432",1,432,"Andreas Luthe","Goalkeeper",34,"Germany","1.FC Union Berlin",0.9,23,0,0,0,0,1
-"433",1,433,"Sven Ulreich","Goalkeeper",33,"Germany","Bayern Munich",0.9,1,0,0,0,0,1
 "434",1,434,"Claudio Bravo","Goalkeeper",38,"Chile","Real Betis Balompié",0.9,10,0,0,0,1,1
 "435",1,435,"Facundo Altamirano","Goalkeeper",25,"Argentina","Club Atlético Banfield",0.85,17,0,0,0,0,1
 "436",1,436,"Roland Niczuly","Goalkeeper",26,"Romania","Sepsi OSK Sf. Gheorghe",0.85,25,0,0,0,0,1
 "438",1,438,"Ivan Banic","Goalkeeper",27,"Croatia","HNK Gorica",0.85,11,0,0,0,0,1
-"443",1,443,"David Ochoa","Goalkeeper",20,"Mexico","Real Salt Lake City",0.8,1,0,0,0,0,1
 "444",1,444,"Aymen Dahmen","Goalkeeper",24,"Tunisia","Club Sportif Sfaxien",0.8,9,0,0,2,0,1
-"447",1,447,"Ryan Schofield","Goalkeeper",22,"England","Huddersfield Town",0.8,2,0,0,0,0,1
-"448",1,448,"Christos Mandas","Goalkeeper",20,"Greece","Atromitos Athen",0.8,2,0,0,1,0,1
 "449",1,449,"Daniel Figueira","Goalkeeper",23,"Portugal","GD Estoril Praia",0.8,13,0,0,0,0,1
-"450",1,450,"Marcin Bulka","Goalkeeper",22,"Poland","OGC Nice",0.8,1,0,0,0,0,1
 "451",1,451,"Joan Femenías","Goalkeeper",25,"Spain","Real Oviedo",0.8,22,0,0,0,0,1
-"453",1,453,"Daniel Fuzato","Goalkeeper",24,"Brazil","AS Roma",0.8,1,0,0,0,0,1
 "454",1,454,"Facundo Cambeses","Goalkeeper",24,"Argentina","Club Atlético Banfield",0.8,8,0,0,0,0,1
 "456",1,456,"Dani Cárdenas","Goalkeeper",24,"Spain","Levante UD",0.8,9,0,0,0,0,1
 "457",1,457,"Peter Vindahl","Goalkeeper",23,"Denmark","AZ Alkmaar",0.8,27,0,0,0,0,1
@@ -404,9 +374,7 @@
 "477",1,477,"Nikita Contini","Goalkeeper",25,"Italy","FC Crotone",0.8,7,0,0,0,2,1
 "478",1,478,"Nordin Jackers","Goalkeeper",24,"Belgium","Waasland-Beveren",0.8,17,0,0,0,0,1
 "479",1,479,"Simone Scuffet","Goalkeeper",25,"Italy","APOEL Nicosia",0.8,11,0,0,0,0,1
-"480",1,480,"Jérôme Prior","Goalkeeper",26,"France","FC Cartagena",0.8,2,0,0,0,0,1
 "481",1,481,"Julian Pollersbeck","Goalkeeper",27,"Germany","Olympique Lyon",0.8,3,0,0,1,0,1
-"482",1,482,"Carljohan Eriksson","Goalkeeper",26,"Finland","Mjällby AIF",0.8,1,0,0,0,0,1
 "483",1,483,"Jacob Rinne","Goalkeeper",28,"Sweden","Aalborg BK",0.8,17,0,0,0,0,1
 "484",1,484,"Christian Walton","Goalkeeper",26,"England","Ipswich Town",0.8,16,0,0,0,0,1
 "485",1,485,"Marc-Aurèle Caillard","Goalkeeper",27,"France","FC Metz",0.8,4,0,0,1,0,1
@@ -416,13 +384,10 @@
 "489",1,489,"Florin Iacob","Goalkeeper",28,"Romania","UTA Arad",0.8,18,0,0,0,0,1
 "490",1,490,"Donovan Léon","Goalkeeper",29,"French Guiana","AJ Auxerre",0.8,19,0,0,0,0,1
 "491",1,491,"Igor Leshchuk","Goalkeeper",25,"Russia","Dynamo Moscow",0.8,5,0,0,0,0,1
-"492",1,492,"David Gil","Goalkeeper",27,"Spain","Cádiz CF",0.8,2,0,0,0,0,1
-"493",1,493,"Alfredo Saldívar","Goalkeeper",31,"Mexico","Deportivo Toluca",0.8,2,0,0,1,0,1
 "495",1,495,"Plamen Iliev","Goalkeeper",30,"Bulgaria","FC Dinamo 1948",0.8,10,0,0,0,0,1
 "497",1,497,"Egor Baburin","Goalkeeper",28,"Russia","FK Rostov",0.8,3,0,0,0,0,1
 "498",1,498,"Moez Ben Cherifia","Goalkeeper",30,"Tunisia","Esperance Tunis",0.8,9,0,0,0,0,1
 "499",1,499,"Benjamin Leroy","Goalkeeper",32,"France","AC Ajaccio",0.8,16,0,0,0,0,1
-"500",1,500,"Farouk Ben Mustapha","Goalkeeper",32,"Tunisia","Esperance Tunis",0.8,1,0,0,0,0,1
 "501",3,1,"Rúben Dias","Centre-Back",24,"Portugal","Manchester City",75,27,2,3,3,2,1
 "502",3,2,"Marquinhos","Centre-Back",27,"Brazil","Paris Saint-Germain",75,20,3,1,0,0,1
 "503",3,3,"Matthijs de Ligt","Centre-Back",22,"Netherlands","Juventus FC",65,20,1,0,1,1,1
@@ -516,7 +481,6 @@
 "592",3,92,"Joel Matip","Centre-Back",30,"Cameroon","Liverpool FC",18,21,0,0,0,1,1
 "593",3,93,"Jurrien Timber","Centre-Back",20,"Netherlands","Ajax Amsterdam",17,24,2,1,2,4,1
 "594",3,94,"Konstantinos Mavropanos","Centre-Back",24,"Greece","VfB Stuttgart",17,18,5,1,0,5,1
-"595",3,95,"Robin Koch","Centre-Back",25,"Germany","Leeds United",17,2,0,0,0,0,1
 "596",3,96,"Kristoffer Ajer","Centre-Back",23,"Norway","Brentford FC",17,9,0,0,2,1,1
 "597",3,97,"Philipp Lienhart","Centre-Back",25,"Austria","SC Freiburg",17,19,4,0,0,2,1
 "598",3,98,"Loïc Badé","Centre-Back",21,"France","Stade Rennais FC",16,19,1,0,4,1,1
@@ -599,7 +563,6 @@
 "679",3,179,"Connor Goldson","Centre-Back",29,"England","Rangers FC",8,31,1,2,0,0,1
 "680",3,180,"Felipe","Centre-Back",32,"Brazil","Atlético de Madrid",8,15,2,1,2,1,1
 "681",3,181,"Pablo","Centre-Back",30,"Brazil","Lokomotiv Moscow",8,17,1,0,3,2,1
-"682",3,182,"Willy Boly","Centre-Back",30,"Cote d'Ivoire","Wolverhampton Wanderers",8,1,0,0,0,0,1
 "683",3,183,"Chris Smalling","Centre-Back",32,"England","AS Roma",8,14,3,0,4,3,1
 "684",3,184,"Simon Kjaer","Centre-Back",32,"Denmark","AC Milan",8,14,0,0,1,2,1
 "685",3,185,"Leonardo Bonucci","Centre-Back",34,"Italy","Juventus FC",8,21,3,0,0,1,1
@@ -641,7 +604,6 @@
 "724",3,224,"Liam Cooper","Centre-Back",30,"Scotland","Leeds United",7,16,0,1,1,1,1
 "725",3,225,"Nacho Fernández","Centre-Back",31,"Spain","Real Madrid",7,18,2,0,7,2,1
 "726",3,226,"Dejan Lovren","Centre-Back",32,"Croatia","Zenit St. Petersburg",7,19,0,0,2,1,1
-"727",3,227,"Nino","Centre-Back",24,"Brazil","Fluminense Football Club",6.5,1,0,0,0,1,1
 "728",3,228,"Min-jae Kim","Centre-Back",25,"Korea, South","Fenerbahce SK",6.5,23,0,0,0,4,1
 "729",3,229,"David Martínez","Centre-Back",23,"Paraguay","Club Atlético River Plate",6.5,17,0,0,2,0,1
 "730",3,230,"Chrislain Matsima","Centre-Back",19,"France","AS Monaco",6,9,0,0,3,1,1
@@ -719,7 +681,6 @@
 "808",3,308,"Bram Nuytinck","Centre-Back",31,"Netherlands","Udinese Calcio",5,19,0,1,2,5,1
 "809",3,309,"Steve Cook","Centre-Back",30,"England","AFC Bournemouth",5,4,0,0,0,1,1
 "810",3,310,"Dedryck Boyata","Centre-Back",31,"Belgium","Hertha BSC",5,12,0,0,0,2,1
-"811",3,311,"Pedro Mendes","Centre-Back",31,"Portugal","Montpellier HSC",5,1,0,0,0,1,1
 "812",3,312,"Néstor Araújo","Centre-Back",30,"Mexico","Celta de Vigo",5,16,0,0,4,2,1
 "813",3,313,"Mamadou Sakho","Centre-Back",31,"France","Montpellier HSC",5,16,0,0,0,2,1
 "814",3,314,"Jonny Evans","Centre-Back",33,"Northern Ireland","Leicester City",5,15,2,1,1,4,1
@@ -740,7 +701,6 @@
 "829",3,329,"Jeffrey Gouweleeuw","Centre-Back",30,"Netherlands","FC Augsburg",4.5,13,1,0,0,0,1
 "830",3,330,"Saïdou Sow","Centre-Back",19,"Guinea","AS Saint-Étienne",4,12,2,1,3,1,1
 "831",3,331,"Johan Vásquez","Centre-Back",23,"Mexico","Genoa CFC",4,14,1,0,1,0,1
-"832",3,332,"Nathan Ferguson","Centre-Back",21,"England","Crystal Palace",4,1,0,0,1,0,1
 "833",3,333,"Eduardo Quaresma","Centre-Back",19,"Portugal","CD Tondela",4,18,0,0,3,3,1
 "834",3,334,"Rhys Williams","Centre-Back",20,"England","Swansea City",4,7,0,0,1,2,1
 "835",3,335,"Andy Pelmard","Centre-Back",21,"France","FC Basel 1893",4,30,0,0,1,2,1
@@ -757,7 +717,6 @@
 "848",3,348,"Mads Bech Sörensen","Centre-Back",22,"Denmark","Brentford FC",4,5,0,0,1,1,1
 "849",3,349,"Martin Erlic","Centre-Back",23,"Croatia","Spezia Calcio",4,15,1,0,0,2,1
 "851",3,351,"Andrea Cistana","Centre-Back",24,"Italy","Brescia Calcio",4,19,2,0,0,0,1
-"853",3,353,"Ferro","Centre-Back",24,"Portugal","SL Benfica",4,2,0,0,1,1,1
 "854",3,354,"Alfie Mawson","Centre-Back",27,"England","Fulham FC",4,8,0,0,5,0,1
 "855",3,355,"Carl Starfelt","Centre-Back",26,"Sweden","Celtic FC",4,27,0,1,1,1,1
 "856",3,356,"Wesley Hoedt","Centre-Back",27,"Netherlands","RSC Anderlecht",4,28,4,0,0,0,1
@@ -823,7 +782,6 @@
 "926",3,426,"Michael Ngadeu","Centre-Back",31,"Cameroon","KAA Gent",3.2,33,1,1,0,1,1
 "927",3,427,"Rafael Pérez","Centre-Back",31,"Colombia","Club Atlético Talleres",3.2,24,1,0,0,1,1
 "928",3,428,"Justin Che","Centre-Back",18,"United States","FC Dallas",3,3,0,0,0,0,1
-"929",3,429,"Yerson Mosquera","Centre-Back",20,"Colombia","Wolverhampton Wanderers",3,1,0,0,0,1,1
 "930",3,430,"Jarrad Branthwaite","Centre-Back",19,"England","Everton FC",3,7,1,0,2,2,1
 "931",3,431,"Gilberto Sepúlveda","Centre-Back",22,"Mexico","Deportivo Guadalajara",3,14,1,0,3,1,1
 "932",3,432,"Hrvoje Smolcic","Centre-Back",21,"Croatia","HNK Rijeka",3,19,1,0,1,1,1
@@ -844,7 +802,6 @@
 "950",3,450,"Vitão","Centre-Back",21,"Brazil","Shakhtar Donetsk",3,15,0,0,4,3,1
 "951",3,451,"Mohamed Camara","Centre-Back",24,"Guinea","BSC Young Boys",3,26,1,0,4,6,1
 "952",3,452,"Elias Cobbaut","Centre-Back",24,"Belgium","Parma Calcio 1913",3,17,0,2,0,0,1
-"953",3,453,"Denys Popov","Centre-Back",22,"Ukraine","Dynamo Kyiv",3,1,1,0,0,1,1
 "954",3,454,"Jordan Beyer","Centre-Back",21,"Germany","Borussia Mönchengladbach",3,8,0,0,1,1,1
 "955",3,455,"Dara O'Shea","Centre-Back",22,"Ireland","West Bromwich Albion",3,5,2,0,0,0,1
 "956",3,456,"Toni Borevkovic","Centre-Back",24,"Croatia","Vitória Guimarães SC",3,17,0,0,0,0,1
@@ -862,7 +819,6 @@
 "970",3,470,"Ben Davies","Centre-Back",26,"England","Sheffield United",3,14,0,0,0,1,1
 "972",3,472,"Scott McKenna","Centre-Back",25,"Scotland","Nottingham Forest",3,25,1,1,0,0,1
 "973",3,473,"Michal Helik","Centre-Back",26,"Poland","Barnsley FC",3,25,0,1,0,1,1
-"974",3,474,"Jesús Vallejo","Centre-Back",24,"Spain","Real Madrid",3,2,0,0,2,0,1
 "976",3,476,"Igor Vujacic","Centre-Back",27,"Montenegro","FK Partizan Belgrade",3,28,2,0,0,1,1
 "977",3,477,"Stiven Barreiro","Centre-Back",27,"Colombia","Club León FC",3,20,1,0,2,0,1
 "979",3,479,"Milos Veljkovic","Centre-Back",26,"Serbia","SV Werder Bremen",3,15,1,1,2,1,1
@@ -877,7 +833,6 @@
 "989",3,489,"Fábio Cardoso","Centre-Back",27,"Portugal","FC Porto",3,10,0,0,2,0,1
 "990",3,490,"Pantelis Chatzidiakos","Centre-Back",24,"Greece","AZ Alkmaar",3,21,0,0,1,8,1
 "992",3,492,"Craig Dawson","Centre-Back",31,"England","West Ham United",3,23,1,1,4,0,1
-"993",3,493,"Dominique Heintz","Centre-Back",28,"Germany","SC Freiburg",3,1,0,0,1,0,1
 "995",3,495,"Sergi Gómez","Centre-Back",29,"Spain","RCD Espanyol Barcelona",3,20,2,2,1,2,1
 "996",3,496,"Maya Yoshida","Centre-Back",33,"Japan","UC Sampdoria",3,19,3,1,2,2,1
 "997",3,497,"Christian Kabasele","Centre-Back",30,"Belgium","Watford FC",3,4,0,0,1,0,1
@@ -933,27 +888,23 @@
 "1049",4,49,"Jordi Alba","Left-Back",32,"Spain","FC Barcelona",12,18,0,5,0,3,1
 "1050",4,50,"Adrien Truffert","Left-Back",20,"France","Stade Rennais FC",11,26,2,2,9,8,1
 "1051",4,51,"Matías Viña","Left-Back",24,"Uruguay","AS Roma",11,18,0,2,2,6,1
-"1052",4,52,"Guilherme Arana","Left-Back",24,"Brazil","Clube Atlético Mineiro",11,1,0,0,0,1,1
 "1053",4,53,"Brandon Williams","Left-Back",21,"England","Norwich City",10,14,0,0,2,3,1
 "1054",4,54,"Mitchel Bakker","Left-Back",21,"Netherlands","Bayer 04 Leverkusen",10,15,1,6,3,4,1
 "1055",4,55,"Jamal Lewis","Left-Back",23,"Northern Ireland","Newcastle United",10,7,0,0,1,3,1
 "1056",4,56,"Konstantinos Tsimikas","Left-Back",25,"Greece","Liverpool FC",10,15,0,2,3,5,1
 "1057",4,57,"Reinildo Mandava","Left-Back",27,"Mozambique","LOSC Lille",10,23,0,0,2,5,1
 "1058",4,58,"Álex Moreno","Left-Back",28,"Spain","Real Betis Balompié",10,22,3,3,7,3,1
-"1059",4,59,"Benjamin Mendy","Left-Back",27,"France","Manchester City",10,2,0,0,0,1,1
 "1060",4,60,"Cristiano Biraghi","Left-Back",29,"Italy","ACF Fiorentina",10,19,2,1,0,5,1
 "1061",4,61,"Melvin Bard","Left-Back",21,"France","OGC Nice",9,21,1,2,3,3,1
 "1062",4,62,"Faitout Maouassa","Left-Back",23,"France","Club Brugge KV",9,9,0,0,4,4,1
 "1063",4,63,"Antonee Robinson","Left-Back",24,"United States","Fulham FC",9,20,2,2,2,2,1
 "1064",4,64,"Tyrell Malacia","Left-Back",22,"Netherlands","Feyenoord Rotterdam",9,30,1,4,0,2,1
-"1065",4,65,"Layvin Kurzawa","Left-Back",29,"France","Paris Saint-Germain",9,1,0,0,1,0,1
 "1066",4,66,"Manu Sánchez","Left-Back",21,"Spain","CA Osasuna",8,17,1,2,3,7,1
 "1067",4,67,"Luke Thomas","Left-Back",20,"England","Leicester City",8,22,0,2,1,2,1
 "1068",4,68,"Adrià Pedrosa","Left-Back",23,"Spain","RCD Espanyol Barcelona",8,18,1,1,0,2,1
 "1069",4,69,"Luca Pellegrini","Left-Back",22,"Italy","Juventus FC",8,8,0,1,2,5,1
 "1070",4,70,"Romain Perraud","Left-Back",24,"France","Southampton FC",8,9,0,0,1,3,1
 "1071",4,71,"Mário Rui","Left-Back",30,"Portugal","SSC Napoli",8,22,0,2,0,6,1
-"1072",4,72,"Abner","Left-Back",21,"Brazil","Club Athletico Paranaense",7.5,1,0,0,1,0,1
 "1073",4,73,"Yairo Moreno","Left-Back",26,"Colombia","CF Pachuca",7.5,14,2,1,0,6,1
 "1074",4,74,"Destiny Udogie","Left-Back",19,"Italy","Udinese Calcio",7,21,0,1,5,9,1
 "1075",4,75,"Omar Richards","Left-Back",23,"England","Bayern Munich",7,11,0,1,8,1,1
@@ -1024,7 +975,6 @@
 "1146",4,146,"Fabiano Parisi","Left-Back",21,"Italy","FC Empoli",3.5,11,0,1,6,1,1
 "1147",4,147,"Ilya Samoshnikov","Left-Back",24,"Russia","Rubin Kazan",3.5,14,1,0,0,4,1
 "1148",4,148,"Andrea Cambiaso","Left-Back",21,"Italy","Genoa CFC",3.5,23,1,5,2,8,1
-"1149",4,149,"Diego Palacios","Left-Back",22,"Ecuador","Los Angeles FC",3.5,1,0,0,0,0,1
 "1151",4,151,"Oscar Dorley","Left-Back",23,"Liberia","SK Slavia Prague",3.5,26,1,4,2,2,1
 "1152",4,152,"Fran García","Left-Back",22,"Spain","Rayo Vallecano",3.5,19,0,0,1,0,1
 "1153",4,153,"Elías Gómez","Left-Back",27,"Argentina","Asociación Atlética Argentinos Juniors",3.5,23,0,0,3,4,1
@@ -1094,7 +1044,6 @@
 "1225",4,225,"Conor Townsend","Left-Back",28,"England","West Bromwich Albion",2.5,23,0,2,0,1,1
 "1226",4,226,"Charalampos Lykogiannis","Left-Back",28,"Greece","Cagliari Calcio",2.5,19,0,0,6,5,1
 "1227",4,227,"Jere Uronen","Left-Back",27,"Finland","Stade Brestois 29",2.5,9,1,0,2,4,1
-"1228",4,228,"Loris Benito","Left-Back",29,"Switzerland","Without Club",2.5,1,0,0,0,1,1
 "1229",4,229,"Milan Rodic","Left-Back",30,"Serbia","Red Star Belgrade",2.5,31,3,3,1,9,1
 "1230",4,230,"Danny Rose","Left-Back",31,"England","Watford FC",2.5,9,0,0,1,1,1
 "1231",4,231,"Eugenio Mena","Left-Back",33,"Chile","Racing Club",2.3,15,0,1,1,3,1
@@ -1108,7 +1057,6 @@
 "1242",4,242,"Matteo Ruggeri","Left-Back",19,"Italy","US Salernitana 1919",2,7,0,1,1,1,1
 "1243",4,243,"Arthur Zagre","Left-Back",20,"France","FC Utrecht",2,13,2,0,4,5,1
 "1244",4,244,"Danil Stepanov","Left-Back",21,"Russia","Arsenal Tula",2,23,1,4,4,3,1
-"1245",4,245,"Claudio Bravo","Left-Back",24,"Argentina","Portland Timbers",2,1,0,0,0,1,1
 "1247",4,247,"Álex Centelles","Left-Back",22,"Spain","UD Almería",2,12,0,1,0,3,1
 "1248",4,248,"Javi Hernández","Left-Back",23,"Spain","CD Leganés",2,22,2,0,2,1,1
 "1249",4,249,"Cristian Calderón","Left-Back",24,"Mexico","Deportivo Guadalajara",2,12,0,1,7,4,1
@@ -1142,7 +1090,6 @@
 "1279",4,279,"Lionel Carole","Left-Back",30,"France","Kayserispor",2,18,0,0,0,4,1
 "1280",4,280,"Nicusor Bancu","Left-Back",29,"Romania","Universitatea Craiova",1.9,22,1,3,2,3,1
 "1281",4,281,"Filip Novak","Left-Back",31,"Czech Republic","Fenerbahce SK",1.9,22,3,2,8,3,1
-"1282",4,282,"Dimitrije Kamenovic","Left-Back",21,"Serbia","SS Lazio",1.8,2,0,0,0,0,1
 "1284",4,284,"Josh Tymon","Left-Back",22,"England","Stoke City",1.8,25,2,1,0,3,1
 "1285",4,285,"Charles Traoré","Left-Back",30,"Mali","FC Nantes",1.8,13,0,0,6,1,1
 "1286",4,286,"Florian Miguel","Left-Back",25,"France","SD Huesca",1.8,21,1,1,6,4,1
@@ -1169,10 +1116,8 @@
 "1312",4,312,"Eric Kahl","Left-Back",20,"Sweden","Aarhus GF",1.5,21,2,3,2,8,1
 "1313",4,313,"Daouda Guindo","Left-Back",19,"Mali","Red Bull Salzburg",1.5,16,3,1,7,1,1
 "1315",4,315,"Yanis Hamache","Left-Back",22,"Algeria","Boavista FC",1.5,18,3,3,2,9,1
-"1316",4,316,"Yasser Larouci","Left-Back",21,"Algeria","ESTAC Troyes",1.5,2,0,0,2,0,1
 "1317",4,317,"Rhys Norrington-Davies","Left-Back",22,"Wales","Sheffield United",1.5,9,0,0,1,2,1
 "1318",4,318,"Paulinho","Left-Back",26,"Brazil","FC Midtjylland",1.5,27,1,1,1,14,1
-"1320",4,320,"Milton Valenzuela","Left-Back",23,"Argentina","Columbus Crew",1.5,1,0,1,1,0,1
 "1321",4,321,"Blas Riveros","Left-Back",23,"Paraguay","Bröndby IF",1.5,16,0,3,8,6,1
 "1322",4,322,"Braian Cufré","Left-Back",25,"Argentina","Málaga CF",1.5,17,0,0,7,3,1
 "1323",4,323,"David Colina","Left-Back",21,"Croatia","HNK Hajduk Split",1.5,26,0,1,10,4,1
@@ -1191,7 +1136,6 @@
 "1339",4,339,"Tim Leibold","Left-Back",28,"Germany","Hamburger SV",1.5,13,0,2,0,4,1
 "1340",4,340,"Maximiliano Olivera","Left-Back",29,"Uruguay","FC Juárez",1.5,15,1,2,0,0,1
 "1341",4,341,"Bryan Idowu","Left-Back",29,"Nigeria","FK Khimki",1.5,18,0,0,1,1,1
-"1342",4,342,"Boli Bolingoli","Left-Back",26,"Belgium","Celtic FC",1.5,2,0,0,0,0,1
 "1344",4,344,"Frank Fabra","Left-Back",30,"Colombia","Club Atlético Boca Juniors",1.5,18,2,0,2,2,1
 "1345",4,345,"Jetro Willems","Left-Back",27,"Netherlands","SpVgg Greuther Fürth",1.5,13,0,0,0,10,1
 "1346",4,346,"Marçal","Left-Back",32,"Brazil","Wolverhampton Wanderers",1.5,10,0,0,0,2,1
@@ -1239,13 +1183,11 @@
 "1398",4,398,"Evgeniy Chernov","Left-Back",29,"Russia","FK Krasnodar",1.2,5,0,0,4,0,1
 "1399",4,399,"Aleksandar Filipovic","Left-Back",27,"Serbia","BATE Borisov",1.2,3,0,0,0,0,1
 "1401",4,401,"Miguel Ponce","Left-Back",32,"Mexico","Deportivo Guadalajara",1.2,10,0,0,2,4,1
-"1402",4,402,"Jonas Knudsen","Left-Back",29,"Denmark","Malmö FF",1.2,2,0,0,0,0,1
 "1403",4,403,"Jaroslav Zeleny","Left-Back",29,"Czech Republic","FK Jablonec",1.2,30,0,1,1,0,1
 "1406",4,406,"Ömer Bayram","Left-Back",30,"Turkey","Galatasaray A.S.",1.2,19,0,3,14,3,1
 "1407",4,407,"Mikel Balenziaga","Left-Back",33,"Spain","Athletic Bilbao",1.2,15,0,0,0,3,1
 "1409",4,409,"Caner Erkin","Left-Back",33,"Turkey","Fatih Karagümrük",1.2,14,1,2,1,5,1
 "1410",4,410,"Mário Camora","Left-Back",35,"Romania","CFR Cluj",1.1,28,0,2,2,0,1
-"1411",4,411,"Rémy Vita","Left-Back",20,"France","Barnsley FC",1,2,0,0,1,1,1
 "1412",4,412,"Nicolás Fernández Mercau","Left-Back",21,"Argentina","Club Atlético San Lorenzo de Almagro",1,18,2,0,3,1,1
 "1413",4,413,"Darline Yongwa","Left-Back",21,"Cameroon","Chamois Niortais FC",1,17,0,0,0,2,1
 "1415",4,415,"Patryck","Left-Back",18,"Brazil","FC São Paulo B",1,3,0,2,0,1,1
@@ -1258,7 +1200,6 @@
 "1424",4,424,"Lasse Günther","Left-Back",18,"Germany","FC Augsburg",1,18,3,2,4,7,1
 "1425",4,425,"Fali Candé","Left-Back",23,"Guinea-Bissau","Portimonense SC",1,17,1,2,1,7,1
 "1427",4,427,"Ian Maatsen","Left-Back",19,"Netherlands","Coventry City",1,26,2,3,3,9,1
-"1428",4,428,"Peter Bjur","Left-Back",21,"Denmark","Bröndby IF",1,2,0,0,2,0,1
 "1430",4,430,"Nikolas Dyhr","Left-Back",20,"Denmark","FC Midtjylland",1,26,1,2,11,10,1
 "1431",4,431,"Calvin Bassey","Left-Back",22,"Nigeria","Rangers FC",1,23,0,3,3,0,1
 "1432",4,432,"Théo Ndicka Matam","Left-Back",21,"France","KV Oostende",1,22,1,2,2,1,1
@@ -1297,7 +1238,6 @@
 "1472",4,472,"Jorge Torres Nilo","Left-Back",33,"Mexico","Deportivo Toluca",1,10,0,0,3,2,1
 "1473",4,473,"Aleksandar Kolarov","Left-Back",36,"Serbia","Inter Milan",1,4,0,0,4,0,1
 "1474",4,474,"Erik Pieters","Left-Back",33,"Netherlands","Burnley FC",1,7,0,0,3,0,1
-"1475",4,475,"Christian Cruz","Left-Back",29,"Ecuador","LDU Quito",1,1,0,0,0,0,1
 "1477",4,477,"Ashley Young","Left-Back",36,"England","Aston Villa",1,13,0,2,5,4,1
 "1478",4,478,"Sam Adekugbe","Left-Back",26,"Canada","Hatayspor",0.95,22,0,1,1,5,1
 "1479",4,479,"Guilherme","Left-Back",31,"Brazil","Konyaspor",0.95,19,2,3,0,0,1
@@ -1459,7 +1399,6 @@
 "1651",5,151,"Santiago Arias","Right-Back",29,"Colombia","Granada CF",4,10,1,0,5,1,1
 "1652",5,152,"Hugo Mallo","Right-Back",30,"Spain","Celta de Vigo",4,13,0,1,0,3,1
 "1653",5,153,"André Almeida","Right-Back",31,"Portugal","SL Benfica",4,19,1,0,7,5,1
-"1654",5,154,"Hiroki Sakai","Right-Back",31,"Japan","Urawa Red Diamonds",4,2,0,0,0,2,1
 "1655",5,155,"Luke Ayling","Right-Back",30,"England","Leeds United",4,11,1,1,1,2,1
 "1656",5,156,"Oleksandr Karavaev","Right-Back",29,"Ukraine","Dynamo Kyiv",4,26,0,3,17,4,1
 "1657",5,157,"Bünyamin Balci","Right-Back",21,"Turkey","Antalyaspor",3.8,25,2,3,2,1,1
@@ -1490,9 +1429,7 @@
 "1685",5,185,"Martín Aguirregabiria","Right-Back",25,"Spain","Deportivo Alavés",3,13,0,1,2,4,1
 "1686",5,186,"Ben Johnson","Right-Back",21,"England","West Ham United",3,16,1,0,1,2,1
 "1687",5,187,"Angelo Preciado","Right-Back",23,"Ecuador","KRC Genk",3,19,0,3,8,7,1
-"1688",5,188,"Josha Vagnoman","Right-Back",21,"Germany","Hamburger SV",3,2,0,0,2,0,1
 "1689",5,189,"Nathan Patterson","Right-Back",20,"Scotland","Rangers FC",3,11,0,1,5,1,1
-"1690",5,190,"Pipa","Right-Back",23,"Spain","Huddersfield Town",3,1,0,0,1,0,1
 "1691",5,191,"Yukinari Sugawara","Right-Back",21,"Japan","AZ Alkmaar",3,26,0,3,7,2,1
 "1692",5,192,"Leonardo Godoy","Right-Back",26,"Argentina","Club Estudiantes de La Plata",3,24,2,2,0,0,1
 "1693",5,193,"Robert Gumny","Right-Back",23,"Poland","FC Augsburg",3,19,0,0,1,2,1
@@ -1500,7 +1437,6 @@
 "1697",5,197,"Jack Stacey","Right-Back",25,"England","AFC Bournemouth",3,18,0,1,1,1,1
 "1698",5,198,"Lorenzo Venuti","Right-Back",26,"Italy","ACF Fiorentina",3,13,1,0,1,5,1
 "1699",5,199,"Rubén Peña","Right-Back",30,"Spain","Villarreal CF",3,10,0,0,7,3,1
-"1700",5,200,"Connor Roberts","Right-Back",26,"Wales","Burnley FC",3,2,0,0,1,0,1
 "1701",5,201,"Bouna Sarr","Right-Back",29,"Senegal","Bayern Munich",3,10,1,0,9,0,1
 "1702",5,202,"Emil Krafth","Right-Back",27,"Sweden","Newcastle United",3,8,0,1,1,2,1
 "1703",5,203,"Javier Manquillo","Right-Back",27,"Spain","Newcastle United",3,13,1,2,0,4,1
@@ -1560,7 +1496,6 @@
 "1768",5,268,"Jusuf Gazibegovic","Right-Back",21,"Bosnia-Herzegovina","SK Sturm Graz",2,25,0,1,4,15,1
 "1770",5,270,"Raoul Bellanova","Right-Back",21,"Italy","Cagliari Calcio",2,18,0,2,4,4,1
 "1773",5,273,"James Bree","Right-Back",24,"England","Luton Town",2,22,0,4,0,0,1
-"1774",5,274,"Nanú","Right-Back",27,"Guinea-Bissau","FC Porto",2,2,0,0,0,1,1
 "1775",5,275,"Mahlon Romeo","Right-Back",26,"Antigua and Barbuda","Portsmouth FC",2,23,0,1,1,1,1
 "1777",5,277,"Hidde ter Avest","Right-Back",24,"Netherlands","FC Utrecht",2,18,0,3,4,5,1
 "1778",5,278,"Joel Andersson","Right-Back",25,"Sweden","FC Midtjylland",2,29,1,7,3,6,1
@@ -1705,7 +1640,6 @@
 "1951",5,451,"Daiki Hashioka","Right-Back",22,"Japan","Sint-Truidense VV",1,21,0,1,4,7,1
 "1952",5,452,"Jules Van Cleemput","Right-Back",24,"Belgium","RSC Charleroi",1,14,1,0,1,5,1
 "1954",5,454,"Kilian Ludewig","Right-Back",21,"Germany","Red Bull Salzburg",1,3,0,0,2,1,1
-"1955",5,455,"Alexander Jallow","Right-Back",23,"Sweden","IFK Göteborg",1,1,0,0,0,0,1
 "1956",5,456,"José García","Right-Back",25,"Mexico","FC Juárez",1,15,0,0,2,3,1
 "1957",5,457,"Dujon Sterling","Right-Back",22,"England","Blackpool FC",1,11,0,0,2,0,1
 "1959",5,459,"Tomas Wiesner","Right-Back",24,"Czech Republic","AC Sparta Prague",1,30,1,2,0,6,1
@@ -1717,17 +1651,14 @@
 "1969",5,469,"Omar Kamal","Right-Back",28,"Egypt","Future FC",1,6,1,0,0,1,1
 "1970",5,470,"Andreas Vindheim","Right-Back",26,"Norway","AC Sparta Prague",1,13,0,0,10,0,1
 "1971",5,471,"Collins Fai","Right-Back",29,"Cameroon","Standard Liège",1,13,1,1,7,1,1
-"1972",5,472,"José Abella","Right-Back",27,"Mexico","Atlas Guadalajara",1,2,0,0,2,0,1
 "1973",5,473,"Ales Mateju","Right-Back",25,"Czech Republic","Brescia Calcio",1,20,0,0,1,8,1
 "1974",5,474,"Matthias Bader","Right-Back",24,"Germany","SV Darmstadt 98",1,17,0,5,0,3,1
 "1975",5,475,"Joel Pereira","Right-Back",25,"Portugal","Lech Poznan",1,18,0,4,6,5,1
 "1976",5,476,"Godswill Ekpolo","Right-Back",26,"Nigeria","BK Häcken",1,3,0,0,0,0,1
 "1977",5,477,"Mikkel Desler","Right-Back",26,"Denmark","FC Toulouse",1,20,1,2,0,3,1
 "1978",5,478,"Kevin Vázquez","Right-Back",28,"Spain","Celta de Vigo",1,9,0,1,2,1,1
-"1979",5,479,"Andrés López","Right-Back",28,"Ecuador","CD Universidad Católica",1,2,0,0,0,1,1
 "1980",5,480,"Ibrahima Mbaye","Right-Back",27,"Senegal","Bologna FC 1909",1,4,0,0,2,2,1
 "1981",5,481,"Glenn Bijl","Right-Back",26,"Netherlands","Krylya Sovetov Samara",1,12,1,1,2,4,1
-"1982",5,482,"Steven Moreira","Right-Back",27,"France","Columbus Crew",1,1,0,0,0,1,1
 "1983",5,483,"Mickaël Tirpan","Right-Back",28,"Belgium","Fortuna Sittard",1,13,0,0,2,10,1
 "1985",5,485,"Saidy Janko","Right-Back",26,"The Gambia","Real Valladolid CF",1,12,0,0,4,2,1
 "1986",5,486,"Sei Muroya","Right-Back",27,"Japan","Hannover 96",1,17,0,4,2,2,1
@@ -1860,7 +1791,6 @@
 "2120",6,120,"Otávio","Defensive Midfield",27,"Brazil","FC Girondins Bordeaux",6,17,0,0,3,5,1
 "2121",6,121,"Dejan Ljubicic","Defensive Midfield",24,"Austria","1. FC Köln",6,15,1,0,1,8,1
 "2123",6,123,"Éder Balanta","Defensive Midfield",28,"Colombia","Club Brugge KV",6,26,3,1,2,14,1
-"2124",6,124,"Jairo Riedewald","Defensive Midfield",25,"Netherlands","Crystal Palace",6,2,0,0,1,1,1
 "2125",6,125,"Nemanja Matic","Defensive Midfield",33,"Serbia","Manchester United",6,17,0,2,9,2,1
 "2126",6,126,"Luka Milivojevic","Defensive Midfield",30,"Serbia","Crystal Palace",6,8,0,0,2,5,1
 "2127",6,127,"Taras Stepanenko","Defensive Midfield",32,"Ukraine","Shakhtar Donetsk",6,23,3,1,6,8,1
@@ -1961,7 +1891,6 @@
 "2233",6,233,"Matteo Ricci","Defensive Midfield",27,"Italy","Frosinone Calcio",3,14,1,1,2,7,1
 "2235",6,235,"Leo Stulac","Defensive Midfield",27,"Slovenia","FC Empoli",3,15,1,2,9,6,1
 "2237",6,237,"Rafael Carioca","Defensive Midfield",32,"Brazil","Tigres UANL",3,20,0,0,1,9,1
-"2238",6,238,"Asier Illarramendi","Defensive Midfield",31,"Spain","Real Sociedad",3,1,0,0,0,1,1
 "2239",6,239,"Jack Cork","Defensive Midfield",32,"England","Burnley FC",3,10,0,0,0,4,1
 "2240",6,240,"Marco Kana","Defensive Midfield",19,"Belgium","RSC Anderlecht",2.8,9,0,0,4,1,1
 "2241",6,241,"Jorge Rodríguez","Defensive Midfield",26,"Argentina","Club Estudiantes de La Plata",2.8,16,0,1,1,1,1
@@ -1971,7 +1900,6 @@
 "2245",6,245,"Filip Bradaric","Defensive Midfield",29,"Croatia","Al-Ahli Jeddah",2.7,12,2,0,1,5,1
 "2246",6,246,"Manolis Siopis","Defensive Midfield",27,"Greece","Trabzonspor",2.6,22,0,0,13,5,1
 "2248",6,248,"Lesley Ugochukwu","Defensive Midfield",17,"France","Stade Rennais FC",2.5,22,2,0,14,6,1
-"2252",6,252,"Jordy Alcívar","Defensive Midfield",22,"Ecuador","LDU Quito",2.5,1,0,0,1,0,1
 "2253",6,253,"Alan Torres","Defensive Midfield",21,"Mexico","Deportivo Guadalajara",2.5,16,0,1,4,2,1
 "2254",6,254,"Johann Lepenant","Defensive Midfield",19,"France","SM Caen",2.5,21,0,0,2,10,1
 "2255",6,255,"José Rodríguez","Defensive Midfield",25,"Mexico","Club León FC",2.5,23,0,1,1,9,1
@@ -2006,14 +1934,12 @@
 "2292",6,292,"Daniel Samek","Defensive Midfield",17,"Czech Republic","SK Slavia Prague",2.2,26,3,5,8,11,1
 "2293",6,293,"Alexis Blin","Defensive Midfield",25,"France","US Lecce",2.2,12,0,0,8,2,1
 "2294",6,294,"Filip Kiss","Defensive Midfield",31,"Slovakia","Al-Ettifaq",2.2,13,3,0,1,1,1
-"2295",6,295,"Ignacio Saavedra","Defensive Midfield",22,"Chile","CD Universidad Católica",2.1,1,0,0,1,0,1
 "2297",6,297,"Noah Diliberto","Defensive Midfield",20,"France","Valenciennes FC",2,9,0,0,5,2,1
 "2298",6,298,"Salis Abdul Samed","Defensive Midfield",21,"Ghana","Clermont Foot 63",2,17,0,0,1,3,1
 "2299",6,299,"Mamady Diambou","Defensive Midfield",19,"Mali","Red Bull Salzburg",2,17,0,2,5,4,1
 "2300",6,300,"Rodrigo Villagra","Defensive Midfield",20,"Argentina","Club Atlético Talleres",2,21,0,1,2,7,1
 "2301",6,301,"Armin Gigovic","Defensive Midfield",19,"Sweden","FK Rostov",2,17,1,1,6,9,1
 "2302",6,302,"Ebrima Darboe","Defensive Midfield",20,"The Gambia","AS Roma",2,8,0,1,1,6,1
-"2303",6,303,"Danny Leyva","Defensive Midfield",18,"United States","Seattle Sounders FC",2,2,0,0,0,1,1
 "2305",6,305,"Erik Lira","Defensive Midfield",21,"Mexico","UNAM Pumas",2,21,0,1,5,2,1
 "2306",6,306,"Eric Martel","Defensive Midfield",19,"Germany","Austria Vienna",2,28,2,3,3,3,1
 "2307",6,307,"Christian Oliva","Defensive Midfield",25,"Uruguay","Cagliari Calcio",2,5,0,0,4,0,1
@@ -2082,7 +2008,6 @@
 "2384",6,384,"Dan Glazer","Defensive Midfield",25,"Israel","Maccabi Tel Aviv",1.6,24,1,0,4,2,1
 "2385",6,385,"Anselmo","Defensive Midfield",32,"Brazil","Al-Nassr Riad",1.6,6,0,0,5,1,1
 "2386",6,386,"Johannes Geis","Defensive Midfield",28,"Germany","1.FC Nuremberg",1.6,19,2,2,1,6,1
-"2389",6,389,"Santiago Naveda","Defensive Midfield",20,"Mexico","CF América",1.5,2,0,0,1,1,1
 "2390",6,390,"Aziz Ouattara Mohammed","Defensive Midfield",20,"Cote d'Ivoire","Hammarby IF",1.5,4,1,0,3,1,1
 "2391",6,391,"Niko Rak","Defensive Midfield",18,"Croatia","HNK Sibenik",1.5,25,1,2,4,13,1
 "2392",6,392,"Dion Lopy","Defensive Midfield",19,"Senegal","Stade Reims",1.5,12,0,0,4,5,1
@@ -2091,16 +2016,13 @@
 "2395",6,395,"Yohann Magnin","Defensive Midfield",24,"France","Clermont Foot 63",1.5,4,1,0,1,0,1
 "2396",6,396,"Tim Breithaupt","Defensive Midfield",19,"Germany","Karlsruher SC",1.5,18,0,1,3,9,1
 "2397",6,397,"Kristjan Asllani","Defensive Midfield",19,"Albania","FC Empoli",1.5,20,3,1,7,4,1
-"2398",6,398,"Víctor Méndez","Defensive Midfield",22,"Chile","Unión Española",1.5,1,0,0,0,1,1
 "2400",6,400,"Melayro Bogarde","Defensive Midfield",19,"Netherlands","TSG 1899 Hoffenheim",1.5,21,0,0,0,14,1
 "2402",6,402,"Bartosz Slisz","Defensive Midfield",22,"Poland","Legia Warszawa",1.5,33,0,1,4,10,1
 "2403",6,403,"Adrian Fein","Defensive Midfield",22,"Germany","SpVgg Greuther Fürth",1.5,4,0,0,4,0,1
-"2404",6,404,"Liam Fraser","Defensive Midfield",23,"Canada","Columbus Crew",1.5,1,0,0,0,0,1
 "2405",6,405,"Mauro Pittón","Defensive Midfield",27,"Argentina","Club Atlético Unión",1.5,14,0,0,5,7,1
 "2407",6,407,"Kevin Balanta","Defensive Midfield",24,"Colombia","Querétaro FC",1.5,14,0,1,3,3,1
 "2408",6,408,"Jonathan González","Defensive Midfield",22,"Mexico","Club Necaxa",1.5,6,0,0,4,2,1
 "2409",6,409,"Ron Schallenberg","Defensive Midfield",23,"Germany","SC Paderborn 07",1.5,19,1,3,0,0,1
-"2410",6,410,"Jhegson Méndez","Defensive Midfield",24,"Ecuador","Orlando City SC",1.5,1,0,0,0,1,1
 "2411",6,411,"Eboue Kouassi","Defensive Midfield",24,"Cote d'Ivoire","FC Arouca",1.5,12,1,0,2,2,1
 "2412",6,412,"Dylan Louiserre","Defensive Midfield",26,"Guadeloupe","Chamois Niortais FC",1.5,18,1,2,1,1,1
 "2413",6,413,"Julius Szöke","Defensive Midfield",26,"Slovakia","Ironi Kiryat Shmona",1.5,5,0,0,2,2,1
@@ -2125,7 +2047,6 @@
 "2437",6,437,"Muhamed Besic","Defensive Midfield",29,"Bosnia-Herzegovina","Ferencvárosi TC",1.5,12,0,0,4,6,1
 "2438",6,438,"Jesús Dueñas","Defensive Midfield",32,"Mexico","Tigres UANL",1.5,14,0,1,12,2,1
 "2439",6,439,"Jesús Molina","Defensive Midfield",33,"Mexico","Deportivo Guadalajara",1.5,13,0,0,0,12,1
-"2440",6,440,"Ljubomir Fejsa","Defensive Midfield",33,"Serbia","Without Club",1.5,1,0,0,1,0,1
 "2441",6,441,"Milan Badelj","Defensive Midfield",32,"Croatia","Genoa CFC",1.5,17,0,1,0,5,1
 "2442",6,442,"Stefan Ilsanker","Defensive Midfield",32,"Austria","Eintracht Frankfurt",1.5,9,0,0,7,1,1
 "2443",6,443,"Aviel Zargary","Defensive Midfield",19,"Israel","Beitar Jerusalem",1.4,14,0,1,4,4,1
@@ -2139,7 +2060,6 @@
 "2455",6,455,"Khaly Thiam","Defensive Midfield",27,"Senegal","Altay SK",1.3,20,2,1,1,1,1
 "2456",6,456,"Yeison Gordillo","Defensive Midfield",29,"Colombia","Club Atlético San Lorenzo de Almagro",1.3,18,0,0,4,3,1
 "2457",6,457,"Benjamin Stambouli","Defensive Midfield",31,"France","Adana Demirspor",1.3,22,1,2,5,6,1
-"2458",6,458,"Oleksandr Noyok","Defensive Midfield",29,"Ukraine","Apollon Limassol",1.3,1,0,0,0,1,1
 "2459",6,459,"Check Oumar Diakité","Defensive Midfield",19,"France","Paris FC",1.2,22,2,3,9,11,1
 "2460",6,460,"Enis Cokaj","Defensive Midfield",22,"Albania","NK Lokomotiva Zagreb",1.2,19,1,5,0,3,1
 "2461",6,461,"Show","Defensive Midfield",22,"Angola","Ludogorets Razgrad",1.2,18,1,0,7,7,1
@@ -2251,7 +2171,6 @@
 "2569",7,69,"Nicolás De La Cruz","Central Midfield",24,"Uruguay","Club Atlético River Plate",18,11,4,1,2,3,2
 "2570",7,70,"Yangel Herrera","Central Midfield",23,"Venezuela","RCD Espanyol Barcelona",18,9,1,1,3,4,2
 "2571",7,71,"Gerson","Central Midfield",24,"Brazil","Olympique Marseille",18,22,3,2,7,10,2
-"2572",7,72,"Dani Ceballos","Central Midfield",25,"Spain","Real Madrid",18,1,0,0,0,1,2
 "2573",7,73,"Tom Davies","Central Midfield",23,"England","Everton FC",18,7,1,1,4,1,2
 "2574",7,74,"Mahmoud Dahoud","Central Midfield",26,"Germany","Borussia Dortmund",18,17,0,4,2,5,2
 "2575",7,75,"Seko Fofana","Central Midfield",26,"Cote d'Ivoire","RC Lens",18,20,5,0,0,2,2
@@ -2266,7 +2185,6 @@
 "2585",7,85,"Albert Sambi Lokonga","Central Midfield",22,"Belgium","Arsenal FC",16,15,0,0,5,3,2
 "2586",7,86,"Philip Billing","Central Midfield",25,"Denmark","AFC Bournemouth",16,23,8,5,0,4,2
 "2587",7,87,"Manu Koné","Central Midfield",20,"France","Borussia Mönchengladbach",15,12,1,1,0,7,2
-"2588",7,88,"Gabriel Menino","Central Midfield",21,"Brazil","Sociedade Esportiva Palmeiras",15,1,0,0,0,0,2
 "2589",7,89,"Mohammed Kudus","Central Midfield",21,"Ghana","Ajax Amsterdam",15,7,2,0,4,3,2
 "2590",7,90,"Mady Camara","Central Midfield",24,"Guinea","Olympiacos Piraeus",15,25,2,1,6,14,2
 "2591",7,91,"Billy Gilmour","Central Midfield",20,"Scotland","Norwich City",15,14,0,1,1,3,2
@@ -2377,7 +2295,6 @@
 "2699",7,199,"Pascal Groß","Central Midfield",30,"Germany","Brighton & Hove Albion",7,14,0,2,3,4,2
 "2700",7,200,"Ivan Rakitic","Central Midfield",33,"Croatia","Sevilla FC",7,21,4,3,6,13,2
 "2701",7,201,"Nicolás Capaldo","Central Midfield",23,"Argentina","Red Bull Salzburg",6.5,26,4,2,12,9,2
-"2702",7,202,"José Cifuentes","Central Midfield",22,"Ecuador","Los Angeles FC",6.5,1,0,0,0,1,2
 "2703",7,203,"Ivan Oblyakov","Central Midfield",23,"Russia","CSKA Moscow",6.5,19,0,2,1,1,2
 "2704",7,204,"David Turnbull","Central Midfield",22,"Scotland","Celtic FC",6.5,34,9,7,1,11,2
 "2705",7,205,"Cristian Medina","Central Midfield",19,"Argentina","Club Atlético Boca Juniors",6,15,0,0,9,5,2
@@ -2404,7 +2321,6 @@
 "2731",7,231,"Junior Dina Ebimbe","Central Midfield",21,"France","Paris Saint-Germain",5,10,0,0,5,5,2
 "2732",7,232,"Paulo Bernardo","Central Midfield",19,"Portugal","SL Benfica B",5,19,2,2,9,4,2
 "2733",7,233,"Berkan Kutlu","Central Midfield",23,"Turkey","Galatasaray A.S.",5,28,0,1,1,10,2
-"2736",7,236,"Michaël Cuisance","Central Midfield",22,"France","Bayern Munich",5,2,1,1,2,0,2
 "2738",7,238,"Hamza Choudhury","Central Midfield",24,"England","Leicester City",5,5,0,0,2,3,2
 "2739",7,239,"Manu Morlanes","Central Midfield",22,"Spain","RCD Espanyol Barcelona",5,20,1,0,12,7,2
 "2740",7,240,"Arne Maier","Central Midfield",22,"Germany","FC Augsburg",5,15,0,3,5,4,2
@@ -2525,7 +2441,6 @@
 "2878",7,378,"Ben Pearson","Central Midfield",26,"England","AFC Bournemouth",3,16,0,1,8,2,2
 "2879",7,379,"Dani García","Central Midfield",31,"Spain","Athletic Bilbao",3,18,0,0,2,12,2
 "2880",7,380,"Victorien Angban","Central Midfield",25,"Cote d'Ivoire","FC Sochi",3,18,0,0,13,2,2
-"2881",7,381,"Darlington Nagbe","Central Midfield",31,"United States","Columbus Crew",3,1,0,0,0,1,2
 "2882",7,382,"Lukas Lerager","Central Midfield",28,"Denmark","FC Copenhagen",3,27,5,3,6,8,2
 "2883",7,383,"Valon Berisha","Central Midfield",28,"Kosovo","Stade Reims",3,13,0,1,8,3,2
 "2884",7,384,"Haris Belkebla","Central Midfield",27,"Algeria","Stade Brestois 29",3,17,0,0,2,7,2
@@ -2560,7 +2475,6 @@
 "2914",7,414,"Iddrisu Baba","Central Midfield",25,"Ghana","RCD Mallorca",2.5,16,2,0,2,5,2
 "2915",7,415,"Christian Rivera","Central Midfield",25,"Colombia","Club Tijuana",2.5,17,0,0,0,9,2
 "2916",7,416,"Rodrigo Aliendro","Central Midfield",30,"Argentina","Club Atlético Colón",2.5,23,4,0,0,2,2
-"2917",7,417,"Bruno Jordão","Central Midfield",23,"Portugal","Wolverhampton Wanderers",2.5,2,0,0,1,1,2
 "2919",7,419,"Domingos Quina","Central Midfield",22,"Portugal","Fulham FC",2.5,4,0,0,1,3,2
 "2920",7,420,"Bastien Toma","Central Midfield",22,"Switzerland","KRC Genk",2.5,10,1,0,4,3,2
 "2921",7,421,"Majeed Ashimeru","Central Midfield",24,"Ghana","RSC Anderlecht",2.5,26,2,1,22,3,2
@@ -2652,7 +2566,6 @@
 "3024",8,24,"Duane Holmes","Right Midfield",27,"United States","Huddersfield Town",2.5,22,3,0,7,11,2
 "3025",8,25,"Marc Albrighton","Right Midfield",32,"England","Leicester City",2.5,14,1,0,9,1,2
 "3026",8,26,"Antonio Candreva","Right Midfield",34,"Italy","UC Sampdoria",2.5,21,6,8,1,4,2
-"3027",8,27,"Kevin Rüegg","Right Midfield",23,"Switzerland","Hellas Verona",2.2,1,0,0,0,1,2
 "3028",8,28,"Mehmet Aydin","Right Midfield",19,"Germany","FC Schalke 04",2,17,1,1,8,7,2
 "3029",8,29,"Luke Bolton","Right Midfield",22,"England","Manchester City U23",2,7,1,0,0,4,2
 "3030",8,30,"Pedro Pereira","Right Midfield",23,"Portugal","AC Monza",2,14,0,4,1,7,2
@@ -2667,11 +2580,9 @@
 "3043",8,43,"Warren Tchimbembé","Right Midfield",23,"Congo","FC Metz",1.2,8,0,0,6,0,2
 "3045",8,45,"Fabricio Domínguez","Right Midfield",23,"Uruguay","Racing Club",1.1,16,1,0,11,4,2
 "3046",8,46,"Ramiro Carrera","Right Midfield",28,"Argentina","Club Atlético Tucumán",1.1,21,6,2,1,14,2
-"3048",8,48,"Tibo Persyn","Right Midfield",19,"Belgium","Club Brugge KV",1,2,1,0,1,1,2
 "3049",8,49,"Wesley","Right Midfield",21,"Brazil","FC Sion",1,14,2,1,4,3,2
 "3050",8,50,"Gaëtan Perrin","Right Midfield",25,"France","AJ Auxerre",1,19,3,1,5,12,2
 "3051",8,51,"Jérémy Livolant","Right Midfield",23,"France","EA Guingamp",1,22,1,0,9,7,2
-"3052",8,52,"Erwin Saavedra","Right Midfield",25,"Bolivia","Bolívar La Paz",1,1,0,0,0,1,2
 "3053",8,53,"Salvatore Molina","Right Midfield",30,"Italy","FC Crotone",1,18,0,0,2,5,2
 "3055",8,55,"Vladyslav Kalitvintsev","Right Midfield",28,"Ukraine","Desna Chernigiv",1,17,3,4,1,6,2
 "3058",8,58,"Hansel Zapata","Right Midfield",26,"Colombia","Slaven Belupo Koprivnica",0.9,22,2,2,11,10,2
@@ -2679,7 +2590,6 @@
 "3061",8,61,"Reinhold Ranftl","Right Midfield",29,"Austria","FC Schalke 04",0.9,13,0,1,4,5,2
 "3062",8,62,"Maksymilian Sitek","Right Midfield",21,"Poland","Stal Mielec",0.85,21,3,3,2,14,2
 "3063",8,63,"Matisse Samoise","Right Midfield",20,"Belgium","KAA Gent",0.8,23,1,2,8,8,2
-"3064",8,64,"Luis Díaz","Right Midfield",23,"Costa Rica","Columbus Crew",0.8,1,0,0,1,0,2
 "3065",8,65,"Lucas Buades","Right Midfield",24,"France","Rodez AF",0.8,20,4,1,3,2,2
 "3066",8,66,"Nadir Zortea","Right Midfield",22,"Italy","US Salernitana 1919",0.8,14,0,1,8,3,2
 "3068",8,68,"Zan Rogelj","Right Midfield",22,"Slovenia","WSG Tirol",0.8,20,0,4,3,11,2
@@ -2688,7 +2598,6 @@
 "3071",8,71,"Stefan Hierländer","Right Midfield",30,"Austria","SK Sturm Graz",0.8,17,0,1,1,6,2
 "3075",8,75,"Pavel Pérez","Right Midfield",23,"Mexico","CD Tapatío",0.7,15,0,0,2,4,2
 "3076",8,76,"Sven Mijnans","Right Midfield",21,"Netherlands","Sparta Rotterdam",0.7,17,3,3,3,8,2
-"3077",8,77,"Seung-won Jeong","Right Midfield",24,"Korea, South","Daegu FC",0.7,2,0,0,1,1,2
 "3079",8,79,"Valeriy Luchkevych","Right Midfield",25,"Ukraine","SK Dnipro-1",0.7,15,0,4,7,7,2
 "3081",8,81,"Slavoljub Srnic","Right Midfield",29,"Serbia","Red Star Belgrade",0.7,19,0,0,11,4,2
 "3082",8,82,"Nikolaos Kaltsas","Right Midfield",31,"Greece","Anorthosis Famagusta",0.7,15,2,1,6,9,2
@@ -2742,9 +2651,7 @@
 "3165",8,165,"Tomas Malinsky","Right Midfield",30,"Czech Republic","FK Jablonec",0.45,27,3,3,13,11,2
 "3167",8,167,"Josh Mullin","Right Midfield",29,"Scotland","Hamilton Academical FC",0.45,21,1,4,2,0,2
 "3169",8,169,"Egas Cacintura","Right Midfield",24,"Angola","FK Ufa",0.4,18,0,1,5,7,2
-"3170",8,170,"Elies Mahmoud","Right Midfield",20,"France","AC Le Havre",0.4,2,0,0,2,0,2
 "3171",8,171,"Cadu","Right Midfield",24,"Brazil","FK Pardubice",0.4,20,3,7,1,8,2
-"3172",8,172,"Johnatan Cardoso","Right Midfield",24,"Brazil","Vila Nova Futebol Clube (GO)",0.4,1,0,0,1,0,2
 "3176",8,176,"Kacper Skibicki","Right Midfield",20,"Poland","Legia Warszawa",0.4,20,0,3,7,10,2
 "3179",8,179,"Youba Dramé","Right Midfield",23,"France","FC Fastav Zlin",0.4,19,1,2,5,12,2
 "3181",8,181,"Khalil Ibrahim Al Hammadi","Right Midfield",28,"United Arab Emirates","Al-Wahda FC Abu Dhabi",0.4,9,1,1,5,4,2
@@ -2760,12 +2667,9 @@
 "3201",8,201,"Iuri Tabatadze","Right Midfield",22,"Georgia","FC Saburtalo",0.375,5,3,0,1,3,2
 "3202",8,202,"Gabriel Compagnucci","Right Midfield",30,"Argentina","Club Atlético Newell's Old Boys",0.375,18,1,1,3,0,2
 "3203",8,203,"Kevin Biondi","Right Midfield",22,"Italy","Calcio Catania",0.375,17,1,1,12,4,2
-"3204",8,204,"Tornike Kirkitadze","Right Midfield",25,"Georgia","FC Locomotive Tbilisi",0.375,2,1,0,0,2,2
-"3210",8,210,"Ángel Torres","Right Midfield",21,"Colombia","FC Alverca",0.35,2,0,0,1,1,2
 "3214",8,214,"David Doudera","Right Midfield",23,"Czech Republic","FK Mlada Boleslav",0.35,21,2,3,0,0,2
 "3215",8,215,"Ryohei Michibuchi","Right Midfield",27,"Japan","FK Radnicki Nis",0.35,21,0,1,2,15,2
 "3216",8,216,"Tom Baumgart","Right Midfield",24,"Germany","FC Erzgebirge Aue",0.35,11,0,0,10,1,2
-"3217",8,217,"Laorent Shabani","Right Midfield",22,"Albania","IK Sirius",0.35,1,0,0,1,0,2
 "3219",8,219,"Dmitriy Bessmertniy","Right Midfield",24,"Belarus","BATE Borisov",0.35,3,1,2,1,1,2
 "3220",8,220,"Thijmen Goppel","Right Midfield",24,"Netherlands","SV Wehen Wiesbaden",0.35,20,3,2,3,12,2
 "3221",8,221,"Tomas Zahradnicek","Right Midfield",28,"Czech Republic","SK Sigma Olomouc",0.35,21,0,5,8,8,2
@@ -2779,11 +2683,8 @@
 "3241",8,241,"Emmanuel Bourgaud","Right Midfield",34,"France","Les Herbiers VF",0.325,11,2,2,0,4,2
 "3242",8,242,"Eskil Edh","Right Midfield",19,"Norway","Lillestrøm SK",0.3,3,0,0,1,0,2
 "3246",8,246,"Mohamed Al Junaibi","Right Midfield",23,"United Arab Emirates","Al-Dhafra SCC",0.3,12,0,2,0,5,2
-"3247",8,247,"David Seger","Right Midfield",22,"Sweden","Örebro SK",0.3,1,0,0,0,0,2
 "3250",8,250,"Norbert Wojtuszek","Right Midfield",20,"Poland","Górnik Zabrze",0.3,12,0,0,6,3,2
-"3251",8,251,"Daisuke Yokota","Right Midfield",21,"Japan","Valmiera FC",0.3,2,0,0,0,0,2
 "3253",8,253,"Yaroslav Oreshkevich","Right Midfield",21,"Belarus","Rukh Brest",0.3,10,1,5,3,5,2
-"3255",8,255,"Dmitriy Sasin","Right Midfield",25,"Russia","Akron Togliatti",0.3,2,1,1,0,1,2
 "3256",8,256,"Josef Ganda","Right Midfield",24,"Israel","FC Admira Wacker Mödling",0.3,16,2,4,8,5,2
 "3257",8,257,"Haris Ovcina","Right Midfield",25,"Bosnia-Herzegovina","FK Velez Mostar",0.3,23,1,4,2,4,2
 "3258",8,258,"Mohamed Mezghrani","Right Midfield",27,"Belgium","Budapest Honvéd FC",0.3,7,0,1,1,0,2
@@ -2805,7 +2706,6 @@
 "3288",8,288,"Anthony Forde","Right Midfield",28,"Ireland","Oxford United",0.3,15,0,1,2,2,2
 "3289",8,289,"Blair Alston","Right Midfield",29,"Scotland","Kilmarnock FC",0.3,23,2,5,3,4,2
 "3292",8,292,"Mario Kröpfl","Right Midfield",32,"Austria","TSV Hartberg",0.3,19,7,9,2,8,2
-"3293",8,293,"Andrea Rispoli","Right Midfield",33,"Italy","Parma Calcio 1913",0.3,2,0,0,0,1,2
 "3294",8,294,"Odai Al-Saify","Right Midfield",35,"Jordan","Al-Nasr SC (Kuwait)",0.3,3,1,0,1,0,2
 "3295",8,295,"David Bartek","Right Midfield",33,"Czech Republic","Bohemians Prague 1905",0.3,15,0,0,11,3,2
 "3296",8,296,"Ryan Dow","Right Midfield",30,"Scotland","Dunfermline Athletic FC",0.3,19,1,1,3,6,2
@@ -2813,9 +2713,7 @@
 "3298",8,298,"Ryan Flynn","Right Midfield",33,"Scotland","St. Mirren FC",0.3,14,0,0,4,7,2
 "3299",8,299,"Tomasz Kupisz","Right Midfield",31,"Poland","Pordenone Calcio",0.3,10,0,2,4,5,2
 "3300",8,300,"Elliott Bennett","Right Midfield",33,"Jamaica","Shrewsbury Town",0.3,28,1,3,1,3,2
-"3301",8,301,"Lionel Ainsworth","Right Midfield",34,"England","Heybridge Swifts",0.3,1,0,0,1,0,2
 "3302",8,302,"Chris Burke","Right Midfield",38,"Scotland","Kilmarnock FC",0.3,20,2,4,6,10,2
-"3303",8,303,"Jasim Khelaif Al Salama","Right Midfield",23,"Bahrain","Budaiya Club",0.275,1,0,0,1,0,2
 "3307",8,307,"Wellington Carvalho","Right Midfield",29,"Brazil","GD Chaves",0.275,16,2,1,8,5,2
 "3308",8,308,"Mehdi Zaya","Right Midfield",25,"Morocco","Olympique Safi",0.275,10,0,1,2,7,2
 "3309",8,309,"Marcel Costly","Right Midfield",26,"Germany","SV Waldhof Mannheim",0.275,22,3,2,2,6,2
@@ -2869,7 +2767,6 @@
 "3376",8,376,"Scott Wagstaff","Right Midfield",31,"England","Aldershot Town",0.25,7,0,0,2,1,2
 "3377",8,377,"Daniel Schütz","Right Midfield",30,"Austria","SKN St. Pölten",0.25,11,3,3,1,8,2
 "3381",8,381,"In-pyo Oh","Right Midfield",24,"Korea, South","FC Juniors OÖ",0.225,13,1,1,1,5,2
-"3382",8,382,"Paulinho","Right Midfield",24,"Brazil","União de Leiria",0.225,1,0,0,1,0,2
 "3383",8,383,"Nikita Panamarev","Right Midfield",23,"Russia","Chernomorets Novorossijsk",0.225,16,6,1,0,15,2
 "3385",8,385,"Christian Viet","Right Midfield",22,"Germany","Borussia Dortmund II",0.225,17,0,1,5,6,2
 "3386",8,386,"Alan Tsaraev","Right Midfield",22,"Russia","Alania Vladikavkaz",0.225,18,0,3,3,8,2
@@ -2888,8 +2785,6 @@
 "3407",8,407,"Sonny Carey","Right Midfield",20,"England","Blackpool FC",0.2,12,1,0,6,2,2
 "3412",8,412,"Josue Gaba","Right Midfield",19,"Cote d'Ivoire","FC Van",0.2,13,2,0,7,6,2
 "3413",8,413,"Jefferson Rivera","Right Midfield",25,"Costa Rica","Municipal Grecia",0.2,21,0,0,0,1,2
-"3414",8,414,"Abbas Al Asfoor","Right Midfield",22,"Bahrain","Al-Shabab Club (Bahrain)",0.2,1,0,0,0,1,2
-"3418",8,418,"Dmitriy Girs","Right Midfield",24,"Belarus","Without Club",0.2,2,0,0,0,1,2
 "3424",8,424,"Jay Henderson","Right Midfield",19,"Scotland","St. Mirren FC",0.2,8,0,2,3,1,2
 "3425",8,425,"Mansor Al-Harbi","Right Midfield",22,"United Arab Emirates","Al-Wahda FC Abu Dhabi",0.2,6,1,0,3,2,2
 "3426",8,426,"Lev Tolkachev","Right Midfield",21,"Russia","Ural 2 Ekaterinburg",0.2,17,3,1,0,8,2
@@ -2900,18 +2795,14 @@
 "3438",8,438,"Dean David Van Rooyen","Right Midfield",25,"South Africa","Stellenbosch FC",0.2,17,1,0,1,3,2
 "3441",8,441,"Ladislav Muzik","Right Midfield",23,"Czech Republic","FK Mlada Boleslav",0.2,12,1,6,3,2,2
 "3445",8,445,"Leonardo Di Cosmo","Right Midfield",23,"Italy","Virtus Entella",0.2,19,0,4,8,4,2
-"3446",8,446,"Kevin Costinha","Right Midfield",20,"Switzerland","FC Winterthur",0.2,2,0,0,0,1,2
 "3448",8,448,"Radek Latal","Right Midfield",24,"Czech Republic","SK Sigma Olomouc",0.2,14,3,2,2,8,2
 "3451",8,451,"Ovidiu Horsia","Right Midfield",21,"Romania","Gaz Metan Medias",0.2,10,0,1,4,6,2
 "3452",8,452,"Süleyman Ahmadov","Right Midfield",22,"Azerbaijan","Sumgayit PFC",0.2,5,0,0,2,2,2
-"3453",8,453,"Maksim Yablonskiy","Right Midfield",25,"Belarus","Neman Grodno",0.2,2,0,1,1,1,2
 "3456",8,456,"Daniel Kovar","Right Midfield",25,"Czech Republic","FK Banik Sokolov",0.2,15,2,0,2,11,2
 "3457",8,457,"Adam Ondracek","Right Midfield",26,"Czech Republic","FK Varnsdorf",0.2,17,2,1,7,9,2
-"3458",8,458,"Mahmoud Abu Warda","Right Midfield",26,"Palästina","Al-Quds Hilal Club",0.2,1,0,0,0,0,2
 "3460",8,460,"Josué Schmidt","Right Midfield",22,"Germany","FC Thun",0.2,12,1,0,9,2,2
 "3463",8,463,"Umaro Baldé","Right Midfield",22,"Portugal","UD Vilafranquense",0.2,13,0,0,11,1,2
 "3466",8,466,"Florian Prohart","Right Midfield",22,"Austria","SV Lafnitz",0.2,9,1,0,3,2,2
-"3467",8,467,"Pepo Santos","Right Midfield",27,"Mozambique","FC Alverca",0.2,1,0,1,0,1,2
 "3470",8,470,"Joca","Right Midfield",25,"Portugal","Rio Ave FC",0.2,23,2,2,4,17,2
 "3471",8,471,"Florian Heister","Right Midfield",24,"Germany","FC Viktoria Köln",0.2,15,0,1,2,9,2
 "3472",8,472,"Rudolf Reiter","Right Midfield",27,"Czech Republic","FC Fastav Zlin",0.2,14,0,1,5,9,2
@@ -2930,7 +2821,6 @@
 "3495",8,495,"Ilya Kovalenko","Right Midfield",31,"Ukraine","Ingulets Petrove",0.2,14,1,1,8,5,2
 "3496",8,496,"Burak Yilmaz","Right Midfield",26,"Austria","SV Horn",0.2,16,2,0,1,9,2
 "3498",8,498,"Milos Filipovic","Right Midfield",31,"Serbia","FK Kolubara Lazarevac",0.2,15,2,2,4,8,2
-"3499",8,499,"Salim Khelifi","Right Midfield",27,"Tunisia","FC Zürich",0.2,2,1,0,0,2,2
 "3500",8,500,"Ladislav Janda","Right Midfield",32,"Czech Republic","FC Sellier & Bellot Vlasim",0.2,18,3,0,11,4,2
 "3501",9,1,"Bukayo Saka","Left Midfield",20,"England","Arsenal FC",65,22,7,4,3,11,2
 "3502",9,2,"Luis Díaz","Left Midfield",24,"Colombia","FC Porto",40,24,14,5,2,14,2
@@ -3094,11 +2984,9 @@
 "3765",9,265,"Vitaliy Dakhnovskyi","Left Midfield",22,"Ukraine","NK Veres Rivne",0.3,17,0,2,9,6,2
 "3766",9,266,"Yuri Zheleznov","Left Midfield",19,"Russia","Ural Yekaterinburg",0.3,13,1,0,10,3,2
 "3769",9,269,"Julian Baas","Left Midfield",19,"Netherlands","Excelsior Rotterdam",0.3,21,3,7,0,7,2
-"3770",9,270,"Stavros Gavriel","Left Midfield",19,"Cyprus","APOEL Nicosia",0.3,1,0,0,1,0,2
 "3772",9,272,"Michal Rostkowski","Left Midfield",21,"Poland","Resovia Rzeszów",0.3,12,0,0,8,4,2
 "3774",9,274,"Evgeniy Pesikov","Left Midfield",22,"Russia","Enisey Krasnoyarsk",0.3,21,3,6,7,9,2
 "3777",9,277,"Jorris Romil","Left Midfield",27,"Guadeloupe","FC Chambly",0.3,10,1,0,2,5,2
-"3778",9,278,"Jordan Shipley","Left Midfield",24,"Ireland","Coventry City",0.3,1,0,0,0,0,2
 "3780",9,280,"Maren Haile-Selassie","Left Midfield",22,"Switzerland","Neuchâtel Xamax FCS",0.3,19,6,3,2,14,2
 "3782",9,282,"Fraser Murray","Left Midfield",22,"Scotland","Kilmarnock FC",0.3,23,5,2,7,7,2
 "3783",9,283,"Khachim Mashukov","Left Midfield",26,"Russia","Tekstilshchik Ivanovo",0.3,23,0,4,7,7,2
@@ -3107,7 +2995,6 @@
 "3787",9,287,"Kevin Spadanuda","Left Midfield",24,"Switzerland","FC Aarau",0.3,20,12,5,2,9,2
 "3789",9,289,"Dominik Schwizer","Left Midfield",25,"Switzerland","FC Thun",0.3,7,1,2,3,3,2
 "3790",9,290,"Aviv Avraham","Left Midfield",25,"Israel","Maccabi Netanya",0.3,12,1,0,2,7,2
-"3791",9,291,"Daniel González","Left Midfield",30,"Argentina","Club Atlético San Martín (Tucumán)",0.3,2,0,0,1,0,2
 "3793",9,293,"Mykyta Tatarkov","Left Midfield",26,"Ukraine","Kryvbas Kryvyi Rig",0.3,18,0,1,4,8,2
 "3794",9,294,"Anthony Georgiou","Left Midfield",24,"Cyprus","AEL Limassol",0.3,7,0,0,6,1,2
 "3795",9,295,"Michael John Lema","Left Midfield",22,"Austria","TSV Hartberg",0.3,8,0,1,7,1,2
@@ -3144,7 +3031,6 @@
 "3869",9,369,"Filip Novotny","Left Midfield",26,"Czech Republic","FC Hradec Kralove",0.25,20,0,1,3,3,2
 "3875",9,375,"Adam Fousek","Left Midfield",27,"Czech Republic","FC Zbrojovka Brno",0.25,18,4,2,5,11,2
 "3879",9,379,"Luca Crecco","Left Midfield",26,"Italy","LR Vicenza",0.25,14,1,0,8,5,2
-"3880",9,380,"Fernando Neto","Left Midfield",28,"Brazil","Cruzeiro Esporte Clube",0.25,2,1,0,1,1,2
 "3881",9,381,"Antonio Porcino","Left Midfield",26,"Italy","US Catanzaro",0.25,13,0,0,5,7,2
 "3882",9,382,"Michael Omoh","Left Midfield",30,"Nigeria","Academica Clinceni",0.25,19,1,3,4,11,2
 "3883",9,383,"Ryan Camenzuli","Left Midfield",27,"Malta","Floriana FC",0.25,13,2,3,1,7,2
@@ -3164,7 +3050,6 @@
 "3913",9,413,"Abdoul Guiebre","Left Midfield",24,"Burkina Faso","SS Monopoli 1966",0.225,22,0,7,1,2,2
 "3914",9,414,"José Pinto","Left Midfield",24,"Honduras","CD Olimpia",0.225,24,1,6,1,12,2
 "3917",9,417,"Joaquín Ibáñez","Left Midfield",25,"Argentina","Club Almirante Brown",0.225,4,0,0,0,1,2
-"3918",9,418,"Irakli Rukhadze","Left Midfield",25,"Georgia","FC Telavi",0.225,1,1,0,0,1,2
 "3920",9,420,"Alexandru Bejan","Left Midfield",25,"Moldova","FC Zimbru Chisinau",0.225,20,4,3,7,4,2
 "3923",9,423,"Simon Sumbera","Left Midfield",30,"Czech Republic","FK Senica",0.225,20,4,4,1,3,2
 "3928",9,428,"Simon Handle","Left Midfield",28,"Germany","FC Viktoria Köln",0.225,24,6,3,2,6,2
@@ -3192,8 +3077,6 @@
 "3967",9,467,"Mihail Ghecev","Left Midfield",24,"Moldova","NK Veres Rivne",0.2,16,0,0,11,3,2
 "3971",9,471,"Byron Bonilla","Left Midfield",28,"Nicaragua","CS Cartaginés",0.2,22,1,2,15,5,2
 "3972",9,472,"Ondrej Vintr","Left Midfield",24,"Czech Republic","MFK Vyskov",0.2,17,8,2,4,6,2
-"3973",9,473,"Luka Silagadze","Left Midfield",22,"Georgia","Valmiera FC",0.2,1,0,0,1,0,2
-"3974",9,474,"Abdulsamed Abdullahi","Left Midfield",24,"Somalia","GS Ergotelis",0.2,2,0,0,2,0,2
 "3976",9,476,"Jakub Urbanec","Left Midfield",29,"Czech Republic","1.SK Prostejov",0.2,10,1,0,1,1,2
 "3977",9,477,"Bernardo Martins","Left Midfield",24,"Portugal","UD Vilafranquense",0.2,9,0,0,2,4,2
 "3978",9,478,"Bardhec Bytyqi","Left Midfield",24,"Albania","Jammerbugt FC",0.2,19,2,1,1,4,2
@@ -3201,7 +3084,6 @@
 "3981",9,481,"Ivan Kogut","Left Midfield",23,"Ukraine","Agrobiznes Volochysk",0.2,19,2,0,4,4,2
 "3982",9,482,"Chaiyawat Buran","Left Midfield",25,"Thailand","Samut Prakan City",0.2,12,1,1,1,8,2
 "3983",9,483,"Juan Carlos Portillo","Left Midfield",30,"El Salvador","Alianza FC",0.2,23,4,1,10,12,2
-"3984",9,484,"Aleksandr Ksenofontov","Left Midfield",22,"Belarus","FK Vitebsk",0.2,2,0,0,0,2,2
 "3985",9,485,"Marco Pezzotti","Left Midfield",33,"Italy","Pineto Calcio",0.2,16,0,1,1,6,2
 "3986",9,486,"Sadik Skrijelj","Left Midfield",23,"Bosnia-Herzegovina","NK Rudes",0.2,13,0,1,6,7,2
 "3987",9,487,"Manuel Cicconi","Left Midfield",24,"Italy","Virtus Entella",0.2,16,0,2,6,5,2
@@ -3211,7 +3093,6 @@
 "3997",9,497,"Aleksandr Bolonin","Left Midfield",30,"Russia","Volgar Astrakhan",0.2,3,0,0,0,1,2
 "3998",9,498,"Valeriy Rogozynskyi","Left Midfield",26,"Ukraine","Alyans Lypova Dolyna",0.2,17,2,2,1,5,2
 "3999",9,499,"Rajmund Mikus","Left Midfield",26,"Slovakia","MFK Karvina",0.2,15,0,0,6,5,2
-"4000",9,500,"Beka Gvaradze","Left Midfield",24,"Georgia","FC Shevardeni 1906",0.2,2,1,0,1,1,2
 "4001",10,1,"Bruno Fernandes","Attacking Midfield",27,"Portugal","Manchester United",90,25,6,9,4,9,2
 "4002",10,2,"Kevin De Bruyne","Attacking Midfield",30,"Belgium","Manchester City",90,22,6,2,6,8,2
 "4003",10,3,"Mason Mount","Attacking Midfield",22,"England","Chelsea FC",75,25,7,5,9,4,2
@@ -3293,7 +3174,6 @@
 "4085",10,85,"Ryan Christie","Attacking Midfield",26,"Scotland","AFC Bournemouth",9,29,2,8,3,14,2
 "4086",10,86,"Isco","Attacking Midfield",29,"Spain","Real Madrid",9,7,1,0,5,2,2
 "4089",10,89,"Maximiliano Meza","Attacking Midfield",29,"Argentina","CF Monterrey",8,18,4,4,3,4,2
-"4090",10,90,"Lucas Zelarayán","Attacking Midfield",29,"Armenia","Columbus Crew",8,1,0,0,0,1,2
 "4091",10,91,"Adrien Thomasson","Attacking Midfield",28,"France","RC Strasbourg Alsace",8,17,6,3,3,4,2
 "4094",10,94,"Bobby Reid","Attacking Midfield",28,"Jamaica","Fulham FC",8,22,2,5,7,7,2
 "4095",10,95,"Rémy Cabella","Attacking Midfield",31,"France","FK Krasnodar",8,18,4,7,1,6,2
@@ -3313,7 +3193,6 @@
 "4115",10,115,"Jorge Carrascal","Attacking Midfield",23,"Colombia","Club Atlético River Plate",6.2,21,3,3,11,8,2
 "4116",10,116,"Nicolás Castro","Attacking Midfield",21,"Argentina","Club Atlético Newell's Old Boys",6,22,5,5,2,16,2
 "4117",10,117,"Kristian Thorstvedt","Attacking Midfield",22,"Norway","KRC Genk",6,29,4,2,5,11,2
-"4118",10,118,"Efraín Álvarez","Attacking Midfield",19,"Mexico","Los Angeles Galaxy",6,1,0,0,1,0,2
 "4119",10,119,"Anouar Ait El Hadj","Attacking Midfield",19,"Belgium","RSC Anderlecht",6,23,1,1,13,9,2
 "4120",10,120,"Angel Gomes","Attacking Midfield",21,"England","LOSC Lille",6,18,2,1,8,10,2
 "4121",10,121,"Selim Amallah","Attacking Midfield",25,"Morocco","Standard Liège",6,14,2,2,1,10,2
@@ -3366,12 +3245,10 @@
 "4178",10,178,"Filip Krovinovic","Attacking Midfield",26,"Croatia","HNK Hajduk Split",4,18,3,3,0,8,2
 "4182",10,182,"Andrew Hjulsager","Attacking Midfield",26,"Denmark","KAA Gent",4,19,0,5,10,9,2
 "4184",10,184,"Nick Powell","Attacking Midfield",27,"England","Stoke City",4,10,6,1,1,6,2
-"4185",10,185,"Zakaria Labyad","Attacking Midfield",28,"Morocco","Ajax Amsterdam",4,2,0,0,2,0,2
 "4186",10,186,"David Silva","Attacking Midfield",35,"Spain","Real Sociedad",4,13,0,1,0,12,2
 "4187",10,187,"Agustín Palavecino","Attacking Midfield",25,"Argentina","Club Atlético River Plate",3.8,22,4,7,5,13,2
 "4189",10,189,"Mesut Özil","Attacking Midfield",33,"Germany","Fenerbahce SK",3.8,20,8,2,5,11,2
 "4190",10,190,"Edwin Cardona","Attacking Midfield",29,"Colombia","Club Atlético Boca Juniors",3.7,12,1,3,3,6,2
-"4191",10,191,"Caden Clark","Attacking Midfield",18,"United States","New York Red Bulls",3.5,2,1,0,0,2,2
 "4192",10,192,"Matías Palacios","Attacking Midfield",19,"Argentina","FC Basel 1893",3.5,27,3,4,14,9,2
 "4194",10,194,"Fábio Carvalho","Attacking Midfield",19,"England","Fulham FC",3.5,13,4,1,3,7,2
 "4195",10,195,"Darian Males","Attacking Midfield",20,"Switzerland","FC Basel 1893",3.5,33,3,6,19,13,2
@@ -3502,7 +3379,6 @@
 "4348",10,348,"Sebastien Thill","Attacking Midfield",28,"Luxembourg","FC Sheriff Tiraspol",2,30,9,11,2,8,2
 "4349",10,349,"Vladlen Yurchenko","Attacking Midfield",27,"Ukraine","Without Club",2,7,1,2,1,4,2
 "4350",10,350,"Jonathan Viera","Attacking Midfield",32,"Spain","UD Las Palmas",2,12,4,1,0,5,2
-"4352",10,352,"João Carlos Teixeira","Attacking Midfield",28,"Portugal","Feyenoord Rotterdam",2,2,0,0,1,1,2
 "4353",10,353,"Robert Zulj","Attacking Midfield",29,"Austria","Al Ittihad Kalba Sports Club",2,12,1,4,2,6,2
 "4354",10,354,"Roman Bezus","Attacking Midfield",31,"Ukraine","KAA Gent",2,22,2,5,11,10,2
 "4356",10,356,"Saad Bguir","Attacking Midfield",27,"Tunisia","Abha Club",1.9,15,5,0,1,5,2
@@ -3527,7 +3403,6 @@
 "4379",10,379,"Kevin-Prince Boateng","Attacking Midfield",34,"Ghana","Hertha BSC",1.7,12,0,0,7,5,2
 "4380",10,380,"Chanathip Songkrasin","Attacking Midfield",28,"Thailand","Hokkaido Consadole Sapporo",1.6,6,4,0,0,4,2
 "4381",10,381,"Sander van de Streek","Attacking Midfield",28,"Netherlands","FC Utrecht",1.6,16,3,0,12,3,2
-"4383",10,383,"Paxten Aaronson","Attacking Midfield",18,"United States","Philadelphia Union",1.5,2,0,0,1,1,2
 "4385",10,385,"Ivan Saranic","Attacking Midfield",18,"Croatia","GNK Dinamo Zagreb",1.5,14,6,1,2,9,2
 "4386",10,386,"Abu Francis","Attacking Midfield",20,"Ghana","FC Nordsjaelland",1.5,18,0,0,2,8,2
 "4387",10,387,"Emre Demir","Attacking Midfield",17,"Turkey","Kayserispor",1.5,12,1,1,4,6,2
@@ -3538,7 +3413,6 @@
 "4395",10,395,"Malik Tillman","Attacking Midfield",19,"Germany","Bayern Munich",1.5,18,7,2,5,2,2
 "4396",10,396,"Álvaro Aguado","Attacking Midfield",25,"Spain","Real Valladolid CF",1.5,21,2,1,6,10,2
 "4397",10,397,"Bogdan Lednev","Attacking Midfield",23,"Ukraine","Dynamo Kyiv",1.5,10,0,0,8,2,2
-"4398",10,398,"Marcelo Allende","Attacking Midfield",22,"Chile","Montevideo City Torque",1.5,1,0,0,0,1,2
 "4400",10,400,"Mateusz Praszelik","Attacking Midfield",21,"Poland","Slask Wroclaw",1.5,22,4,3,2,15,2
 "4402",10,402,"Marko Tolic","Attacking Midfield",25,"Croatia","GNK Dinamo Zagreb",1.5,16,2,0,15,1,2
 "4403",10,403,"Xadas","Attacking Midfield",24,"Portugal","CS Marítimo",1.5,13,2,1,2,9,2
@@ -3560,7 +3434,6 @@
 "4423",10,423,"Romaine Sawyers","Attacking Midfield",30,"St. Kitts & Nevis","Stoke City",1.5,19,2,3,3,3,2
 "4426",10,426,"Lucas Castro","Attacking Midfield",32,"Argentina","Adana Demirspor",1.5,10,0,0,4,6,2
 "4427",10,427,"Recep Niyaz","Attacking Midfield",26,"Turkey","Gaziantep FK",1.5,15,1,0,2,7,2
-"4428",10,428,"Amin Younes","Attacking Midfield",28,"Germany","Eintracht Frankfurt",1.5,1,0,0,1,0,2
 "4429",10,429,"Borja García","Attacking Midfield",31,"Spain","Girona FC",1.5,9,0,0,1,7,2
 "4430",10,430,"Oleg Shatov","Attacking Midfield",31,"Russia","Career break",1.5,4,0,0,0,3,2
 "4431",10,431,"Bryan Soumaré","Attacking Midfield",22,"France","Dijon FCO",1.4,10,0,1,2,6,2
@@ -3570,8 +3443,6 @@
 "4440",10,440,"Paul-José Mpoku","Attacking Midfield",29,"DR Congo","Konyaspor",1.4,16,3,1,9,6,2
 "4441",10,441,"Luis Montes","Attacking Midfield",35,"Mexico","Club León FC",1.4,11,0,0,8,2,2
 "4442",10,442,"Dominik Yankov","Attacking Midfield",21,"Bulgaria","Ludogorets Razgrad",1.3,31,3,3,10,14,2
-"4443",10,443,"Jhojan Julio","Attacking Midfield",23,"Ecuador","LDU Quito",1.3,1,0,0,1,0,2
-"4444",10,444,"Omar Govea","Attacking Midfield",25,"Mexico","SV Zulte Waregem",1.3,2,0,1,0,2,2
 "4446",10,446,"Rai Vloet","Attacking Midfield",26,"Netherlands","Heracles Almelo",1.3,12,5,0,0,0,2
 "4447",10,447,"Xavier Mercier","Attacking Midfield",32,"France","Oud-Heverlee Leuven",1.3,23,4,11,1,6,2
 "4448",10,448,"Constantin Budescu","Attacking Midfield",32,"Romania","FCSB",1.3,11,1,1,7,3,2
@@ -3693,11 +3564,9 @@
 "4575",11,75,"Rubén Vargas","Left Winger",23,"Switzerland","FC Augsburg",11,17,2,2,2,13,2
 "4576",11,76,"Theo Bongonda","Left Winger",26,"Belgium","KRC Genk",11,27,7,5,5,8,2
 "4577",11,77,"Mislav Orsic","Left Winger",29,"Croatia","GNK Dinamo Zagreb",11,31,9,5,2,19,2
-"4578",11,78,"Ezequiel Barco","Left Winger",22,"Argentina","Atlanta United FC",10,1,0,0,0,1,2
 "4579",11,79,"Christos Tzolis","Left Winger",19,"Greece","Norwich City",10,12,2,2,7,4,2
 "4580",11,80,"Jakub Kaminski","Left Winger",19,"Poland","Lech Poznan",10,23,7,8,0,15,2
 "4581",11,81,"Yoane Wissa","Left Winger",25,"DR Congo","Brentford FC",10,13,5,1,8,3,2
-"4583",11,83,"Trezeguet","Left Winger",27,"Egypt","Aston Villa",10,1,1,0,0,1,2
 "4584",11,84,"Mohamed Elyounoussi","Left Winger",27,"Norway","Southampton FC",10,15,5,2,4,4,2
 "4585",11,85,"Felipe Anderson","Left Winger",28,"Brazil","SS Lazio",10,26,4,4,3,15,2
 "4586",11,86,"Gerard Deulofeu","Left Winger",27,"Spain","Udinese Calcio",10,17,6,2,4,9,2
@@ -3724,7 +3593,6 @@
 "4613",11,113,"Jovane","Left Winger",23,"Cape Verde","Sporting CP",7,16,3,1,7,8,2
 "4614",11,114,"Henry Onyekuru","Left Winger",24,"Nigeria","Olympiacos Piraeus",7,21,1,1,8,12,2
 "4615",11,115,"Javairô Dilrosun","Left Winger",23,"Netherlands","FC Girondins Bordeaux",7,19,1,5,7,11,2
-"4617",11,117,"Sebastián Driussi","Left Winger",25,"Argentina","Austin FC",7,1,0,0,0,1,2
 "4618",11,118,"Nuno Santos","Left Winger",26,"Portugal","Sporting CP",7,28,7,3,13,8,2
 "4620",11,120,"Peter Olayinka","Left Winger",26,"Nigeria","SK Slavia Prague",7,21,6,2,6,10,2
 "4621",11,121,"Oussama Idrissi","Left Winger",25,"Morocco","Sevilla FC",7,7,0,1,3,4,2
@@ -3756,7 +3624,6 @@
 "4650",11,150,"Michel-Ange Balikwisha","Left Winger",20,"Belgium","Royal Antwerp FC",5,22,3,2,11,7,2
 "4651",11,151,"Brian Lozano","Left Winger",27,"Uruguay","Santos Laguna",5,11,2,0,6,5,2
 "4653",11,153,"Yann Karamoh","Left Winger",23,"Cote d'Ivoire","Fatih Karagümrük",5,16,3,1,5,10,2
-"4654",11,154,"Daniil Lesovoy","Left Winger",23,"Russia","Dynamo Moscow",5,1,0,0,0,1,2
 "4655",11,155,"Kristijan Lovric","Left Winger",26,"Croatia","HNK Gorica",5,21,10,4,2,9,2
 "4657",11,157,"Ángel Romero","Left Winger",29,"Paraguay","Without Club",5,5,0,1,1,2,2
 "4658",11,158,"Tom Lawrence","Left Winger",27,"Wales","Derby County",5,21,5,3,1,5,2
@@ -3853,7 +3720,6 @@
 "4765",11,265,"Petar Bockaj","Left Winger",25,"Croatia","NK Osijek",2.5,24,1,6,6,2,2
 "4766",11,266,"José Carlos Lazo","Left Winger",25,"Spain","UD Almería",2.5,20,4,1,7,13,2
 "4767",11,267,"Tigran Barseghyan","Left Winger",28,"Armenia","Slovan Bratislava",2.5,4,2,1,0,3,2
-"4769",11,269,"Tariqe Fosu","Left Winger",26,"Ghana","Brentford FC",2.5,2,0,0,1,1,2
 "4770",11,270,"Tarik Tissoudali","Left Winger",28,"Morocco","KAA Gent",2.5,34,16,6,8,16,2
 "4771",11,271,"Emmanuel Gyasi","Left Winger",27,"Ghana","Spezia Calcio",2.5,20,3,0,1,5,2
 "4773",11,273,"Ayrton Preciado","Left Winger",27,"Ecuador","Santos Laguna",2.5,8,3,0,2,6,2
@@ -3898,7 +3764,6 @@
 "4825",11,325,"Fabián Castillo","Left Winger",29,"Colombia","FC Juárez",2,16,0,1,4,6,2
 "4827",11,327,"Ryan Mendes","Left Winger",31,"Cape Verde","Al-Nasr (Dubai)",2,12,2,7,1,5,2
 "4829",11,329,"Octavian Popescu","Left Winger",19,"Romania","FCSB",1.9,21,4,2,3,15,2
-"4830",11,330,"Burak Kapacak","Left Winger",22,"Turkey","Fenerbahce SK",1.9,1,0,0,0,1,2
 "4831",11,331,"Zymer Bytyqi","Left Winger",25,"Kosovo","Konyaspor",1.9,19,1,3,1,14,2
 "4832",11,332,"Francisco Pizzini","Left Winger",28,"Argentina","Defensa y Justicia",1.9,22,7,7,1,9,2
 "4833",11,333,"Kaoru Mitoma","Left Winger",24,"Japan","Royale Union Saint Gilloise",1.8,17,6,3,8,6,2
@@ -3913,7 +3778,6 @@
 "4845",11,345,"Fidel Martínez","Left Winger",31,"Ecuador","Club Tijuana",1.8,14,1,1,10,4,2
 "4846",11,346,"Jean-Luc Dompé","Left Winger",26,"France","SV Zulte Waregem",1.7,21,2,12,2,3,2
 "4847",11,347,"Lukas Haraslin","Left Winger",25,"Slovakia","AC Sparta Prague",1.7,21,4,4,2,15,2
-"4848",11,348,"Valeri Qazaishvili","Left Winger",28,"Georgia","Ulsan Hyundai",1.7,1,0,0,0,1,2
 "4849",11,349,"Wilson Eduardo","Left Winger",31,"Angola","Alanyaspor",1.7,9,1,0,7,2,2
 "4850",11,350,"Lautaro Acosta","Left Winger",33,"Argentina","Club Atlético Lanús",1.7,19,2,2,1,16,2
 "4851",11,351,"Félix Correia","Left Winger",20,"Portugal","Parma Calcio 1913",1.6,10,0,0,8,2,2
@@ -3925,9 +3789,7 @@
 "4857",11,357,"Alan Marinelli","Left Winger",22,"Argentina","Club Atlético Rosario Central",1.5,16,1,2,8,7,2
 "4858",11,358,"Luciano Ferreyra","Left Winger",19,"Argentina","Club Atlético Rosario Central",1.5,21,1,1,10,8,2
 "4859",11,359,"Simon Adingra","Left Winger",20,"Cote d'Ivoire","FC Nordsjaelland",1.5,21,9,2,9,7,2
-"4860",11,360,"Ilyas Chouaref","Left Winger",21,"France","LB Châteauroux",1.5,2,0,0,2,0,2
 "4862",11,362,"Haissem Hassan","Left Winger",19,"France","CD Mirandés",1.5,17,0,4,10,4,2
-"4863",11,363,"Min-kyu Song","Left Winger",22,"Korea, South","Jeonbuk Hyundai Motors",1.5,2,0,0,1,1,2
 "4864",11,364,"Gaspar Campos","Left Winger",21,"Spain","Sporting Gijón",1.5,24,2,2,7,14,2
 "4866",11,366,"Maximiliano Araújo","Left Winger",21,"Uruguay","Puebla FC",1.5,19,1,1,1,12,2
 "4868",11,368,"Pejiño","Left Winger",25,"Spain","UD Las Palmas",1.5,13,5,1,2,10,2
@@ -3951,8 +3813,6 @@
 "4890",11,390,"Amr Warda","Left Winger",28,"Egypt","Anorthosis Famagusta",1.5,19,7,6,0,8,2
 "4891",11,391,"Pedro Henrique","Left Winger",31,"Brazil","Sivasspor",1.5,17,3,2,0,13,2
 "4892",11,392,"Muamer Tankovic","Left Winger",26,"Sweden","AEK Athens",1.5,9,1,1,4,5,2
-"4893",11,393,"Modou Barrow","Left Winger",29,"The Gambia","Jeonbuk Hyundai Motors",1.5,2,0,0,1,1,2
-"4894",11,394,"Christian Atsu","Left Winger",29,"Ghana","Al-Raed",1.5,2,0,0,2,0,2
 "4895",11,395,"Kristoffer Peterson","Left Winger",27,"Sweden","Fortuna Düsseldorf",1.5,18,1,2,7,10,2
 "4897",11,397,"Gustav Wikheim","Left Winger",28,"Norway","Al-Fateh",1.5,12,3,0,3,7,2
 "4898",11,398,"Riccardo Improta","Left Winger",28,"Italy","Benevento Calcio",1.5,12,2,1,1,3,2
@@ -3960,7 +3820,6 @@
 "4902",11,402,"Neeskens Kebano","Left Winger",29,"DR Congo","Fulham FC",1.5,23,4,5,4,8,2
 "4904",11,404,"Maxime Lestienne","Left Winger",29,"Belgium","Standard Liège",1.5,5,0,0,4,1,2
 "4906",11,406,"Youssef Msakni","Left Winger",31,"Tunisia","Al-Arabi SC",1.5,10,4,0,0,4,2
-"4907",11,407,"Yevgen Konoplyanka","Left Winger",32,"Ukraine","Shakhtar Donetsk",1.5,2,0,0,2,0,2
 "4908",11,408,"Gervinho","Left Winger",34,"Cote d'Ivoire","Trabzonspor",1.5,13,2,1,3,9,2
 "4909",11,409,"Nahuel Barrios","Left Winger",23,"Argentina","Club Atlético San Lorenzo de Almagro",1.4,15,0,0,12,3,2
 "4910",11,410,"Dolev Haziza","Left Winger",26,"Israel","Maccabi Haifa",1.4,28,8,7,5,8,2
@@ -3973,7 +3832,6 @@
 "4920",11,420,"Jaime Báez","Left Winger",26,"Uruguay","US Cremonese",1.3,16,0,1,9,2,2
 "4921",11,421,"Ángelo Sagal","Left Winger",28,"Chile","Gaziantep FK",1.3,14,3,1,5,8,2
 "4923",11,423,"Craig Goodwin","Left Winger",30,"Australia","Adelaide United",1.25,5,0,0,3,1,2
-"4924",11,424,"Clemente Montes","Left Winger",20,"Chile","CD Universidad Católica",1.2,1,0,1,1,0,2
 "4925",11,425,"Nemanja Motika","Left Winger",18,"Serbia","FC Bayern Munich II",1.2,31,19,12,8,14,2
 "4926",11,426,"Gustav Ludwigson","Left Winger",28,"Sweden","Hammarby IF",1.2,6,1,2,0,3,2
 "4928",11,428,"Billal Brahimi","Left Winger",21,"France","SCO Angers",1.2,7,0,1,6,0,2
@@ -3984,7 +3842,6 @@
 "4935",11,435,"Vincenzo Millico","Left Winger",21,"Italy","Cosenza Calcio",1.2,13,2,0,9,3,2
 "4938",11,438,"Sarpreet Singh","Left Winger",22,"New Zealand","SSV Jahn Regensburg",1.2,22,6,8,0,19,2
 "4939",11,439,"Andrés Ibargüen","Left Winger",29,"Colombia","Santos Laguna",1.2,7,0,0,6,1,2
-"4941",11,441,"Leo Bengtsson","Left Winger",23,"Sweden","BK Häcken",1.2,2,2,0,0,1,2
 "4942",11,442,"Kevin Ramírez","Left Winger",27,"Uruguay","Querétaro FC",1.2,15,1,1,1,10,2
 "4943",11,443,"Rafael Ratão","Left Winger",26,"Brazil","FC Toulouse",1.2,20,8,2,9,10,2
 "4944",11,444,"Deon Hotto","Left Winger",31,"Namibia","Orlando Pirates",1.2,21,4,5,4,6,2
@@ -4005,7 +3862,6 @@
 "4961",11,461,"Claudiu Petrila","Left Winger",21,"Romania","CFR Cluj",1.1,27,5,3,9,9,2
 "4963",11,463,"Othmane Boussaid","Left Winger",21,"Belgium","FC Utrecht",1.1,17,1,4,4,9,2
 "4964",11,464,"Guilherme Augusto","Left Winger",26,"Brazil","Al-Faisaly Harmah",1.1,11,1,1,0,4,2
-"4965",11,465,"Daizen Maeda","Left Winger",24,"Japan","Yokohama F. Marinos",1.1,2,0,0,2,0,2
 "4966",11,466,"Hamdou Elhouni","Left Winger",27,"Libya","Esperance Tunis",1.1,6,1,0,2,2,2
 "4967",11,467,"Valentin Costache","Left Winger",23,"Romania","CFR Cluj",1.1,32,3,4,19,13,2
 "4968",11,468,"Hervin Ongenda","Left Winger",26,"France","FC Botosani",1.1,21,3,4,1,14,2
@@ -4106,7 +3962,6 @@
 "5073",12,73,"Adnan Januzaj","Right Winger",26,"Belgium","Real Sociedad",12,25,2,2,8,14,2
 "5074",12,74,"Rachid Ghezzal","Right Winger",29,"Algeria","Besiktas JK",11,23,3,1,2,13,2
 "5076",12,76,"Yusuf Demir","Right Winger",18,"Austria","FC Barcelona",10,11,1,1,6,5,2
-"5077",12,77,"Luiz Araújo","Right Winger",25,"Brazil","Atlanta United FC",10,1,0,0,0,1,2
 "5078",12,78,"Takefusa Kubo","Right Winger",20,"Japan","RCD Mallorca",10,13,1,3,4,8,2
 "5079",12,79,"Cristian Pavón","Right Winger",25,"Argentina","Club Atlético Boca Juniors",10,21,4,5,7,11,2
 "5080",12,80,"Riccardo Orsolini","Right Winger",24,"Italy","Bologna FC 1909",10,14,3,3,5,8,2
@@ -4250,7 +4105,6 @@
 "5248",12,248,"Takuma Asano","Right Winger",27,"Japan","VfL Bochum",2.5,13,0,1,4,7,2
 "5249",12,249,"Óscar Plano","Right Winger",30,"Spain","Real Valladolid CF",2.5,22,2,1,5,10,2
 "5250",12,250,"William Pottker","Right Winger",28,"Brazil","Al-Wasl Sports Club",2.5,13,1,6,0,4,2
-"5251",12,251,"Renato Ibarra","Right Winger",30,"Ecuador","CF América",2.5,1,1,0,1,0,2
 "5252",12,252,"Thomas Murg","Right Winger",27,"Austria","PAOK Thessaloniki",2.5,25,3,0,14,11,2
 "5253",12,253,"Lazar Markovic","Right Winger",27,"Serbia","FK Partizan Belgrade",2.5,20,3,4,5,15,2
 "5254",12,254,"Martin Boyle","Right Winger",28,"Australia","Hibernian FC",2.5,27,14,5,0,4,2
@@ -4323,12 +4177,7 @@
 "5342",12,342,"El Fardou Ben","Right Winger",32,"Comoros","Red Star Belgrade",1.8,34,13,3,10,16,2
 "5343",12,343,"Efecan Karaca","Right Winger",32,"Turkey","Alanyaspor",1.8,18,3,9,2,8,2
 "5344",12,344,"Santiago Pierotti","Right Winger",20,"Argentina","Club Atlético Colón",1.7,17,0,0,16,1,2
-"5345",12,345,"Nathaniel Mendez-Laing","Right Winger",29,"England","Sheffield Wednesday",1.7,2,0,0,1,0,2
-"5347",12,347,"Joaquín Montecinos","Right Winger",26,"Chile","Audax Italiano",1.6,1,0,0,1,0,2
-"5348",12,348,"Chang-hoon Kwon","Right Winger",27,"Korea, South","Suwon Samsung Bluewings",1.6,2,1,0,1,1,2
 "5349",12,349,"Mauricio Cuero","Right Winger",28,"Colombia","Club Atlético Banfield",1.6,16,0,1,10,3,2
-"5350",12,350,"Maxence Rivera","Right Winger",19,"France","AS Saint-Étienne",1.5,1,0,0,1,0,2
-"5351",12,351,"Fabinho","Right Winger",22,"Brazil","Club Athletico Paranaense",1.5,2,0,1,0,2,2
 "5352",12,352,"Hugo Novoa","Right Winger",18,"Spain","RasenBallsport Leipzig U19",1.5,13,4,1,3,5,2
 "5354",12,354,"Loizos Loizou","Right Winger",18,"Cyprus","Omonia Nicosia",1.5,26,3,2,8,12,2
 "5356",12,356,"Abdoul Kader Bamba","Right Winger",27,"France","Amiens SC",1.5,12,1,4,2,5,2
@@ -4357,7 +4206,6 @@
 "5381",12,381,"Walter Montoya","Right Winger",28,"Argentina","CD Cruz Azul",1.5,15,0,0,9,6,2
 "5382",12,382,"Rúben Lameiras","Right Winger",27,"Portugal","Vitória Guimarães SC",1.5,14,1,1,11,1,2
 "5384",12,384,"Clinton N'Jie","Right Winger",28,"Cameroon","Dynamo Moscow",1.5,15,0,3,9,4,2
-"5386",12,386,"Patrick Roberts","Right Winger",24,"England","ESTAC Troyes",1.5,2,0,0,1,1,2
 "5391",12,391,"Tyler Boyd","Right Winger",27,"United States","Caykur Rizespor",1.5,14,0,1,2,8,2
 "5392",12,392,"Andreas Gruber","Right Winger",26,"Austria","LASK",1.5,9,1,3,8,1,2
 "5393",12,393,"Thomas Goiginger","Right Winger",28,"Austria","LASK",1.5,29,6,6,4,13,2
@@ -4393,7 +4241,6 @@
 "5436",12,436,"Rasmus Alm","Right Winger",26,"Sweden","IF Elfsborg",1.2,6,0,1,0,5,2
 "5437",12,437,"Roman Ezhov","Right Winger",24,"Russia","Krylya Sovetov Samara",1.2,18,2,4,1,12,2
 "5438",12,438,"Dominik Frieser","Right Winger",28,"Austria","Without Club",1.2,14,2,0,2,8,2
-"5439",12,439,"Dong-jun Lee","Right Winger",24,"Korea, South","Ulsan Hyundai",1.2,2,0,1,1,2,2
 "5440",12,440,"Miljan Vukadinovic","Right Winger",29,"Serbia","FK Vojvodina Novi Sad",1.2,19,8,1,4,8,2
 "5441",12,441,"Nikolas Spalek","Right Winger",24,"Slovakia","Brescia Calcio",1.2,10,1,0,9,1,2
 "5443",12,443,"Mourad Batna","Right Winger",31,"Morocco","Al-Fateh",1.2,5,2,2,1,1,2
@@ -4406,7 +4253,6 @@
 "5456",12,456,"Andrei Cordea","Right Winger",22,"Romania","FCSB",1.1,22,4,4,6,11,2
 "5458",12,458,"Gökhan Töre","Right Winger",29,"Turkey","Besiktas JK",1.1,13,0,0,11,2,2
 "5459",12,459,"Ciprian Deac","Right Winger",35,"Romania","CFR Cluj",1.1,36,7,9,1,15,2
-"5460",12,460,"Bénie Adama Traoré","Right Winger",19,"Cote d'Ivoire","BK Häcken",1,2,2,0,0,1,2
 "5461",12,461,"Stenio Zanetti","Right Winger",18,"Brazil","Torino Primavera",1,11,3,1,3,7,2
 "5462",12,462,"Roony Bardghji","Right Winger",16,"Sweden","FC Copenhagen U19",1,18,10,1,1,3,2
 "5463",12,463,"Kaide Gordon","Right Winger",17,"England","Liverpool FC U23",1,14,2,2,0,7,2
@@ -4423,7 +4269,6 @@
 "5477",12,477,"Morgan Whittaker","Right Winger",20,"England","Lincoln City",1,9,3,0,6,0,2
 "5479",12,479,"Ransford-Yeboah Königsdörffer","Right Winger",20,"Germany","SG Dynamo Dresden",1,21,4,3,3,14,2
 "5480",12,480,"Allan Sousa","Right Winger",24,"Brazil","Vejle Boldklub",1,22,6,3,2,10,2
-"5481",12,481,"Janner Corozo","Right Winger",26,"Ecuador","Delfín SC",1,2,1,0,0,2,2
 "5482",12,482,"Georgiy Tsitaishvili","Right Winger",21,"Georgia","Chornomorets Odessa",1,17,1,0,3,2,2
 "5484",12,484,"Brayan Garnica","Right Winger",25,"Mexico","Atlas Guadalajara",1,7,0,0,7,0,2
 "5485",12,485,"Darko Churlinov","Right Winger",21,"North Macedonia","FC Schalke 04",1,10,2,2,4,5,2
@@ -4473,12 +4318,10 @@
 "5539",13,39,"Augusto Lotti","Second Striker",25,"Argentina","Club Atlético Tucumán",1.8,22,3,3,8,10,2
 "5540",13,40,"Pere Milla","Second Striker",29,"Spain","Elche CF",1.8,15,2,1,11,2,2
 "5542",13,42,"Marius Bülter","Second Striker",28,"Germany","FC Schalke 04",1.7,18,8,7,1,7,2
-"5543",13,43,"Fernando Andrade","Second Striker",28,"Brazil","Al-Fayha FC",1.6,1,0,0,0,1,2
 "5544",13,44,"Armindo Sieb","Second Striker",18,"Germany","FC Bayern Munich II",1.5,31,7,3,10,10,2
 "5548",13,48,"Jamie Paterson","Second Striker",30,"England","Swansea City",1.5,22,8,4,1,3,2
 "5549",13,49,"Luis Miguel Rodríguez","Second Striker",37,"Argentina","Club de Gimnasia y Esgrima La Plata",1.5,22,8,2,4,12,2
 "5550",13,50,"Diego Farias","Second Striker",31,"Brazil","Without Club",1.5,4,0,0,4,0,2
-"5551",13,51,"Admir Mehmedi","Second Striker",30,"Switzerland","VfL Wolfsburg",1.5,2,0,0,2,0,2
 "5553",13,53,"Khama Billiat","Second Striker",31,"Zimbabwe","Kaizer Chiefs",1.3,15,6,6,1,5,2
 "5555",13,55,"Justo Giani","Second Striker",22,"Argentina","Club Atlético Newell's Old Boys",1,18,1,4,12,6,2
 "5556",13,56,"Koki Saito","Second Striker",20,"Japan","Lommel SK",1,15,4,1,2,7,2
@@ -4491,18 +4334,15 @@
 "5568",13,68,"Nikola Dovedan","Second Striker",27,"Austria","1.FC Nuremberg",0.8,16,5,1,5,10,2
 "5569",13,69,"Ulises Dávila","Second Striker",30,"Mexico","Macarthur FC",0.8,3,0,0,0,0,2
 "5570",13,70,"Ryder Matos","Second Striker",28,"Brazil","AC Perugia Calcio",0.8,16,2,0,4,7,2
-"5572",13,72,"Gift Motupa","Second Striker",27,"South Africa","Mamelodi Sundowns FC",0.75,2,0,0,2,0,2
 "5576",13,76,"Yonas Malede","Second Striker",22,"Israel","KAA Gent",0.7,18,1,0,15,3,2
 "5577",13,77,"Omri Altman","Second Striker",27,"Israel","FC Arouca",0.7,6,0,0,4,2,2
 "5578",13,78,"Ben Zolinski","Second Striker",29,"Germany","FC Erzgebirge Aue",0.7,13,1,2,2,8,2
-"5579",13,79,"Nahir Besara","Second Striker",30,"Sweden","Örebro SK",0.7,1,0,0,0,0,2
 "5580",13,80,"João Paulo","Second Striker",33,"Brazil","Kairat Almaty",0.7,4,0,1,1,3,2
 "5582",13,82,"Antonin Rusek","Second Striker",22,"Czech Republic","SK Sigma Olomouc",0.65,22,8,3,4,12,2
 "5584",13,84,"Maximilian Dittgen","Second Striker",26,"Germany","FC St. Pauli",0.65,17,4,2,11,4,2
 "5587",13,87,"Prestige Mboungou","Second Striker",21,"Congo","Abha Club",0.6,14,0,1,2,6,2
 "5588",13,88,"Augustus Kargbo","Second Striker",22,"Sierra Leone","FC Crotone",0.6,16,2,3,9,5,2
 "5589",13,89,"Christopher Lungoyi","Second Striker",21,"Switzerland","FC Lugano",0.6,15,4,0,10,5,2
-"5590",13,90,"Ivan Bakhar","Second Striker",23,"Belarus","Dinamo Minsk",0.6,2,1,1,0,2,2
 "5591",13,91,"Arnel Jakupovic","Second Striker",23,"Austria","NK Domzale",0.6,24,6,3,6,9,2
 "5593",13,93,"Viktor Klonaridis","Second Striker",29,"Belgium","Atromitos Athen",0.6,8,1,0,3,5,2
 "5595",13,95,"Sone Aluko","Second Striker",32,"Nigeria","Ipswich Town",0.6,21,3,1,8,8,2
@@ -4552,7 +4392,6 @@
 "5672",13,172,"Juninho","Second Striker",25,"Brazil","GD Chaves",0.3,9,1,0,2,7,2
 "5674",13,174,"Óscar Pinchi","Second Striker",25,"Spain","UD Las Palmas",0.3,16,0,0,13,1,2
 "5679",13,179,"Scott Kashket","Second Striker",25,"England","Crewe Alexandra",0.3,15,1,2,3,8,2
-"5680",13,180,"André Ribeiro","Second Striker",24,"Portugal","Without Club",0.3,1,0,0,1,0,2
 "5681",13,181,"Nikita Kasatkin","Second Striker",24,"Russia","FK Chelyabinsk",0.3,19,5,4,0,11,2
 "5682",13,182,"Kaylen Hinds","Second Striker",23,"England","Welling United",0.3,4,0,0,4,0,2
 "5683",13,183,"Mathías Acuña","Second Striker",29,"Uruguay","AE Larisa",0.3,12,3,1,5,3,2
@@ -4587,17 +4426,13 @@
 "5733",13,233,"Vato Arveladze","Second Striker",23,"Georgia","Fatih Karagümrük",0.225,6,1,0,4,2,2
 "5735",13,235,"Llywelyn Cremona","Second Striker",26,"Malta","Gudja United FC",0.225,11,0,0,2,2,2
 "5736",13,236,"Antony","Second Striker",20,"Brazil","FC Arouca",0.2,4,1,0,4,0,2
-"5738",13,238,"Abubeker Nasir","Second Striker",21,"Ethiopia","Ethiopian Coffee Addis Abeba",0.2,1,1,0,0,0,2
 "5741",13,241,"Nahuel Maidana","Second Striker",23,"Argentina","Club Ferro Carril Oeste",0.2,3,0,1,1,2,2
-"5743",13,243,"Kamo-Kamo","Second Striker",22,"Mozambique","Vitória Setúbal FC",0.2,2,0,0,0,2,2
 "5746",13,246,"Emiliano Gómez","Second Striker",20,"Uruguay","Albacete Balompié",0.2,16,1,1,7,9,2
 "5748",13,248,"Boubacar Hanne","Second Striker",22,"Portugal","Gil Vicente FC",0.2,5,3,1,4,1,2
 "5749",13,249,"Petr Pejsa","Second Striker",24,"Czech Republic","FK Loko Vltavin",0.2,18,25,3,0,7,2
 "5750",13,250,"Jan Koudelka","Second Striker",29,"Czech Republic","1.SK Prostejov",0.2,19,3,3,6,8,2
 "5751",13,251,"Alex Escardó","Second Striker",23,"Spain","Antequera CF",0.2,10,2,1,5,5,2
 "5752",13,252,"Teeraphol Yoryoei","Second Striker",27,"Thailand","Muangthong United",0.2,12,1,0,7,5,2
-"5753",13,253,"Roy Ronen","Second Striker",23,"Israel","Maccabi Petah Tikva",0.2,1,0,0,1,0,2
-"5754",13,254,"Kevin Piscopo","Second Striker",23,"Italy","SPAL",0.2,2,0,0,2,0,2
 "5755",13,255,"Elia Galligani","Second Striker",29,"Italy","Carrarese Calcio 1908",0.2,16,2,0,6,10,2
 "5759",13,259,"Filip Kubala","Second Striker",22,"Czech Republic","FC Hradec Kralove",0.2,20,4,3,14,2,2
 "5760",13,260,"Mansour Hamzi","Second Striker",29,"Saudi Arabia","Damac FC",0.2,14,0,1,4,7,2
@@ -4606,11 +4441,8 @@
 "5764",13,264,"Shkelqim Vladi","Second Striker",21,"Switzerland","Yverdon Sport FC",0.2,21,3,2,9,12,2
 "5766",13,266,"Ruslan Kisil","Second Striker",30,"Ukraine","Gudja United FC",0.2,8,2,0,4,2,2
 "5767",13,267,"Maximilian Wolfram","Second Striker",24,"Germany","FC Carl Zeiss Jena",0.2,15,8,3,1,2,2
-"5769",13,269,"Ramadan Agab","Second Striker",32,"Sudan","Al Merreikh Omdurman",0.2,2,1,0,0,0,2
 "5772",13,272,"Jan Dolezal","Second Striker",28,"Croatia","Ethnikos Achnas",0.2,9,1,0,3,6,2
 "5774",13,274,"Pietro Cogliati","Second Striker",29,"Italy","Sangiuliano City",0.2,17,4,3,6,6,2
-"5775",13,275,"Robin Ngalande","Second Striker",29,"Malawi","Saint George SA",0.2,1,0,0,0,0,2
-"5776",13,276,"Filipp Ivanov","Second Striker",31,"Belarus","Krumkachi Minsk",0.2,1,1,0,0,1,2
 "5777",13,277,"Fofo","Second Striker",31,"Spain","CF La Nucía",0.2,13,4,0,6,4,2
 "5781",13,281,"Jordan Cook","Second Striker",31,"England","Hartlepool United",0.2,5,0,1,3,2,2
 "5784",13,284,"Alberto Bueno","Second Striker",33,"Spain","Ionikos Nikeas",0.2,3,0,0,2,1,2
@@ -4633,7 +4465,6 @@
 "5809",13,309,"Johnson Nsumoh","Second Striker",20,"Nigeria","Mosta FC",0.15,13,2,2,5,7,2
 "5810",13,310,"Mattia Pampano","Second Striker",19,"Italy","S. N.  Notaresco",0.15,13,4,0,5,8,2
 "5812",13,312,"Lukas Masek","Second Striker",17,"Czech Republic","FK Mlada Boleslav",0.15,27,0,1,18,9,2
-"5813",13,313,"Taiki Kagayama","Second Striker",25,"Japan","Without Club",0.15,2,0,0,0,1,2
 "5816",13,316,"June-hyuk Ahn","Second Striker",22,"Korea, South","Villarreal CF B",0.15,13,0,0,3,9,2
 "5817",13,317,"Alessandro Corti","Second Striker",21,"Italy","AS Giana Erminio",0.15,17,3,0,6,6,2
 "5819",13,319,"Kacper Sadlocha","Second Striker",19,"Poland","Stal Mielec",0.15,3,0,0,2,0,2
@@ -4664,15 +4495,12 @@
 "5856",13,356,"Mogakolodi Ngele","Second Striker",31,"Botsuana","Chippa United",0.15,13,1,1,3,7,2
 "5858",13,358,"Daniele Gabriele","Second Striker",27,"Germany","TSV Steinbach Haiger",0.15,20,7,2,4,11,2
 "5860",13,360,"Samon Reider Rodríguez","Second Striker",33,"Cuba","Seravezza Pozzi Calcio",0.15,12,2,4,5,3,2
-"5861",13,361,"Juan Mera","Second Striker",28,"Spain","NEROCA FC",0.15,1,0,2,0,0,2
 "5865",13,365,"Botond Birtalan","Second Striker",32,"Hungary","Vasas FC",0.15,3,0,0,3,0,2
 "5867",13,367,"Evandro Brandão","Second Striker",30,"Angola","UD Vilafranquense",0.15,6,0,0,3,2,2
 "5872",13,372,"Beka Dzhanelidze","Second Striker",20,"Russia","Chernomorets Novorossijsk",0.125,15,3,1,13,2,2
-"5873",13,373,"Giorgi Kharebashvili","Second Striker",25,"Georgia","FC Gareji",0.125,2,1,1,0,0,2
 "5875",13,375,"Syafiq Ahmad","Second Striker",26,"Malaysia","Kedah Darul Aman FC",0.125,6,0,1,1,4,2
 "5877",13,377,"Soufiane Jebari","Second Striker",26,"Spain","AFK Csikszereda Miercurea Ciuc",0.125,13,1,0,4,5,2
 "5878",13,378,"Kemal Malcolm","Second Striker",32,"Jamaica","AD Chalatenango",0.125,26,10,2,3,9,2
-"5881",13,381,"Gustavo Tocantins","Second Striker",25,"Brazil","SC São João Ver",0.125,1,0,0,1,0,2
 "5883",13,383,"Giorgio Cicirello","Second Striker",26,"Italy","Città di Sant'Agata",0.125,18,2,0,5,8,2
 "5885",13,385,"Abu Baker Al Mal","Second Striker",29,"Lebanon","Bourj FC",0.125,3,1,0,1,1,2
 "5888",13,388,"Emanuele Bardelloni","Second Striker",31,"Italy","Virtus Ciserano Bergamo 1909",0.125,20,8,4,1,2,2
@@ -4683,7 +4511,6 @@
 "5897",13,397,"Zoran Mitrov","Second Striker",19,"Romania","Ripensia Timisoara",0.1,16,1,3,3,9,2
 "5899",13,399,"Idrissa Thiam","Second Striker",21,"Mauritania","ASAC Concorde Nouakchott",0.1,4,2,0,0,1,2
 "5900",13,400,"Davide Lamesta","Second Striker",21,"Italy","Piacenza Calcio 1919",0.1,16,0,1,13,3,2
-"5901",13,401,"Giorgi Iakobidze","Second Striker",20,"Georgia","FC Locomotive Tbilisi",0.1,2,0,0,2,0,2
 "5902",13,402,"Zurab Museliani","Second Striker",22,"Georgia","Shukura Kobuleti",0.1,3,0,0,1,0,2
 "5904",13,404,"Andrej Saronja","Second Striker",20,"Croatia","NK Kustosija Zagreb",0.1,15,2,1,11,5,2
 "5906",13,406,"Raúl Blanco","Second Striker",20,"Spain","CD Arenteiro",0.1,14,0,0,7,6,2
@@ -4697,7 +4524,6 @@
 "5922",13,422,"Kamil Jadach","Second Striker",31,"Poland","GKS Jastrzebie",0.1,14,0,0,7,6,2
 "5925",13,425,"Mattia Mauri","Second Striker",29,"Italy","USD Breno",0.1,19,10,2,2,11,2
 "5926",13,426,"Yuri Senesi","Second Striker",24,"Italy","US Vibonese",0.1,17,0,3,10,7,2
-"5930",13,430,"Bidzina Makharoblidze","Second Striker",29,"Georgia","Torpedo Kutaisi",0.1,1,0,0,0,1,2
 "5931",13,431,"Hussein Ragab","Second Striker",27,"Egypt","El Masry SC",0.1,6,1,0,5,1,2
 "5932",13,432,"Fabio Morselli","Second Striker",23,"Italy","Alcione Milano",0.1,11,4,2,3,1,2
 "5933",13,433,"Jorge Betancur","Second Striker",29,"Nicaragua","Lynx FC",0.1,7,1,0,0,5,2
@@ -4712,14 +4538,10 @@
 "5952",13,452,"Riccardo Martignago","Second Striker",30,"Italy","UC AlbinoLeffe",0.1,6,0,1,3,2,2
 "5953",13,453,"Ferhat Duman","Second Striker",34,"Turkey","Tarsus Idman Yurdu",0.1,10,0,0,9,1,2
 "5957",13,457,"Felipe Sodinha","Second Striker",33,"Brazil","Franciacorta FC",0.1,14,3,3,7,4,2
-"5960",13,460,"Willians","Second Striker",33,"Brazil","Associação Desportiva Confiança (SE)",0.1,1,0,0,0,1,2
 "5964",13,464,"Smail Morabit","Second Striker",33,"France","US Mondorf-Les-Bains",0.1,11,4,4,2,2,2
 "5965",13,465,"Lewis Alessandra","Second Striker",32,"England","Carlisle United",0.1,17,0,1,4,7,2
 "5967",13,467,"Stefano Napoleoni","Second Striker",35,"Italy","Ümraniyespor",0.1,5,3,0,5,0,2
-"5968",13,468,"Jaba Ugulava","Second Striker",29,"Georgia","Sioni Bolnisi",0.1,1,0,0,0,0,2
-"5972",13,472,"Kirill Tsepenkov","Second Striker",17,"Belarus","Rukh Brest",0.075,1,1,0,0,0,2
 "5974",13,474,"Filippo Mascia","Second Striker",19,"Italy","Latina Calcio 1932",0.075,9,0,0,3,6,2
-"5976",13,476,"Kelvin Inkoom","Second Striker",28,"Ghana","FK Kaganat",0.075,1,0,0,1,0,2
 "5977",13,477,"Vitaliy Logachev","Second Striker",19,"Russia","Olimp-Dolgoprudnyi-2",0.075,17,1,2,6,4,2
 "5978",13,478,"Grigori Minosyan","Second Striker",20,"Russia","FK Murom",0.075,16,1,1,11,5,2
 "5983",13,483,"Edoardo Colferai","Second Striker",19,"Italy","Villa Valle",0.075,18,1,0,12,3,2
@@ -4774,7 +4596,6 @@
 "6041",14,41,"Sardar Azmoun","Centre-Forward",27,"Iran","Zenit St. Petersburg",25,21,10,4,6,6,2
 "6042",14,42,"Karim Benzema","Centre-Forward",34,"France","Real Madrid",25,23,20,8,0,8,2
 "6043",14,43,"Fábio Silva","Centre-Forward",19,"Portugal","Wolverhampton Wanderers",22,17,3,5,8,8,2
-"6044",14,44,"Sasa Kalajdzic","Centre-Forward",24,"Austria","VfB Stuttgart",22,1,0,0,1,0,2
 "6045",14,45,"Patson Daka","Centre-Forward",23,"Zambia","Leicester City",22,17,7,4,8,6,2
 "6046",14,46,"Paul Onuachu","Centre-Forward",27,"Nigeria","KRC Genk",22,26,14,0,4,13,2
 "6047",14,47,"Raúl Jiménez","Centre-Forward",30,"Mexico","Wolverhampton Wanderers",22,17,3,2,1,2,2
@@ -4937,11 +4758,9 @@
 "6221",14,221,"Ante Budimir","Centre-Forward",30,"Croatia","CA Osasuna",6,9,2,0,5,4,2
 "6222",14,222,"Marko Arnautovic","Centre-Forward",32,"Austria","Bologna FC 1909",6,18,7,1,0,10,2
 "6223",14,223,"Braian Romero","Centre-Forward",30,"Argentina","Club Atlético River Plate",5.5,21,10,2,8,12,2
-"6224",14,224,"Lucas João","Centre-Forward",28,"Portugal","Reading FC",5.5,2,0,1,0,2,2
 "6225",14,225,"Felix Afena-Gyan","Centre-Forward",18,"Ghana","AS Roma",5,10,8,0,5,3,2
 "6227",14,227,"Matheus Nascimento","Centre-Forward",17,"Brazil","Botafogo de Futebol e Regatas",5,3,1,0,3,0,2
 "6228",14,228,"Marcos Leonardo","Centre-Forward",18,"Brazil","Santos FC",5,3,3,1,0,2,2
-"6229",14,229,"Cade Cowell","Centre-Forward",18,"United States","San Jose Earthquakes",5,2,0,1,0,1,2
 "6230",14,230,"Fer Niño","Centre-Forward",21,"Spain","RCD Mallorca",5,20,4,1,10,9,2
 "6231",14,231,"Julen Lobete","Centre-Forward",21,"Spain","Real Sociedad B",5,22,3,2,11,4,2
 "6232",14,232,"Tiago Tomás","Centre-Forward",19,"Portugal","Sporting CP",5,22,4,0,18,2,2
@@ -5002,7 +4821,6 @@
 "6292",14,292,"Folarin Balogun","Centre-Forward",20,"England","Arsenal FC U23",4,22,16,3,5,5,2
 "6293",14,293,"Lorenzo Colombo","Centre-Forward",19,"Italy","SPAL",4,24,7,3,1,17,2
 "6294",14,294,"Fashion Sakala","Centre-Forward",24,"Zambia","Rangers FC",4,23,5,2,15,4,2
-"6295",14,295,"Josh Maja","Centre-Forward",23,"Nigeria","FC Girondins Bordeaux",4,1,1,0,1,0,2
 "6296",14,296,"Junior Adamu","Centre-Forward",20,"Austria","Red Bull Salzburg",4,31,9,3,17,8,2
 "6297",14,297,"Ramón Miérez","Centre-Forward",24,"Argentina","NK Osijek",4,24,4,1,5,15,2
 "6298",14,298,"Roberto Piccoli","Centre-Forward",20,"Italy","Atalanta BC",4,14,1,0,12,2,2

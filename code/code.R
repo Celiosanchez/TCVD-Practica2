@@ -39,9 +39,9 @@ sapply(players, function(x) sum(x == 0))
 # jugadors sense partits
 nrow(players[players$matches == 0,])
 
-# eliminem els jugadors sense partits del dataset
-nrow(players[!players$matches == 0,])
-players <- players[!players$matches == 0,]
+# seleccionem sols els jugadors amb més d'un partit 
+nrow(players[players$matches > 2,])
+players <- players[players$matches > 2,]
 nrow(players)
 
 # Nombre de files amb columnes amb valor 0
@@ -98,12 +98,35 @@ for (column in columns) {
   print(boxplot.stats(players[[column]])$out)
 }
 
-# grups
+# exclusió del jugadors amb menys de 3 partits
+players <- players[players$matches > 2, ]
+
+# 2 grups: jugadores defensius i ofensius 
+# posicio_id < 7 (des del porter fins al mig defensiu) 
+# posicio_id > 6 (des del mig-centre fins als davanters)
 
 players.attack <- players[players$position_id > 6, ]
 players.defens <- players[players$position_id < 7, ]
+
+# afegim columna `type` per a difereciar entre jugadors:
+# type = 1: defensiu
+# type = 2: ofensiu
 
 players$type <- with(players, ifelse(position_id < 7, 1, 2))
 
 write.csv(players, "players.csv")
 
+# Comprovació de la normalitat (Shapiro-Wilk)
+
+for (column in columns) {
+  print(paste("Shapiro Test: variable ", column, sep=""))
+  print(shapiro.test(players[[column]]))
+}
+
+# Comprovació de l'homoscedasticitat: test de Fligner-Killeen
+
+fligner.test(value ~ type, data = players)
+fligner.test(goals ~ type, data = players)
+fligner.test(age ~ type, data = players)
+
+# 

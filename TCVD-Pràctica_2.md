@@ -13,6 +13,8 @@
   - [4. Anàlisi de les dades.](#4-anàlisi-de-les-dades)
     - [4.1. Selecció dels grups de dades que es volen analitzar/comparar](#41-selecció-dels-grups-de-dades-que-es-volen-analitzarcomparar)
     - [4.2. Comprovació de la normalitat i homogeneïtat de la variància.](#42-comprovació-de-la-normalitat-i-homogeneïtat-de-la-variància)
+      - [Comprovació de la normalitat](#comprovació-de-la-normalitat)
+      - [Comprovació de l'homoscedasticitat](#comprovació-de-lhomoscedasticitat)
     - [4.3. Aplicació de proves estadístiques per comparar els grups de dades.](#43-aplicació-de-proves-estadístiques-per-comparar-els-grups-de-dades)
   - [5. Representació dels resultats a partir de taules i gràfiques.](#5-representació-dels-resultats-a-partir-de-taules-i-gràfiques)
   - [6. Resolució del problema.](#6-resolució-del-problema)
@@ -121,9 +123,9 @@ També fem una tranformació del camp `value` que indica el valor de traspàs en
 
 ### Selecció de jugadors (files)
 
-Seleccionem sols els jugadors que tenen partits disputats, ja que els sobre els jugadors que no han jugat no s'aporta cap dada. 
+Seleccionem sols els jugadors que tenen més de 2 partits disputats, ja que els que tenen pocs parits, o cap, no aporta gaire dades estadístiques (gols, assitències...). 
 
-    > players <- players[!players$matches == 0,]
+    > players <- players[players$matches > 2, ]
 
 ## 3. Neteja de les dades
 
@@ -202,19 +204,116 @@ Tant en el gràfics *boxplots*, com en el resum d'estadístiques s'observa un gr
 
 ### 4.1. Selecció dels grups de dades que es volen analitzar/comparar 
 
+Anem a comparar dos grups de jugadors: els defensius i ofensius. Basant-nos en la posició creem una nova columna del dataset: 
+
+* type = 1: defensiu (des del porter fins a mig defensiu)
+* type = 2: ofensiu (des del mig-centre ofensiu fins als davanters)
 
 ```
 > players.attack <- players[players$position_id > 6, ]
 > players.defens <- players[players$position_id < 7, ]
+> players$type <- with(players, ifelse(position_id < 7, 1, 2))
 ```
 
-(planificació dels anàlisis a aplicar).
+Volem analitzar les principals variables (value, goals, age) en aquests 2 grups de jugadors.
 
 ### 4.2. Comprovació de la normalitat i homogeneïtat de la variància.
+
+#### Comprovació de la normalitat
+
+Apliuqme el test de Shapiro-Wilk sobre les variables numèriques:
+
+```
+for (column in columns) {
+  print(paste("Shapiro Test: variable ", column, sep=""))
+  print(shapiro.test(players[[column]]))
+}
+[1] "Shapiro Test: variable age"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.98637, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable value"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.54078, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable matches"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.98975, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable goals"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.70627, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable assists"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.77387, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable subston"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.87333, p-value < 2.2e-16
+
+[1] "Shapiro Test: variable substoff"
+
+	Shapiro-Wilk normality test
+
+data:  players[[column]]
+W = 0.92358, p-value < 2.2e-16
+```
+
+Cap de les variables estan normalitzades, ja que el p-valor és menor que 0.05. Per tant haurem de tenir en compte que hem d'aplicar analisis per a models no normalitzats, o bé normalitzar les dades.
+
+#### Comprovació de l'homoscedasticitat
+
+Apliquem el test de Fligner-Killeen sobre els 2 grups de jugadors (ofensius/defensius) per a les variables que volem comaprar: valor, edat i gols.
+
+```
+> fligner.test(value ~ type, data = players)
+
+	Fligner-Killeen test of homogeneity of variances
+
+data:  value by type
+Fligner-Killeen:med chi-squared = 19.225, df = 1, p-value = 1.162e-05
+
+> fligner.test(goals ~ type, data = players)
+
+	Fligner-Killeen test of homogeneity of variances
+
+data:  goals by type
+Fligner-Killeen:med chi-squared = 1014.5, df = 1, p-value < 2.2e-16
+
+> fligner.test(age ~ type, data = players)
+
+	Fligner-Killeen test of homogeneity of variances
+
+data:  age by type
+Fligner-Killeen:med chi-squared = 0.064794, df = 1, p-value = 0.7991
+```
+
+Comprovem amb aquest test, que sols per a la variable edat (`age`) podem acceptar la hipotesi de homegeneitat de la varianza per als dos grups (jugadors defensius i ofensius). La variança de les variables `goals` i `value` no són homegènies. 
 
 ### 4.3. Aplicació de proves estadístiques per comparar els grups de dades. 
 
 En funció de les dades i de l’objectiu de l’estudi, aplicar proves de contrast d’hipòtesis, correlacions, regressions, etc. Aplicar almenys tres mètodes d’anàlisi diferents. 
+
+
 
 ## 5. Representació dels resultats a partir de taules i gràfiques.
 
