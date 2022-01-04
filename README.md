@@ -20,6 +20,6 @@ Els dos membres del grup som del mateix poble i ens conexíem d'abans. Els dos t
 | [README.md](README.md) | Aquest fitxer |
 | [code](code) | Carpeta amb el codi R de la pràctica |
 | [data](data) | Carpeta amb el dataset generat i el dataset amb la neteja realitzada |
-| [TCVD-Practica2.pdf](TCVD-Practica2.pdf) | Document PDF lliurat |
-| [TCVD-Practica2.md](TCVD-Practica2.md) | Esborrany del document a lliurar |
+| [TCVD-Practica_2.pdf](TCVD-Practica2.pdf) | Document PDF lliurat |
+| [TCVD-Practica_2.md](TCVD-Practica2.md) | Esborrany del document a lliurar |
 
